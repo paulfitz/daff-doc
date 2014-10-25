@@ -44,18 +44,17 @@
   <output value="/usr/lib/haxe/lib/chxdoc/git/./docs/" />
 
   <!--Excluded packages or classes in <exclude value='my.pkg.*'> elements-->
-  <filters policy="deny">
+  <filters policy="allow">
     <filter path="coopy.*" policy="allow" />
-    <filter path="haxe.*" policy="deny" />
   </filters>
 
   <!--Template name, templates base directory and macros file name of main macros-->
-  <template value="daff" />
+  <template value="composure" />
   <templatesDir value="templates" />
   <macros value="macros.mtt" />
 
   <!--File extension for html documentation files-->
-  <htmlFileExtension value="html" />
+  <htmlFileExtension value="md" />
 
   <!--The stylesheet to use-->
   <stylesheet value="stylesheet.css" />

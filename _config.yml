@@ -1,0 +1,6 @@
+name: CosmicOS
+markdown: kramdown
+baseurl: /daff-doc
+kramdown:
+  input: GFM
+  parse_block_html: true

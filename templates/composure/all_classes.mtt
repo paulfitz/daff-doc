@@ -1,0 +1,2 @@
+::foreach i config.allTypes::* [::i.nameDots::]({{site.baseurl}}/types/::i.subdir::::i.name::::config.htmlFileExtension::)
+::end::

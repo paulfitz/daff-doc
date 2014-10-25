@@ -1,0 +1,8 @@
+---
+layout: thing
+thing: abstract
+title: ::nameDots::
+---
+**::nameDots::::params::**
+
+$$typeDocs()

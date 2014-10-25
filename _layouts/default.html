@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	<title>{{page.title}} - daff</title>
+	<link href="{{site.baseurl}}/css/stylesheet.css" type="text/css" rel="stylesheet"/>
+    </head>
+<body>
+
+  <h1>Daff: Data Diff</h1>
+
+<div class="all-thing">
+  <div class="code-thing">
+    
+    <div class="index">
+      <ul><li><a href="{{site.baseurl}}/">overview</a></li></ul>
+      {% capture language %}{% include all_classes.md %}{% endcapture %}
+      {{ language | markdownify }}
+    </div>
+    
+    <div class="content">
+      {{content}}
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+
