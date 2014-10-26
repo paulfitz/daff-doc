@@ -100,7 +100,7 @@ title: coopy.Coopy
 
 #####**coopyhx** (io : <a href="../coopy/TableIO.html" class="type">TableIO</a>) : <a href="../Int.html" class="type">Int</a>#####
 <p>
-      This implementes the daff command-line utility.
+      This implements the daff command-line utility.
 
 </p>
 
