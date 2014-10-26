@@ -17,11 +17,6 @@ title: haxe.io.Bytes
 
 
 
-##Constructor:##
-
-#####new(length : <a href="../../Int.html" class="type">Int</a>, b : <a href="../../haxe/io/BytesData.html" class="type">BytesData</a>)#####
-
-
 
 ##Instance Variables:##
 

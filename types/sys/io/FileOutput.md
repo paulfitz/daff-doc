@@ -15,11 +15,6 @@ title: sys.io.FileOutput
 
 
 
-##Constructor:##
-
-#####new(f : <a href="../../sys/io/FileHandle.html" class="type">FileHandle</a>)#####
-
-
 
 ##Instance Methods:##
 

@@ -73,7 +73,7 @@ $$methodDocs(::m::)
 ::end::
 ::end::
 
-::if constructor != null::
+::if constructor != null && constructor.access != 'private'::
 ##Constructor:##
 
 #####$$showAccess(::constructor::)**::raw constructor.name::**(::if constructor.args != null::::raw constructor.args::::end::)#####

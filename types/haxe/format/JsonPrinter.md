@@ -38,11 +38,6 @@ title: haxe.format.JsonPrinter
 
 
 
-##Constructor:##
-
-#####new(replacer : <a href="../../Dynamic.html" class="type">Dynamic</a> -> <a href="../../Dynamic.html" class="type">Dynamic</a> -> <a href="../../Dynamic.html" class="type">Dynamic</a>, space : <a href="../../String.html" class="type">String</a>)#####
-
-
 
 
 

@@ -78,23 +78,20 @@ title: coopy.Coopy
 
 
 
-#####**jsonify** (t : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
-
-
-
-
 #####**main** () : <a href="../Int.html" class="type">Int</a>#####
+<p>
+      This is the entry point for the daff command-line utility.
+      It is a thin wrapper around the `coopyhx` method.
+
+</p>
 
 
 
 
-#####**show** (t : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Void.html" class="type">Void</a>#####
 
 
 
-##Constructor:##
 
-#####new()#####
 
 
 
@@ -102,11 +99,21 @@ title: coopy.Coopy
 
 
 #####**coopyhx** (io : <a href="../coopy/TableIO.html" class="type">TableIO</a>) : <a href="../Int.html" class="type">Int</a>#####
+<p>
+      This implementes the daff command-line utility.
+
+</p>
+
+
+
+> *Parameters:*  `io` should be an implementation of all the system services daff needs
+
+
+> *Returns:*  0 on success, non-zero on error.
 
 
 
 
-#####**installGitDriver** (io : <a href="../coopy/TableIO.html" class="type">TableIO</a>, formats : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;) : <a href="../Int.html" class="type">Int</a>#####
 
 
 
