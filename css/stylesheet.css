@@ -1,44 +1,38 @@
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-}
 body {
-	line-height: 1;
-	color: black;
-	background: white;
+  color: black;
+  background: white;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
-/* tables still need 'cellspacing="0"' in the markup */
 table {
-	border-collapse: separate;
-	border-spacing: 0;
+  border-collapse: separate;
+  border-spacing: 0;
 }
 caption, th, td {
-	text-align: left;
-	font-weight: normal;
+  text-align: left;
+  font-weight: normal;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: "";
+  content: "";
 }
 blockquote, q {
-	quotes: "" "";
+  quotes: "" "";
 }
 
-/** STYLE **/
 body {
-	font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
-	font-size: 13px;
+  font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  font-size: 13px;
 }
 
 a, a:active, a:visited {
-	color: #0000cc;
+  color: #0000cc;
+  text-decoration: none;
 }
 
 .type-frame {
-	margin: 10px;
+  margin: 10px;
 }
 
 #types-frame, #packages-frame {
