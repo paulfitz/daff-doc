@@ -10,17 +10,9 @@
 
 				<li class="class"><a href="../../types/coopy/Alignment.md" target="classFrame" title="Alignment">Alignment</a></li>
 
-				<li class="interface"><a href="../../types/coopy/Bag.md" target="classFrame" title="Bag">Bag</a></li>
-
 				<li class="interface"><a href="../../types/coopy/CellBuilder.md" target="classFrame" title="CellBuilder">CellBuilder</a></li>
 
 				<li class="class"><a href="../../types/coopy/CellInfo.md" target="classFrame" title="CellInfo">CellInfo</a></li>
-
-				<li class="class"><a href="../../types/coopy/Change.md" target="classFrame" title="Change">Change</a></li>
-
-				<li class="enum"><a href="../../types/coopy/ChangeType.md" target="classFrame" title="ChangeType">ChangeType</a></li>
-
-				<li class="class"><a href="../../types/coopy/Compare.md" target="classFrame" title="Compare">Compare</a></li>
 
 				<li class="class"><a href="../../types/coopy/CompareFlags.md" target="classFrame" title="CompareFlags">CompareFlags</a></li>
 
@@ -34,13 +26,7 @@
 
 				<li class="class"><a href="../../types/coopy/DiffRender.md" target="classFrame" title="DiffRender">DiffRender</a></li>
 
-				<li class="class"><a href="../../types/coopy/FlatCellBuilder.md" target="classFrame" title="FlatCellBuilder">FlatCellBuilder</a></li>
-
 				<li class="class"><a href="../../types/coopy/HighlightPatch.md" target="classFrame" title="HighlightPatch">HighlightPatch</a></li>
-
-				<li class="class"><a href="../../types/coopy/HighlightPatchUnit.md" target="classFrame" title="HighlightPatchUnit">HighlightPatchUnit</a></li>
-
-				<li class="class"><a href="../../types/coopy/Index.md" target="classFrame" title="Index">Index</a></li>
 
 				<li class="class"><a href="../../types/coopy/IndexItem.md" target="classFrame" title="IndexItem">IndexItem</a></li>
 
@@ -52,17 +38,11 @@
 
 				<li class="class"><a href="../../types/coopy/Ordering.md" target="classFrame" title="Ordering">Ordering</a></li>
 
-				<li class="class"><a href="../../types/coopy/Report.md" target="classFrame" title="Report">Report</a></li>
-
 				<li class="interface"><a href="../../types/coopy/Row.md" target="classFrame" title="Row">Row</a></li>
-
-				<li class="class"><a href="../../types/coopy/SimpleCell.md" target="classFrame" title="SimpleCell">SimpleCell</a></li>
 
 				<li class="class"><a href="../../types/coopy/SimpleTable.md" target="classFrame" title="SimpleTable">SimpleTable</a></li>
 
 				<li class="class"><a href="../../types/coopy/SimpleView.md" target="classFrame" title="SimpleView">SimpleView</a></li>
-
-				<li class="class"><a href="../../types/coopy/SparseSheet.md" target="classFrame" title="SparseSheet">SparseSheet</a></li>
 
 				<li class="interface"><a href="../../types/coopy/Table.md" target="classFrame" title="Table">Table</a></li>
 
@@ -72,21 +52,13 @@
 
 				<li class="class"><a href="../../types/coopy/TableIO.md" target="classFrame" title="TableIO">TableIO</a></li>
 
-				<li class="class"><a href="../../types/coopy/TableModifier.md" target="classFrame" title="TableModifier">TableModifier</a></li>
-
 				<li class="class"><a href="../../types/coopy/TableText.md" target="classFrame" title="TableText">TableText</a></li>
-
-				<li class="class"><a href="../../types/coopy/TerminalDiffRender.md" target="classFrame" title="TerminalDiffRender">TerminalDiffRender</a></li>
 
 				<li class="class"><a href="../../types/coopy/Unit.md" target="classFrame" title="Unit">Unit</a></li>
 
 				<li class="interface"><a href="../../types/coopy/View.md" target="classFrame" title="View">View</a></li>
 
-				<li class="class"><a href="../../types/coopy/ViewedDatum.md" target="classFrame" title="ViewedDatum">ViewedDatum</a></li>
-
 				<li class="class"><a href="../../types/coopy/Viterbi.md" target="classFrame" title="Viterbi">Viterbi</a></li>
-
-				<li class="class"><a href="../../types/coopy/Workspace.md" target="classFrame" title="Workspace">Workspace</a></li>
 
 			</ul>
 		</div>

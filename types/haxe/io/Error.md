@@ -5,8 +5,8 @@ title: haxe.io.Error
 ---
 
 **haxe.io.Error**
-<p>The possible IO errors that can occur
-</p>
+
+The possible IO errors that can occur
 
 
 

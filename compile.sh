@@ -23,6 +23,7 @@ grep coopy all_classes.md > /tmp/foo.md
 mv /tmp/foo.md all_classes.md
 find . -iname "*.md" -exec sed -i 's|\.md|\.html|g' {} \;
 cd ..
+cp types/coopy/Coopy.md _includes
 echo "---" > index.md
 echo "layout: front" >> index.md
 echo "---" >> index.md

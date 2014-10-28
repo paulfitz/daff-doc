@@ -3,14 +3,14 @@ layout: thing
 thing: class
 title: coopy.Table
 ---
-**coopy.Table**
-<p>
-  Everything daff needs to know about a table.  This interface
-  gets implemented natively on each language/platform daff supports,
-  so that we don't waste time making copies of tables from one format
-  to another.
+#coopy.Table#
 
-</p>
+
+Everything daff needs to know about a table.  This interface
+gets implemented natively on each language/platform daff supports,
+so that we don't waste time making copies of tables from one format
+to another.
+
 
 
 
@@ -19,37 +19,51 @@ title: coopy.Table
 
 
 
-##Instance Variables:##
+##Variables:##
 
 ##### **height** (accessor,null) : <a href="../Int.html" class="type">Int</a>#####
-<p>
-      The number of rows in the table.  Read-only.  Implemented as
-      a call to `get_height()`.
 
-</p>
+
+The number of rows in the table.  Read-only.  Implemented as
+a call to `get_height()`.
+
 
 
 
 ##### **width** (accessor,null) : <a href="../Int.html" class="type">Int</a>#####
-<p>
-      The number of columns in the table.  Read-only.  Implemented as
-      a call to `get_width()`.
-
-</p>
 
 
+The number of columns in the table.  Read-only.  Implemented as
+a call to `get_width()`.
 
-##Instance Methods:##
+
+
+
+##Methods:##
 
 
 #####**clear** () : <a href="../Void.html" class="type">Void</a>#####
-<p>
-      Clear the table if possible, leaving it with zero rows and columns.
-
-</p>
 
 
+Clear the table if possible, leaving it with zero rows and columns.
 
+
+
+
+
+
+
+
+
+
+
+
+#####**clone** () : <a href="../coopy/Table.html" class="type">Table</a>#####
+
+
+
+
+> *Returns:*  a copy of the table.
 
 
 
@@ -59,10 +73,10 @@ title: coopy.Table
 
 
 #####**getCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
-<p>
-      Read a cell
 
-</p>
+
+Read a cell
+
 
 
 
@@ -81,14 +95,14 @@ title: coopy.Table
 
 
 #####**getCellView** () : <a href="../coopy/View.html" class="type">View</a>#####
-<p>
-      Get an interface for interpreting cell contents (e.g.
-      converting to a string).  We never call any methods
-      directly on a cell, since we've no idea what they
-      are.  To learn about the contents of a cell, we pass
-      it to methods of a `View`.
 
-</p>
+
+Get an interface for interpreting cell contents (e.g.
+converting to a string).  We never call any methods
+directly on a cell, since we've no idea what they
+are.  To learn about the contents of a cell, we pass
+it to methods of a `View`.
+
 
 
 
@@ -103,12 +117,12 @@ title: coopy.Table
 
 
 #####**getData** () : <a href="../Dynamic.html" class="type">Dynamic</a>#####
-<p>
-      Get the underlying data object backing the table, if possible.
-      This is platform specific.  The daff library never uses this
-      method.
 
-</p>
+
+Get the underlying data object backing the table, if possible.
+This is platform specific.  The daff library never uses this
+method.
+
 
 
 
@@ -123,12 +137,12 @@ title: coopy.Table
 
 
 #####**get_height** () : <a href="../Int.html" class="type">Int</a>#####
-<p>
-      Get the height of the table.  Sorry for the inconsistent
-      capitalization, it is due to a confusion I had over haxe
-      setter/getters.
 
-</p>
+
+Get the height of the table.  Sorry for the inconsistent 
+capitalization, it is due to a confusion I had over haxe
+setter/getters.
+
 
 
 
@@ -143,12 +157,12 @@ title: coopy.Table
 
 
 #####**get_width** () : <a href="../Int.html" class="type">Int</a>#####
-<p>
-      Get the width of the table.  Sorry for the inconsistent
-      capitalization, it is due to a confusion I had over haxe
-      setter/getters.
 
-</p>
+
+Get the width of the table.  Sorry for the inconsistent 
+capitalization, it is due to a confusion I had over haxe
+setter/getters.
+
 
 
 
@@ -163,11 +177,11 @@ title: coopy.Table
 
 
 #####**insertOrDeleteColumns** (fate : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, wfate : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>#####
-<p>
-      Insert, delete, and/or shuffle columns. We bundle all these operations
-      together since things can get creakingly slow otherwise.
 
-</p>
+
+Insert, delete, and/or shuffle columns. We bundle all these operations
+together since things can get creakingly slow otherwise.
+
 
 
 
@@ -186,11 +200,11 @@ title: coopy.Table
 
 
 #####**insertOrDeleteRows** (fate : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, hfate : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>#####
-<p>
-      Insert, delete, and/or shuffle rows. We bundle all these operations
-      together since things can get creakingly slow otherwise.
 
-</p>
+
+Insert, delete, and/or shuffle rows. We bundle all these operations
+together since things can get creakingly slow otherwise.
+
 
 
 
@@ -209,10 +223,10 @@ title: coopy.Table
 
 
 #####**isResizable** () : <a href="../Bool.html" class="type">Bool</a>#####
-<p>
-      Check if a table can be resized.
 
-</p>
+
+Check if a table can be resized.
+
 
 
 
@@ -227,11 +241,11 @@ title: coopy.Table
 
 
 #####**resize** (w : <a href="../Int.html" class="type">Int</a>, h : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>#####
-<p>
-      Resize a table, if possible, preserving existing contents that fit.
-      Any newly created cells should be `null`.
 
-</p>
+
+Resize a table, if possible, preserving existing contents that fit.
+Any newly created cells should be `null`.
+
 
 
 
@@ -250,10 +264,10 @@ title: coopy.Table
 
 
 #####**setCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>, c : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>#####
-<p>
-      Write to a cell
 
-</p>
+
+Write to a cell
+
 
 
 
@@ -271,11 +285,11 @@ title: coopy.Table
 
 
 #####**trimBlank** () : <a href="../Bool.html" class="type">Bool</a>#####
-<p>
-      Remove empty final rows or final columns. This method is not in
-      fact used by the daff library.
 
-</p>
+
+Remove empty final rows or final columns. This method is not in
+fact used by the daff library.
+
 
 
 

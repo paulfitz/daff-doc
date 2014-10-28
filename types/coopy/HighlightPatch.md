@@ -3,7 +3,11 @@ layout: thing
 thing: class
 title: coopy.HighlightPatch
 ---
-**coopy.HighlightPatch**
+#coopy.HighlightPatch#
+
+
+Apply a tabular diff as a patch.
+
 
 
 
@@ -11,7 +15,7 @@ title: coopy.HighlightPatch
 
 > *Implements:*
 > 
->   * **[coopy.Row](Row)**
+>   * **[coopy.Row](Row.html)**
 
 
 
@@ -20,11 +24,35 @@ title: coopy.HighlightPatch
 #####new(source : <a href="../coopy/Table.html" class="type">Table</a>, patch : <a href="../coopy/Table.html" class="type">Table</a>)#####
 
 
+> *Parameters:*
+>
+>   * `source` the table to patch
+>   * `patch` the tabular diff to use as a patch
 
-##Instance Methods:##
+
+
+
+
+
+
+
+##Methods:##
 
 
 #####**apply** () : <a href="../Bool.html" class="type">Bool</a>#####
+
+
+Apply the patch.
+
+
+
+
+
+> *Returns:*  true on success
+
+
+
+
 
 
 
@@ -32,9 +60,20 @@ title: coopy.HighlightPatch
 #####**getRowString** (c : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>#####
 
 
+Get the content in a given column of the patch on the active row.
+This is present for generating keys internally, you don't need it.
 
 
-#####**reset** () : <a href="../Void.html" class="type">Void</a>#####
+
+
+> *Parameters:*  `c` the column to look in
+
+
+> *Returns:*  the content of column `c` on the active row
+
+
+
+
 
 
 

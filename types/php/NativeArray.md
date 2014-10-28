@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: php.NativeArray
 ---
-**php.NativeArray**
+#php.NativeArray#
 
 
 

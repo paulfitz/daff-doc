@@ -3,17 +3,17 @@ layout: thing
 thing: class
 title: StringBuf
 ---
-**StringBuf**
-<p>A String buffer is an efficient way to build a big string by appending small
-	elements together.
+#StringBuf#
 
-	Its cross-platform implementation uses String concatenation internally, but
-	StringBuf may be optimized for different targets.
+A String buffer is an efficient way to build a big string by appending small
+elements together.
 
-	Unlike String, an instance of StringBuf is not immutable in the sense that
-	it can be passed as argument to functions which modify it by appending more
-	values. However, the internal buffer cannot be modified.
-</p>
+Its cross-platform implementation uses String concatenation internally, but
+StringBuf may be optimized for different targets.
+
+Unlike String, an instance of StringBuf is not immutable in the sense that
+it can be passed as argument to functions which modify it by appending more
+values. However, the internal buffer cannot be modified.
 
 
 
@@ -34,26 +34,26 @@ title: StringBuf
 
 
 
-##Instance Variables:##
+##Variables:##
 
 ##### **length** (null,null) : <a href="Int.html" class="type">Int</a>#####
-<p>The length of `this` StringBuf in characters.
-</p>
+
+The length of `this` StringBuf in characters.
 
 
 
-##Instance Methods:##
+##Methods:##
 
 
 #####**add** &lt;T&gt;(x : T) : <a href="Void.html" class="type">Void</a>#####
-<p>Appends the representation of `x` to `this` StringBuf.
 
-		The exact representation of `x` may vary per platform. To get more
-		consistent behavior, this function should be called with
-		Std.string(x).
+Appends the representation of `x` to `this` StringBuf.
 
-		If `x` is null, the String "null" is appended.
-</p>
+The exact representation of `x` may vary per platform. To get more
+consistent behavior, this function should be called with
+Std.string(x).
+
+If `x` is null, the String "null" is appended.
 
 
 

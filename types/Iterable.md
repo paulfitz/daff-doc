@@ -4,9 +4,9 @@ thing: typedef
 title: Iterable
 ---
 **Iterable&lt;T&gt;**
-<p>An Iterable is a data structure which has an iterator() method.
-	See `Lambda` for generic functions on iterable structures.
-</p>
+
+An Iterable is a data structure which has an iterator() method.
+See `Lambda` for generic functions on iterable structures.
 
 
 

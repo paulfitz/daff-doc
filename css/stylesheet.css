@@ -1,6 +1,7 @@
 body {
   color: black;
   background: white;
+  text-align:center;
 }
 ol, ul {
   list-style: none;
@@ -27,7 +28,7 @@ body {
 }
 
 a, a:active, a:visited {
-  color: #0000cc;
+  color: #242;
   text-decoration: none;
 }
 
@@ -295,6 +296,8 @@ a.showHideLink {
 
 .all-thing { 
   display: table;
+  margin: 0 auto;
+  text-align: initial;
 }
 
 .code-thing {
@@ -313,4 +316,35 @@ a.showHideLink {
 code {
   font-family: "Courier New", Courier, mono;
   color: #484;
+}
+.content h1, .index a { 
+  display: block;
+  background: green;
+  border-radius: 1em;
+  color: white;
+  padding: 0.5em;
+}
+.content h1 {
+  font-family: "Courier New", Courier, mono;
+}
+.index a { 
+  margin-bottom: 0.25em;
+}
+.content h2 {
+  color: #484;
+  padding-left: 0.5em;
+  border-radius: 1em;
+}
+.content h5 {
+  border-top: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  background: #dfd;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 0.5em;
+}
+
+.header h1 {
+  font-size: 3em;
 }

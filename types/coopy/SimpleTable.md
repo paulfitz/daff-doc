@@ -3,7 +3,13 @@ layout: thing
 thing: class
 title: coopy.SimpleTable
 ---
-**coopy.SimpleTable**
+#coopy.SimpleTable#
+
+
+A basic table implementation. Each supported language should
+have an optimized native implementation that you can use instead.
+See the `Table` interface for documentation.
+
 
 
 
@@ -11,13 +17,50 @@ title: coopy.SimpleTable
 
 > *Implements:*
 > 
->   * **[coopy.Table](Table)**
+>   * **[coopy.Table](Table.html)**
 
 
 ##Static Methods:##
 
 
+#####**tableIsSimilar** (tab1 : <a href="../coopy/Table.html" class="type">Table</a>, tab2 : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+
+
+Compare the content of two tables.
+
+
+
+
+> *Parameters:*
+>
+>   * `tab1` the first table
+>   * `tab2` the second table
+
+> *Returns:*  true if the tables are identical
+
+
+
+
+
+
+
+
 #####**tableToString** (tab : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../String.html" class="type">String</a>#####
+
+
+Render the table as a string
+
+
+
+
+> *Parameters:*  `tab` the table
+
+
+> *Returns:*  a text version of the table
+
+
+
+
 
 
 
@@ -26,14 +69,21 @@ title: coopy.SimpleTable
 #####new(w : <a href="../Int.html" class="type">Int</a>, h : <a href="../Int.html" class="type">Int</a>)#####
 
 
+> *Parameters:*
+>
+>   * `w` the desired width of the table
+>   * `h` the desired height of the table
 
-##Instance Variables:##
+
+
+
+
+
+
+
+##Variables:##
 
 ##### **height** (accessor,null) : <a href="../Int.html" class="type">Int</a>#####
-
-
-
-##### **size** (accessor,null) : <a href="../Int.html" class="type">Int</a>#####
 
 
 
@@ -41,10 +91,15 @@ title: coopy.SimpleTable
 
 
 
-##Instance Methods:##
+##Methods:##
 
 
 #####**clear** () : <a href="../Void.html" class="type">Void</a>#####
+
+
+
+
+#####**clone** () : <a href="../coopy/Table.html" class="type">Table</a>#####
 
 
 
@@ -59,7 +114,7 @@ title: coopy.SimpleTable
 
 
 
-#####**getData** () : Unknown#####
+#####**getData** () : <a href="../Dynamic.html" class="type">Dynamic</a>#####
 
 
 

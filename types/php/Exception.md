@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: php.Exception
 ---
-**php.Exception**
+#php.Exception#
 
 
 
@@ -17,7 +17,7 @@ title: php.Exception
 
 
 
-##Instance Methods:##
+##Methods:##
 
 
 #####**__toString** () : <a href="../String.html" class="type">String</a>#####

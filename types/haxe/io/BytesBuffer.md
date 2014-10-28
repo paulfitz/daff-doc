@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: haxe.io.BytesBuffer
 ---
-**haxe.io.BytesBuffer**
+#haxe.io.BytesBuffer#
 
 
 
@@ -12,11 +12,11 @@ title: haxe.io.BytesBuffer
 
 
 
-##Instance Variables:##
+##Variables:##
 
 ##### **length** (null,null) : <a href="../../Int.html" class="type">Int</a>#####
-<p>The length of the buffer in bytes.
-</p>
+
+The length of the buffer in bytes.
 
 
 

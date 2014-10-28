@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: ::nameDots::
 ---
-**::nameDots::::params::**
+#::nameDots::::params::#
 
 $$typeDocs()
 ::if isPrivate::
@@ -81,7 +81,7 @@ $$methodDocs(::constructor::)
 
 ::end::
 ::if vars.length > 0::
-##Instance Variables:##
+##Variables:##
 ::foreach f vars::
 $$varHeader(::f::)
 $$varDocs(::f::)
@@ -89,7 +89,7 @@ $$varDocs(::f::)
 ::end::
 
 ::if methods.length > 0::
-##Instance Methods:##
+##Methods:##
 ::foreach m methods::
 $$methodHeader(::m::)
 $$methodDocs(::m::)

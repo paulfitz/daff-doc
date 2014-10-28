@@ -3,7 +3,12 @@ layout: thing
 thing: class
 title: coopy.Ordering
 ---
-**coopy.Ordering**
+#coopy.Ordering#
+
+
+An ordered list of units, representing a merged view of rows
+in a local, remote, and (optionally) parent table.
+
 
 
 
@@ -17,10 +22,26 @@ title: coopy.Ordering
 
 
 
-##Instance Methods:##
+##Methods:##
 
 
 #####**add** (l : <a href="../Int.html" class="type">Int</a>, r : <a href="../Int.html" class="type">Int</a>, ?p : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>#####
+
+
+Add a local/remote/parent triplet.
+
+
+
+
+> *Parameters:*
+>
+>   * `l` the row/column number in the local table (-1 means absent)
+>   * `r` the row/column number in the remote table (-1 means absent)
+>   * `p` the row/column number in the parent table (-1 means absent, -2 means there is no parent) 
+
+
+
+
 
 
 
@@ -30,12 +51,41 @@ title: coopy.Ordering
 
 
 
+> *Returns:*  the list of units in this ordering
+
+
+
+
+
+
+
+
 #####**ignoreParent** () : <a href="../Void.html" class="type">Void</a>#####
+
+
+Force any parent row/column numbers to be ignored and discarded.
+
+
+
+
+
+
+
+
 
 
 
 
 #####**toString** () : <a href="../String.html" class="type">String</a>#####
+
+
+
+
+> *Returns:*  the list of units in text form
+
+
+
+
 
 
 

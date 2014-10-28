@@ -3,11 +3,11 @@ layout: thing
 thing: class
 title: haxe.ds.IntMap
 ---
-**haxe.ds.IntMap&lt;T&gt;**
-<p>IntMap allows mapping of Int keys to arbitrary values.
+#haxe.ds.IntMap&lt;T&gt;#
 
-	See `Map` for documentation details.
-</p>
+IntMap allows mapping of Int keys to arbitrary values.
+
+See `Map` for documentation details.
 
 
 
@@ -15,7 +15,7 @@ title: haxe.ds.IntMap
 
 > *Implements:*
 > 
->   * **[php.IteratorAggregate](IteratorAggregate)**&gt;   * **[haxe.IMap](IMap)**
+>   * **[php.IteratorAggregate](IteratorAggregate.html)**&gt;   * **[haxe.IMap](IMap.html)**
 
 
 
@@ -32,12 +32,12 @@ title: haxe.ds.IntMap
 
 
 
-##Instance Methods:##
+##Methods:##
 
 
 #####**exists** (key : <a href="../../Int.html" class="type">Int</a>) : <a href="../../Bool.html" class="type">Bool</a>#####
-<p>See `Map.exists`
-</p>
+
+See `Map.exists`
 
 
 
@@ -50,8 +50,8 @@ title: haxe.ds.IntMap
 
 
 #####**get** (key : <a href="../../Int.html" class="type">Int</a>) : <a href="../../Null.html" class="type">Null</a>&lt;T&gt;#####
-<p>See `Map.get`
-</p>
+
+See `Map.get`
 
 
 
@@ -64,8 +64,8 @@ title: haxe.ds.IntMap
 
 
 #####**iterator** () : <a href="../../Iterator.html" class="type">Iterator</a>&lt;T&gt;#####
-<p>See `Map.iterator`
-</p>
+
+See `Map.iterator`
 
 
 
@@ -78,8 +78,8 @@ title: haxe.ds.IntMap
 
 
 #####**keys** () : <a href="../../Iterator.html" class="type">Iterator</a>&lt;<a href="../../Int.html" class="type">Int</a>&gt;#####
-<p>See `Map.keys`
-</p>
+
+See `Map.keys`
 
 
 
@@ -92,8 +92,8 @@ title: haxe.ds.IntMap
 
 
 #####**remove** (key : <a href="../../Int.html" class="type">Int</a>) : <a href="../../Bool.html" class="type">Bool</a>#####
-<p>See `Map.remove`
-</p>
+
+See `Map.remove`
 
 
 
@@ -106,8 +106,8 @@ title: haxe.ds.IntMap
 
 
 #####**set** (key : <a href="../../Int.html" class="type">Int</a>, value : T) : <a href="../../Void.html" class="type">Void</a>#####
-<p>See `Map.set`
-</p>
+
+See `Map.set`
 
 
 
@@ -120,8 +120,8 @@ title: haxe.ds.IntMap
 
 
 #####**toString** () : <a href="../../String.html" class="type">String</a>#####
-<p>See `Map.toString`
-</p>
+
+See `Map.toString`
 
 
 

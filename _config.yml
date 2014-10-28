@@ -3,4 +3,5 @@ markdown: kramdown
 baseurl: /daff-doc
 kramdown:
   input: GFM
+  hard_wrap: false
   parse_block_html: true

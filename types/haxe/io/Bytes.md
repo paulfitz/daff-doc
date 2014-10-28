@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: haxe.io.Bytes
 ---
-**haxe.io.Bytes**
+#haxe.io.Bytes#
 
 
 
@@ -18,13 +18,13 @@ title: haxe.io.Bytes
 
 
 
-##Instance Variables:##
+##Variables:##
 
 ##### **length** (default,null) : <a href="../../Int.html" class="type">Int</a>#####
 
 
 
-##Instance Methods:##
+##Methods:##
 
 
 #####**getString** (pos : <a href="../../Int.html" class="type">Int</a>, len : <a href="../../Int.html" class="type">Int</a>) : <a href="../../String.html" class="type">String</a>#####

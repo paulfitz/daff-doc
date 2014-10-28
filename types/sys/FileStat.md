@@ -4,8 +4,8 @@ thing: typedef
 title: sys.FileStat
 ---
 **sys.FileStat**
-<p>File informations, as given by <code>sys.FileSystem.stat</code>
-</p>
+
+File informations, as given by <code>sys.FileSystem.stat</code>
 
 
 

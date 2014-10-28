@@ -3,11 +3,11 @@ layout: thing
 thing: class
 title: haxe.ds.StringMap
 ---
-**haxe.ds.StringMap&lt;T&gt;**
-<p>StringMap allows mapping of String keys to arbitrary values.
+#haxe.ds.StringMap&lt;T&gt;#
 
-	See `Map` for documentation details.
-</p>
+StringMap allows mapping of String keys to arbitrary values.
+
+See `Map` for documentation details.
 
 
 
@@ -15,7 +15,7 @@ title: haxe.ds.StringMap
 
 > *Implements:*
 > 
->   * **[php.IteratorAggregate](IteratorAggregate)**&gt;   * **[haxe.IMap](IMap)**
+>   * **[php.IteratorAggregate](IteratorAggregate.html)**&gt;   * **[haxe.IMap](IMap.html)**
 
 
 
@@ -32,12 +32,12 @@ title: haxe.ds.StringMap
 
 
 
-##Instance Methods:##
+##Methods:##
 
 
 #####**exists** (key : <a href="../../String.html" class="type">String</a>) : <a href="../../Bool.html" class="type">Bool</a>#####
-<p>See `Map.exists`
-</p>
+
+See `Map.exists`
 
 
 
@@ -50,8 +50,8 @@ title: haxe.ds.StringMap
 
 
 #####**get** (key : <a href="../../String.html" class="type">String</a>) : <a href="../../Null.html" class="type">Null</a>&lt;T&gt;#####
-<p>See `Map.get`
-</p>
+
+See `Map.get`
 
 
 
@@ -64,8 +64,8 @@ title: haxe.ds.StringMap
 
 
 #####**iterator** () : <a href="../../Iterator.html" class="type">Iterator</a>&lt;T&gt;#####
-<p>See `Map.iterator`
-</p>
+
+See `Map.iterator`
 
 
 
@@ -78,8 +78,8 @@ title: haxe.ds.StringMap
 
 
 #####**keys** () : <a href="../../Iterator.html" class="type">Iterator</a>&lt;<a href="../../String.html" class="type">String</a>&gt;#####
-<p>See `Map.keys`
-</p>
+
+See `Map.keys`
 
 
 
@@ -92,8 +92,8 @@ title: haxe.ds.StringMap
 
 
 #####**set** (key : <a href="../../String.html" class="type">String</a>, value : T) : <a href="../../Void.html" class="type">Void</a>#####
-<p>See `Map.set`
-</p>
+
+See `Map.set`
 
 
 

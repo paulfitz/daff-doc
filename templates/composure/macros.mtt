@@ -3,13 +3,13 @@
 
 <macro name="printDocs(docs)">
 ::if docs != null && docs.comments != null && docs.comments.length>3::
-<p>::raw docs.comments::
-</p>
+
+::raw docs.comments::
 
 ::end::
 </macro>
 
-<macro name="classLink(ctx)">**[::raw ctx.nameDots::](::raw ctx.name::)**</macro>
+<macro name="classLink(ctx)">**[::raw ctx.nameDots::](::raw ctx.name::.html)**</macro>
 
 <macro name="methodHeader(m)">
 #####$$showAccess(::m::)$$showDynamic(::m::)$$showInline(::m::)**::raw m.name::** ::m.params::(::if m.args != null::::raw m.args::::end::) : ::raw m.returns::#####

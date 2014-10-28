@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: haxe.IMap
 ---
-**haxe.IMap&lt;K, V&gt;**
+#haxe.IMap&lt;K, V&gt;#
 
 
 

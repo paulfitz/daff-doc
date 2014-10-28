@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: haxe.EnumValueTools
 ---
-**haxe.EnumValueTools**
+#haxe.EnumValueTools#
 
 
 
@@ -16,13 +16,13 @@ title: haxe.EnumValueTools
 
 
 #####Inline**equals** &lt;T&gt;(a : T, b : T) : <a href="../Bool.html" class="type">Bool</a>#####
-<p>Recursively compares two enum instances `a` and `b` by value.
 
-		Unlike `a == b`, this function performs a deep equality check on the
-		arguments of the constructors, if exists.
+Recursively compares two enum instances `a` and `b` by value.
 
-		If `a` or `b` are null, the result is unspecified.
-</p>
+Unlike `a == b`, this function performs a deep equality check on the
+arguments of the constructors, if exists.
+
+If `a` or `b` are null, the result is unspecified.
 
 
 
@@ -35,13 +35,13 @@ title: haxe.EnumValueTools
 
 
 #####Inline**getIndex** (e : <a href="../EnumValue.html" class="type">EnumValue</a>) : <a href="../Int.html" class="type">Int</a>#####
-<p>Returns the index of enum instance `e`.
 
-		This corresponds to the original syntactic position of `e`. The index of
-		the first declared constructor is 0, the next one is 1 etc.
+Returns the index of enum instance `e`.
 
-		If `e` is null, the result is unspecified.
-</p>
+This corresponds to the original syntactic position of `e`. The index of
+the first declared constructor is 0, the next one is 1 etc.
+
+If `e` is null, the result is unspecified.
 
 
 
@@ -54,12 +54,12 @@ title: haxe.EnumValueTools
 
 
 #####Inline**getName** (e : <a href="../EnumValue.html" class="type">EnumValue</a>) : <a href="../String.html" class="type">String</a>#####
-<p>Returns the constructor name of enum instance `e`.
 
-		The result String does not contain any constructor arguments.
+Returns the constructor name of enum instance `e`.
 
-		If `e` is null, the result is unspecified.
-</p>
+The result String does not contain any constructor arguments.
+
+If `e` is null, the result is unspecified.
 
 
 
@@ -72,15 +72,15 @@ title: haxe.EnumValueTools
 
 
 #####Inline**getParameters** (e : <a href="../EnumValue.html" class="type">EnumValue</a>) : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Dynamic.html" class="type">Dynamic</a>&gt;#####
-<p>Returns a list of the constructor arguments of enum instance `e`.
 
-		If `e` has no arguments, the result is <code></code>.
+Returns a list of the constructor arguments of enum instance `e`.
 
-		Otherwise the result are the values that were used as arguments to `e`,
-		in the order of their declaration.
+If `e` has no arguments, the result is <code></code>.
 
-		If `e` is null, the result is unspecified.
-</p>
+Otherwise the result are the values that were used as arguments to `e`,
+in the order of their declaration.
+
+If `e` is null, the result is unspecified.
 
 
 
@@ -93,33 +93,33 @@ title: haxe.EnumValueTools
 
 
 #####**match** (e : <a href="../EnumValue.html" class="type">EnumValue</a>, pattern : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>#####
-<p>Matches enum instance `e` against pattern `pattern`, returning true if
-		matching succeeded and false otherwise.
 
-		Example usage:
+Matches enum instance `e` against pattern `pattern`, returning true if
+matching succeeded and false otherwise.
 
-		```
-		if (e.match(pattern)) {
-			// codeIfTrue
-		} else {
-			// codeIfFalse
-		}
-		```
+Example usage:
 
-		This is equivalent to the following code:
+```
+if (e.match(pattern)) {
+// codeIfTrue
+} else {
+// codeIfFalse
+}
+```
 
-		```
-		switch (e) {
-			case pattern:
-				// codeIfTrue
-			case _:
-				// codeIfFalse
-		}
-		```
+This is equivalent to the following code:
 
-		This method is implemented in the compiler. This definition exists only
-		for documentation.
-</p>
+```
+switch (e) {
+case pattern:
+// codeIfTrue
+case _:
+// codeIfFalse
+}
+```
+
+This method is implemented in the compiler. This definition exists only
+for documentation.
 
 
 
