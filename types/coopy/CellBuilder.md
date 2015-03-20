@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.CellBuilder
 ---
-#coopy.CellBuilder#
+# coopy.CellBuilder
 
 
 Hooks to allow customization of how cells in a diff are represented.
@@ -21,10 +21,10 @@ you'd just need to override the `update` method here.  Then call
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**conflict** (parent : <a href="../Dynamic.html" class="type">Dynamic</a>, local : <a href="../Dynamic.html" class="type">Dynamic</a>, remote : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **conflict** (parent : <a href="../Dynamic.html" class="type">Dynamic</a>, local : <a href="../Dynamic.html" class="type">Dynamic</a>, remote : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 Build a cell that represents a conflicting change, where a
@@ -49,7 +49,7 @@ from `parent` to `remote` in another.
 
 
 
-#####**links** (unit : <a href="../coopy/Unit.html" class="type">Unit</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **links** (unit : <a href="../coopy/Unit.html" class="type">Unit</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 Create a cell representing the numeric relationship between rows/columns
@@ -69,7 +69,7 @@ Create a cell representing the numeric relationship between rows/columns
 
 
 
-#####**marker** (label : <a href="../String.html" class="type">String</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **marker** (label : <a href="../String.html" class="type">String</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 Create a cell representing one of the many tags used in 
@@ -90,7 +90,7 @@ data diffs.
 
 
 
-#####**needSeparator** () : <a href="../Bool.html" class="type">Bool</a>#####
+##### **needSeparator** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 Regular diffs make use of separators of the form "->" or "-->"
@@ -111,7 +111,7 @@ you a chance to say you don't need that, saving some cycles.
 
 
 
-#####**setConflictSeparator** (separator : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **setConflictSeparator** (separator : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 This method will be called with an appropriate separator
@@ -130,7 +130,7 @@ for cell conflicts, if `needSeparator` returns true.
 
 
 
-#####**setSeparator** (separator : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **setSeparator** (separator : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 This method will be called with an appropriate separator
@@ -149,7 +149,7 @@ for cell updates, if `needSeparator` returns true.
 
 
 
-#####**setView** (view : <a href="../coopy/View.html" class="type">View</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **setView** (view : <a href="../coopy/View.html" class="type">View</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 This method is called with a helper for interpreting the contents
@@ -169,7 +169,7 @@ the tables.
 
 
 
-#####**update** (local : <a href="../Dynamic.html" class="type">Dynamic</a>, remote : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **update** (local : <a href="../Dynamic.html" class="type">Dynamic</a>, remote : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 Build a cell that represents a change from `local` to `remote`

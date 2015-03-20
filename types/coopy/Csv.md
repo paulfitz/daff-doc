@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.Csv
 ---
-#coopy.Csv#
+# coopy.Csv
 
 
 Read and write CSV format. You don't need to use this to use daff!
@@ -16,9 +16,9 @@ Feel free to use your own.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new(?delim : <a href="../String.html" class="type">String</a>)#####
+##### **new**(?delim : <a href="../String.html" class="type">String</a>)
 
 
 > *Parameters:*  `delim` cell delimiter to use, defaults to a comma
@@ -31,10 +31,10 @@ Feel free to use your own.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**makeTable** (txt : <a href="../String.html" class="type">String</a>) : <a href="../coopy/Table.html" class="type">Table</a>#####
+##### **makeTable** (txt : <a href="../String.html" class="type">String</a>) : <a href="../coopy/Table.html" class="type">Table</a>
 
 
 Create a table from a string in CSV format.
@@ -54,7 +54,7 @@ Create a table from a string in CSV format.
 
 
 
-#####**parseCell** (txt : <a href="../String.html" class="type">String</a>) : <a href="../String.html" class="type">String</a>#####
+##### **parseCell** (txt : <a href="../String.html" class="type">String</a>) : <a href="../String.html" class="type">String</a>
 
 
 Parse a string in CSV format representing a cell.
@@ -74,7 +74,7 @@ Parse a string in CSV format representing a cell.
 
 
 
-#####**parseTable** (txt : <a href="../String.html" class="type">String</a>, tab : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **parseTable** (txt : <a href="../String.html" class="type">String</a>, tab : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 Parse a string in CSV format representing a table.
@@ -96,7 +96,7 @@ Parse a string in CSV format representing a table.
 
 
 
-#####**renderCell** (v : <a href="../coopy/View.html" class="type">View</a>, d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../String.html" class="type">String</a>#####
+##### **renderCell** (v : <a href="../coopy/View.html" class="type">View</a>, d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../String.html" class="type">String</a>
 
 
 Render a single cell in CSV format.
@@ -118,7 +118,7 @@ Render a single cell in CSV format.
 
 
 
-#####**renderTable** (t : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../String.html" class="type">String</a>#####
+##### **renderTable** (t : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../String.html" class="type">String</a>
 
 
 Convert a table to a string in CSV format.

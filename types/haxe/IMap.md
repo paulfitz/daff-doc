@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: haxe.IMap
 ---
-#haxe.IMap&lt;K, V&gt;#
+# haxe.IMap&lt;K, V&gt;
 
 
 
@@ -14,10 +14,10 @@ title: haxe.IMap
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**get** (k : K) : <a href="../Null.html" class="type">Null</a>&lt;V&gt;#####
+##### **get** (k : K) : <a href="../Null.html" class="type">Null</a>&lt;V&gt;
 
 
 

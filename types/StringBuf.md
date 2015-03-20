@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: StringBuf
 ---
-#StringBuf#
+# StringBuf
 
 A String buffer is an efficient way to build a big string by appending small
 elements together.
@@ -21,11 +21,9 @@ values. However, the internal buffer cannot be modified.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
-
-
+##### **new**()
 
 
 
@@ -34,18 +32,20 @@ values. However, the internal buffer cannot be modified.
 
 
 
-##Variables:##
 
-##### **length** (null,null) : <a href="Int.html" class="type">Int</a>#####
+
+## Variables:
+
+#####  **length** (null,null) : <a href="Int.html" class="type">Int</a>
 
 The length of `this` StringBuf in characters.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**add** &lt;T&gt;(x : T) : <a href="Void.html" class="type">Void</a>#####
+##### **add** &lt;T&gt;(x : T) : <a href="Void.html" class="type">Void</a>
 
 Appends the representation of `x` to `this` StringBuf.
 

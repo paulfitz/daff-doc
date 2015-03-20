@@ -17,7 +17,7 @@ The possible IO errors that can occur
 ##Constructors##
 
 
-#####**Blocked**#####
+##### **Blocked**
 
 
 
@@ -28,7 +28,7 @@ The possible IO errors that can occur
 
 
 
-#####**Custom**(e : <a href="../../Dynamic.html" class="type">Dynamic</a>)#####
+##### **Custom**(e : <a href="../../Dynamic.html" class="type">Dynamic</a>)
 
 
 
@@ -39,7 +39,7 @@ The possible IO errors that can occur
 
 
 
-#####**OutsideBounds**#####
+##### **OutsideBounds**
 
 
 
@@ -50,7 +50,7 @@ The possible IO errors that can occur
 
 
 
-#####**Overflow**#####
+##### **Overflow**
 
 
 

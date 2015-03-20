@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.CompareTable
 ---
-#coopy.CompareTable#
+# coopy.CompareTable
 
 
 Run a comparison between tables.  Normally you'll
@@ -16,9 +16,9 @@ call `coopy.Coopy.compareTables` to start off such a comparison.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new(comp : <a href="../coopy/TableComparisonState.html" class="type">TableComparisonState</a>)#####
+##### **new**(comp : <a href="../coopy/TableComparisonState.html" class="type">TableComparisonState</a>)
 
 
 > *Parameters:*  `comp` the state of the comparison, including the tables to be compared, and whether the comparison has run to completion. 
@@ -31,10 +31,10 @@ call `coopy.Coopy.compareTables` to start off such a comparison.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**align** () : <a href="../coopy/Alignment.html" class="type">Alignment</a>#####
+##### **align** () : <a href="../coopy/Alignment.html" class="type">Alignment</a>
 
 
 Access a summary of how the tables align with each other.
@@ -54,7 +54,7 @@ finished.
 
 
 
-#####**getComparisonState** () : <a href="../coopy/TableComparisonState.html" class="type">TableComparisonState</a>#####
+##### **getComparisonState** () : <a href="../coopy/TableComparisonState.html" class="type">TableComparisonState</a>
 
 
 
@@ -68,7 +68,7 @@ finished.
 
 
 
-#####**getIndexes** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../coopy/IndexPair.html" class="type">IndexPair</a>&gt;#####
+##### **getIndexes** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../coopy/IndexPair.html" class="type">IndexPair</a>&gt;
 
 
 Access the indexes generated during the comparison.
@@ -88,7 +88,7 @@ comparison.
 
 
 
-#####**run** () : <a href="../Bool.html" class="type">Bool</a>#####
+##### **run** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 Run or continue the comparison.
@@ -106,7 +106,7 @@ Run or continue the comparison.
 
 
 
-#####**storeIndexes** () : <a href="../Void.html" class="type">Void</a>#####
+##### **storeIndexes** () : <a href="../Void.html" class="type">Void</a>
 
 
 During a comparison, we generate a set of indexes that help

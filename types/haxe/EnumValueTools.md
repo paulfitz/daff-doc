@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: haxe.EnumValueTools
 ---
-#haxe.EnumValueTools#
+# haxe.EnumValueTools
 
 
 
@@ -12,10 +12,10 @@ title: haxe.EnumValueTools
 > *Defined in:* **haxe.EnumTools**
 
 
-##Static Methods:##
+## Static Methods:
 
 
-#####Inline**equals** &lt;T&gt;(a : T, b : T) : <a href="../Bool.html" class="type">Bool</a>#####
+##### Inline**equals** &lt;T&gt;(a : T, b : T) : <a href="../Bool.html" class="type">Bool</a>
 
 Recursively compares two enum instances `a` and `b` by value.
 
@@ -34,7 +34,7 @@ If `a` or `b` are null, the result is unspecified.
 
 
 
-#####Inline**getIndex** (e : <a href="../EnumValue.html" class="type">EnumValue</a>) : <a href="../Int.html" class="type">Int</a>#####
+##### Inline**getIndex** (e : <a href="../EnumValue.html" class="type">EnumValue</a>) : <a href="../Int.html" class="type">Int</a>
 
 Returns the index of enum instance `e`.
 
@@ -53,7 +53,7 @@ If `e` is null, the result is unspecified.
 
 
 
-#####Inline**getName** (e : <a href="../EnumValue.html" class="type">EnumValue</a>) : <a href="../String.html" class="type">String</a>#####
+##### Inline**getName** (e : <a href="../EnumValue.html" class="type">EnumValue</a>) : <a href="../String.html" class="type">String</a>
 
 Returns the constructor name of enum instance `e`.
 
@@ -71,7 +71,7 @@ If `e` is null, the result is unspecified.
 
 
 
-#####Inline**getParameters** (e : <a href="../EnumValue.html" class="type">EnumValue</a>) : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Dynamic.html" class="type">Dynamic</a>&gt;#####
+##### Inline**getParameters** (e : <a href="../EnumValue.html" class="type">EnumValue</a>) : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Dynamic.html" class="type">Dynamic</a>&gt;
 
 Returns a list of the constructor arguments of enum instance `e`.
 
@@ -92,7 +92,7 @@ If `e` is null, the result is unspecified.
 
 
 
-#####**match** (e : <a href="../EnumValue.html" class="type">EnumValue</a>, pattern : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **match** (e : <a href="../EnumValue.html" class="type">EnumValue</a>, pattern : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 Matches enum instance `e` against pattern `pattern`, returning true if
 matching succeeded and false otherwise.

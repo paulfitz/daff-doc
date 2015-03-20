@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.IndexPair
 ---
-#coopy.IndexPair#
+# coopy.IndexPair
 
 
 An index of rows in two tables. We add a list of columns to use
@@ -18,16 +18,16 @@ table, and keys that match (ideally just once) across tables.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
-
-
-
-##Methods:##
+##### **new**()
 
 
-#####**addColumns** (ca : <a href="../Int.html" class="type">Int</a>, cb : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>#####
+
+## Methods:
+
+
+##### **addColumns** (ca : <a href="../Int.html" class="type">Int</a>, cb : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Add a column in each table to treat as part of a key.
@@ -48,7 +48,7 @@ Fine to call repeatedly.
 
 
 
-#####**getQuality** () : <a href="../Float.html" class="type">Float</a>#####
+##### **getQuality** () : <a href="../Float.html" class="type">Float</a>
 
 
 Get a measure of the quality of this index pair.  Higher values
@@ -67,7 +67,7 @@ are better.
 
 
 
-#####**getTopFreq** () : <a href="../Int.html" class="type">Int</a>#####
+##### **getTopFreq** () : <a href="../Int.html" class="type">Int</a>
 
 
 Get the highest number of key collisions for any given key
@@ -87,7 +87,7 @@ a bad sign.
 
 
 
-#####**indexTables** (a : <a href="../coopy/Table.html" class="type">Table</a>, b : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **indexTables** (a : <a href="../coopy/Table.html" class="type">Table</a>, b : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Go ahead and index all the rows in the given tables.
@@ -108,7 +108,7 @@ Make sure to call `addColumns` first.
 
 
 
-#####**localKey** (row : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>#####
+##### **localKey** (row : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>
 
 
 Get the key of a row in the first (local) table.
@@ -128,7 +128,7 @@ Get the key of a row in the first (local) table.
 
 
 
-#####**queryByContent** (row : <a href="../coopy/Row.html" class="type">Row</a>) : <a href="../coopy/CrossMatch.html" class="type">CrossMatch</a>#####
+##### **queryByContent** (row : <a href="../coopy/Row.html" class="type">Row</a>) : <a href="../coopy/CrossMatch.html" class="type">CrossMatch</a>
 
 
 Find matches for a given row.
@@ -146,7 +146,7 @@ Find matches for a given row.
 
 
 
-#####**queryLocal** (row : <a href="../Int.html" class="type">Int</a>) : <a href="../coopy/CrossMatch.html" class="type">CrossMatch</a>#####
+##### **queryLocal** (row : <a href="../Int.html" class="type">Int</a>) : <a href="../coopy/CrossMatch.html" class="type">CrossMatch</a>
 
 
 Find matches for a given row in the first (local) table.
@@ -164,7 +164,7 @@ Find matches for a given row in the first (local) table.
 
 
 
-#####**remoteKey** (row : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>#####
+##### **remoteKey** (row : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>
 
 
 Get the key of a row in the second (remote) table.

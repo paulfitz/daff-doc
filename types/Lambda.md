@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: Lambda
 ---
-#Lambda#
+# Lambda
 
 The `Lambda` class is a collection of methods to support functional
 programming. It is ideally used with 'using Lambda' and then acts as an
@@ -21,10 +21,10 @@ unspecified.
 > *Type:* **class**
 
 
-##Static Methods:##
+## Static Methods:
 
 
-#####**array** &lt;A&gt;(it : <a href="Iterable.html" class="type">Iterable</a>&lt;A&gt;) : <a href="Array.html" class="type">Array</a>&lt;A&gt;#####
+##### **array** &lt;A&gt;(it : <a href="Iterable.html" class="type">Iterable</a>&lt;A&gt;) : <a href="Array.html" class="type">Array</a>&lt;A&gt;
 
 Creates an Array from Iterable `it`.
 
@@ -40,7 +40,7 @@ If `it` is an Array, this function returns a copy of it.
 
 
 
-#####**has** &lt;A&gt;(it : <a href="Iterable.html" class="type">Iterable</a>&lt;A&gt;, elt : A) : <a href="Bool.html" class="type">Bool</a>#####
+##### **has** &lt;A&gt;(it : <a href="Iterable.html" class="type">Iterable</a>&lt;A&gt;, elt : A) : <a href="Bool.html" class="type">Bool</a>
 
 Tells if `it` contains `elt`.
 
@@ -59,7 +59,7 @@ If no such element is found, the result is false.
 
 
 
-#####**map** &lt;A, B&gt;(it : <a href="Iterable.html" class="type">Iterable</a>&lt;A&gt;, f : A -> B) : <a href="List.html" class="type">List</a>&lt;B&gt;#####
+##### **map** &lt;A, B&gt;(it : <a href="Iterable.html" class="type">Iterable</a>&lt;A&gt;, f : A -> B) : <a href="List.html" class="type">List</a>&lt;B&gt;
 
 Creates a new List by applying function `f` to all elements of `it`.
 

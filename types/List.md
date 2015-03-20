@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: List
 ---
-#List&lt;T&gt;#
+# List&lt;T&gt;
 
 A linked-list of elements. The list is composed of two-elements arrays
 that are chained together. It is optimized so that adding or removing an
@@ -19,11 +19,9 @@ element does not imply copying the whole array content every time.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
-
-
+##### **new**()
 
 
 
@@ -32,18 +30,20 @@ element does not imply copying the whole array content every time.
 
 
 
-##Variables:##
 
-##### **length** (default,null) : <a href="Int.html" class="type">Int</a>#####
+
+## Variables:
+
+#####  **length** (default,null) : <a href="Int.html" class="type">Int</a>
 
 The length of `this` List.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**add** (item : T) : <a href="Void.html" class="type">Void</a>#####
+##### **add** (item : T) : <a href="Void.html" class="type">Void</a>
 
 Adds element `item` at the end of `this` List.
 
@@ -59,7 +59,7 @@ Adds element `item` at the end of `this` List.
 
 
 
-#####**iterator** () : <a href="_List/ListIterator.html" class="type">_List.ListIterator</a>&lt;T&gt;#####
+##### **iterator** () : <a href="_List/ListIterator.html" class="type">_List.ListIterator</a>&lt;T&gt;
 
 Returns an iterator on the elements of the list.
 

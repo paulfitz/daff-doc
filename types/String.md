@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: String
 ---
-#String#
+# String
 
 The basic String class.
 
@@ -20,10 +20,10 @@ String, it is passed through Std.string() first.
 > *Type:* **class**
 
 
-##Static Methods:##
+## Static Methods:
 
 
-#####**fromCharCode** (code : <a href="Int.html" class="type">Int</a>) : <a href="String.html" class="type">String</a>#####
+##### **fromCharCode** (code : <a href="Int.html" class="type">Int</a>) : <a href="String.html" class="type">String</a>
 
 Returns the String corresponding to the character code `code`.
 
@@ -39,11 +39,9 @@ unspecified.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new(string : <a href="String.html" class="type">String</a>)#####
-
-
+##### **new**(string : <a href="String.html" class="type">String</a>)
 
 
 
@@ -52,18 +50,20 @@ unspecified.
 
 
 
-##Variables:##
 
-##### **length** (default,null) : <a href="Int.html" class="type">Int</a>#####
+
+## Variables:
+
+#####  **length** (default,null) : <a href="Int.html" class="type">Int</a>
 
 The number of characters in `this` String.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**charAt** (index : <a href="Int.html" class="type">Int</a>) : <a href="String.html" class="type">String</a>#####
+##### **charAt** (index : <a href="Int.html" class="type">Int</a>) : <a href="String.html" class="type">String</a>
 
 Returns the character at position `index` of `this` String.
 
@@ -80,7 +80,7 @@ is returned.
 
 
 
-#####**charCodeAt** (index : <a href="Int.html" class="type">Int</a>) : <a href="Null.html" class="type">Null</a>&lt;<a href="Int.html" class="type">Int</a>&gt;#####
+##### **charCodeAt** (index : <a href="Int.html" class="type">Int</a>) : <a href="Null.html" class="type">Null</a>&lt;<a href="Int.html" class="type">Int</a>&gt;
 
 Returns the character code at position `index` of `this` String.
 
@@ -100,7 +100,7 @@ only works on String literals of length 1.
 
 
 
-#####**indexOf** (str : <a href="String.html" class="type">String</a>, ?startIndex : <a href="Int.html" class="type">Int</a>) : <a href="Int.html" class="type">Int</a>#####
+##### **indexOf** (str : <a href="String.html" class="type">String</a>, ?startIndex : <a href="Int.html" class="type">Int</a>) : <a href="Int.html" class="type">Int</a>
 
 Returns the position of the leftmost occurence of `str` within `this`
 String.
@@ -122,7 +122,7 @@ If `str` cannot be found, -1 is returned.
 
 
 
-#####**lastIndexOf** (str : <a href="String.html" class="type">String</a>, ?startIndex : <a href="Int.html" class="type">Int</a>) : <a href="Int.html" class="type">Int</a>#####
+##### **lastIndexOf** (str : <a href="String.html" class="type">String</a>, ?startIndex : <a href="Int.html" class="type">Int</a>) : <a href="Int.html" class="type">Int</a>
 
 Returns the position of the rightmost occurence of `str` within `this`
 String.
@@ -144,7 +144,7 @@ If `str` cannot be found, -1 is returned.
 
 
 
-#####**split** (delimiter : <a href="String.html" class="type">String</a>) : <a href="Array.html" class="type">Array</a>&lt;<a href="String.html" class="type">String</a>&gt;#####
+##### **split** (delimiter : <a href="String.html" class="type">String</a>) : <a href="Array.html" class="type">Array</a>&lt;<a href="String.html" class="type">String</a>&gt;
 
 Splits `this` String at each occurence of `delimiter`.
 
@@ -175,7 +175,7 @@ Two subsequent delimiters also result in an empty String "" element</pre>
 
 
 
-#####**substr** (pos : <a href="Int.html" class="type">Int</a>, ?len : <a href="Int.html" class="type">Int</a>) : <a href="String.html" class="type">String</a>#####
+##### **substr** (pos : <a href="Int.html" class="type">Int</a>, ?len : <a href="Int.html" class="type">Int</a>) : <a href="String.html" class="type">String</a>
 
 Returns `len` characters of `this` String, starting at position `pos`.
 
@@ -201,7 +201,7 @@ If `len` is negative, the result is unspecified.
 
 
 
-#####**substring** (startIndex : <a href="Int.html" class="type">Int</a>, ?endIndex : <a href="Int.html" class="type">Int</a>) : <a href="String.html" class="type">String</a>#####
+##### **substring** (startIndex : <a href="Int.html" class="type">Int</a>, ?endIndex : <a href="Int.html" class="type">Int</a>) : <a href="String.html" class="type">String</a>
 
 Returns the part of `this` String from `startIndex` to but not including `endIndex`.
 
@@ -225,7 +225,7 @@ String "" is returned.
 
 
 
-#####**toLowerCase** () : <a href="String.html" class="type">String</a>#####
+##### **toLowerCase** () : <a href="String.html" class="type">String</a>
 
 Returns a String where all characters of `this` String are lower case.
 
@@ -241,7 +241,7 @@ Affects the characters `A-Z`. Other characters remain unchanged.
 
 
 
-#####**toString** () : <a href="String.html" class="type">String</a>#####
+##### **toString** () : <a href="String.html" class="type">String</a>
 
 Returns the String itself.
 
@@ -255,7 +255,7 @@ Returns the String itself.
 
 
 
-#####**toUpperCase** () : <a href="String.html" class="type">String</a>#####
+##### **toUpperCase** () : <a href="String.html" class="type">String</a>
 
 Returns a String where all characters of `this` String are upper case.
 

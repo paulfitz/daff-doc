@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.View
 ---
-#coopy.View#
+# coopy.View
 
 
 Interface for interpreting cell contents. In most cases the implementation
@@ -17,10 +17,10 @@ will be entirely trivial.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**equals** (d1 : <a href="../Dynamic.html" class="type">Dynamic</a>, d2 : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **equals** (d1 : <a href="../Dynamic.html" class="type">Dynamic</a>, d2 : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 Compare two cells.
@@ -41,7 +41,7 @@ Compare two cells.
 
 
 
-#####**hashExists** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **hashExists** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 Check if a hash/map contains a given key
@@ -63,7 +63,7 @@ Check if a hash/map contains a given key
 
 
 
-#####**hashGet** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **hashGet** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 Check if a hash/map contains a given key
@@ -85,7 +85,7 @@ Check if a hash/map contains a given key
 
 
 
-#####**hashSet** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>, d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **hashSet** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>, d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Add something to a native hash/map object.
@@ -105,7 +105,7 @@ Add something to a native hash/map object.
 
 
 
-#####**isHash** (h : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **isHash** (h : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 
@@ -121,7 +121,7 @@ Add something to a native hash/map object.
 
 
 
-#####**makeHash** () : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **makeHash** () : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 Create a native hash/map object.
@@ -138,7 +138,7 @@ Create a native hash/map object.
 
 
 
-#####**toDatum** (str : <a href="../String.html" class="type">String</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **toDatum** (str : <a href="../String.html" class="type">String</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 Convert a string to a cell.
@@ -157,7 +157,7 @@ Convert a string to a cell.
 
 
 
-#####**toString** (d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../String.html" class="type">String</a>#####
+##### **toString** (d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../String.html" class="type">String</a>
 
 
 Convert a cell to text form.

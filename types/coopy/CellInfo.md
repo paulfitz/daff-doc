@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.CellInfo
 ---
-#coopy.CellInfo#
+# coopy.CellInfo
 
 
 Interpretation of a cell in a diff, produced by `DiffRender.renderCell`.
@@ -16,15 +16,15 @@ Useful for custom views of a diff.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
+##### **new**()
 
 
 
-##Variables:##
+## Variables:
 
-##### **category**  : <a href="../String.html" class="type">String</a>#####
+#####  **category**  : <a href="../String.html" class="type">String</a>
 
 
 The type of activity going on in the cell: "move", "add", "remove",
@@ -41,7 +41,7 @@ The type of activity going on in the cell: "move", "add", "remove",
 
 
 
-##### **category_given_tr**  : <a href="../String.html" class="type">String</a>#####
+#####  **category_given_tr**  : <a href="../String.html" class="type">String</a>
 
 
 The type of activity going on in the cell, based only on
@@ -50,7 +50,7 @@ knowledge of what row it is in.
 
 
 
-##### **conflicted**  : <a href="../Bool.html" class="type">Bool</a>#####
+#####  **conflicted**  : <a href="../Bool.html" class="type">Bool</a>
 
 
 True if there is a conflicting update in the cell, the cell 
@@ -60,7 +60,7 @@ an `lvalue` (local change) and an `rvalue` (remote change)
 
 
 
-##### **lvalue**  : <a href="../String.html" class="type">String</a>#####
+#####  **lvalue**  : <a href="../String.html" class="type">String</a>
 
 
 Local/reference cell value if applicable.
@@ -68,7 +68,7 @@ Local/reference cell value if applicable.
 
 
 
-##### **pretty_separator**  : <a href="../String.html" class="type">String</a>#####
+#####  **pretty_separator**  : <a href="../String.html" class="type">String</a>
 
 
 Any separator found in the cell, made pretty using a glyph.
@@ -76,7 +76,7 @@ Any separator found in the cell, made pretty using a glyph.
 
 
 
-##### **pretty_value**  : <a href="../String.html" class="type">String</a>#####
+#####  **pretty_value**  : <a href="../String.html" class="type">String</a>
 
 
 The cell value in text form, with some special characters rendered
@@ -86,7 +86,7 @@ certain spaces in diffs are converted to a visible space glyph)
 
 
 
-##### **pvalue**  : <a href="../String.html" class="type">String</a>#####
+#####  **pvalue**  : <a href="../String.html" class="type">String</a>
 
 
 Parent cell value if applicable.
@@ -94,7 +94,7 @@ Parent cell value if applicable.
 
 
 
-##### **raw**  : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+#####  **raw**  : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 The cell value "as is".
@@ -102,7 +102,7 @@ The cell value "as is".
 
 
 
-##### **rvalue**  : <a href="../String.html" class="type">String</a>#####
+#####  **rvalue**  : <a href="../String.html" class="type">String</a>
 
 
 Remote/changed cell value if applicable.
@@ -110,7 +110,7 @@ Remote/changed cell value if applicable.
 
 
 
-##### **separator**  : <a href="../String.html" class="type">String</a>#####
+#####  **separator**  : <a href="../String.html" class="type">String</a>
 
 
 Any separator found in the cell.
@@ -118,7 +118,7 @@ Any separator found in the cell.
 
 
 
-##### **updated**  : <a href="../Bool.html" class="type">Bool</a>#####
+#####  **updated**  : <a href="../Bool.html" class="type">Bool</a>
 
 
 True if there is an update in the cell, the cell contains
@@ -127,7 +127,7 @@ two values, an `lvalue` (before) and an `rvalue` (after)
 
 
 
-##### **value**  : <a href="../String.html" class="type">String</a>#####
+#####  **value**  : <a href="../String.html" class="type">String</a>
 
 
 The cell value in text form.
@@ -135,10 +135,10 @@ The cell value in text form.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**toString** () : <a href="../String.html" class="type">String</a>#####
+##### **toString** () : <a href="../String.html" class="type">String</a>
 
 
 Give a summary of the information contained for debugging purposes.

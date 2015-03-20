@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.TableDiff
 ---
-#coopy.TableDiff#
+# coopy.TableDiff
 
 
 Build a highlighter diff of two/three tables.
@@ -15,9 +15,9 @@ Build a highlighter diff of two/three tables.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new(align : <a href="../coopy/Alignment.html" class="type">Alignment</a>, flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>)#####
+##### **new**(align : <a href="../coopy/Alignment.html" class="type">Alignment</a>, flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>)
 
 
 > *Parameters:*
@@ -32,10 +32,10 @@ Build a highlighter diff of two/three tables.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**hilite** (output : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **hilite** (output : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 Generate a highlighter diff.
@@ -54,7 +54,7 @@ Generate a highlighter diff.
 
 
 
-#####**setCellBuilder** (builder : <a href="../coopy/CellBuilder.html" class="type">CellBuilder</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **setCellBuilder** (builder : <a href="../coopy/CellBuilder.html" class="type">CellBuilder</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 If you wish to customize how diff cells are generated,

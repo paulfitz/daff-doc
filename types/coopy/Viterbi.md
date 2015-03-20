@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.Viterbi
 ---
-#coopy.Viterbi#
+# coopy.Viterbi
 
 
 Do a Viterbi lattice calculation to calculate the optimum state 
@@ -17,16 +17,16 @@ transitions between those states at each step.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
-
-
-
-##Methods:##
+##### **new**()
 
 
-#####**addTransition** (s0 : <a href="../Int.html" class="type">Int</a>, s1 : <a href="../Int.html" class="type">Int</a>, c : <a href="../Float.html" class="type">Float</a>) : <a href="../Void.html" class="type">Void</a>#####
+
+## Methods:
+
+
+##### **addTransition** (s0 : <a href="../Int.html" class="type">Int</a>, s1 : <a href="../Int.html" class="type">Int</a>, c : <a href="../Float.html" class="type">Float</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 For the current step in the sequence, we assert that
@@ -43,7 +43,7 @@ transitioning from state `s0` to state `s1` would cost `c`.
 
 
 
-#####**beginTransitions** () : <a href="../Void.html" class="type">Void</a>#####
+##### **beginTransitions** () : <a href="../Void.html" class="type">Void</a>
 
 
 Begin one individual step in the sequence.
@@ -63,7 +63,7 @@ or call `calculatePath`.
 
 
 
-#####**calculatePath** () : <a href="../Void.html" class="type">Void</a>#####
+##### **calculatePath** () : <a href="../Void.html" class="type">Void</a>
 
 
 Compute the best state sequence.
@@ -79,7 +79,7 @@ Compute the best state sequence.
 
 
 
-#####**endTransitions** () : <a href="../Void.html" class="type">Void</a>#####
+##### **endTransitions** () : <a href="../Void.html" class="type">Void</a>
 
 
 Declare that we are finished asserting possible state transitions
@@ -98,7 +98,7 @@ call `beginTransitions` again for the next step, or call
 
 
 
-#####**get** (i : <a href="../Int.html" class="type">Int</a>) : <a href="../Int.html" class="type">Int</a>#####
+##### **get** (i : <a href="../Int.html" class="type">Int</a>) : <a href="../Int.html" class="type">Int</a>
 
 
 
@@ -114,7 +114,7 @@ call `beginTransitions` again for the next step, or call
 
 
 
-#####**getCost** () : <a href="../Float.html" class="type">Float</a>#####
+##### **getCost** () : <a href="../Float.html" class="type">Float</a>
 
 
 
@@ -128,7 +128,7 @@ call `beginTransitions` again for the next step, or call
 
 
 
-#####**length** () : <a href="../Int.html" class="type">Int</a>#####
+##### **length** () : <a href="../Int.html" class="type">Int</a>
 
 
 
@@ -142,7 +142,7 @@ call `beginTransitions` again for the next step, or call
 
 
 
-#####**reset** () : <a href="../Void.html" class="type">Void</a>#####
+##### **reset** () : <a href="../Void.html" class="type">Void</a>
 
 
 Reset the state to its initial value.
@@ -158,7 +158,7 @@ Reset the state to its initial value.
 
 
 
-#####**setSize** (states : <a href="../Int.html" class="type">Int</a>, sequence_length : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **setSize** (states : <a href="../Int.html" class="type">Int</a>, sequence_length : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Configure the maximum number of states and the maximum sequence
@@ -178,7 +178,7 @@ length that we care about.
 
 
 
-#####**toString** () : <a href="../String.html" class="type">String</a>#####
+##### **toString** () : <a href="../String.html" class="type">String</a>
 
 
 

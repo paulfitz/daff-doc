@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.SqlCompare
 ---
-#coopy.SqlCompare#
+# coopy.SqlCompare
 
 
 
@@ -11,39 +11,39 @@ title: coopy.SqlCompare
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new(db : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>, local : <a href="../coopy/SqlTable.html" class="type">SqlTable</a>, remote : <a href="../coopy/SqlTable.html" class="type">SqlTable</a>)#####
-
-
-
-##Variables:##
-
-##### **db**  : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>#####
+##### **new**(db : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>, local : <a href="../coopy/SqlTable.html" class="type">SqlTable</a>, remote : <a href="../coopy/SqlTable.html" class="type">SqlTable</a>)
 
 
 
-##### **local**  : <a href="../coopy/SqlTable.html" class="type">SqlTable</a>#####
+## Variables:
+
+#####  **db**  : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>
 
 
 
-##### **parent**  : <a href="../coopy/SqlTable.html" class="type">SqlTable</a>#####
+#####  **local**  : <a href="../coopy/SqlTable.html" class="type">SqlTable</a>
 
 
 
-##### **remote**  : <a href="../coopy/SqlTable.html" class="type">SqlTable</a>#####
+#####  **parent**  : <a href="../coopy/SqlTable.html" class="type">SqlTable</a>
 
 
 
-##Methods:##
-
-
-#####**apply** () : <a href="../coopy/Alignment.html" class="type">Alignment</a>#####
+#####  **remote**  : <a href="../coopy/SqlTable.html" class="type">SqlTable</a>
 
 
 
+## Methods:
 
-#####**validateSchema** () : <a href="../Bool.html" class="type">Bool</a>#####
+
+##### **apply** () : <a href="../coopy/Alignment.html" class="type">Alignment</a>
+
+
+
+
+##### **validateSchema** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 

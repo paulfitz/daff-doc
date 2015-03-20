@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.IndexItem
 ---
-#coopy.IndexItem#
+# coopy.IndexItem
 
 
 A list of instances of a given row in a table.
@@ -15,16 +15,16 @@ A list of instances of a given row in a table.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
-
-
-
-##Methods:##
+##### **new**()
 
 
-#####Inline**add** (i : <a href="../Int.html" class="type">Int</a>) : <a href="../Int.html" class="type">Int</a>#####
+
+## Methods:
+
+
+##### Inline**add** (i : <a href="../Int.html" class="type">Int</a>) : <a href="../Int.html" class="type">Int</a>
 
 
 Add an extra instance to the list.
@@ -44,7 +44,7 @@ Add an extra instance to the list.
 
 
 
-#####Inline**length** () : <a href="../Int.html" class="type">Int</a>#####
+##### Inline**length** () : <a href="../Int.html" class="type">Int</a>
 
 
 
@@ -58,7 +58,7 @@ Add an extra instance to the list.
 
 
 
-#####Inline**value** () : <a href="../Int.html" class="type">Int</a>#####
+##### Inline**value** () : <a href="../Int.html" class="type">Int</a>
 
 
 

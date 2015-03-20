@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: Reflect
 ---
-#Reflect#
+# Reflect
 
 The Reflect API is a way to manipulate values dynamically through an
 abstract interface in an untyped manner. Use with care.
@@ -13,10 +13,10 @@ abstract interface in an untyped manner. Use with care.
 > *Type:* **class**
 
 
-##Static Methods:##
+## Static Methods:
 
 
-#####**field** (o : <a href="Dynamic.html" class="type">Dynamic</a>, field : <a href="String.html" class="type">String</a>) : <a href="Dynamic.html" class="type">Dynamic</a>#####
+##### **field** (o : <a href="Dynamic.html" class="type">Dynamic</a>, field : <a href="String.html" class="type">String</a>) : <a href="Dynamic.html" class="type">Dynamic</a>
 
 Returns the value of the field named `field` on object `o`.
 
@@ -41,7 +41,7 @@ not possible to obtain the value directly.
 
 
 
-#####**fields** (o : <a href="Dynamic.html" class="type">Dynamic</a>) : <a href="Array.html" class="type">Array</a>&lt;<a href="String.html" class="type">String</a>&gt;#####
+##### **fields** (o : <a href="Dynamic.html" class="type">Dynamic</a>) : <a href="Array.html" class="type">Array</a>&lt;<a href="String.html" class="type">String</a>&gt;
 
 Returns the fields of structure `o`.
 
@@ -60,7 +60,7 @@ If `o` is null, the result is unspecified.
 
 
 
-#####**isFunction** (f : <a href="Dynamic.html" class="type">Dynamic</a>) : <a href="Bool.html" class="type">Bool</a>#####
+##### **isFunction** (f : <a href="Dynamic.html" class="type">Dynamic</a>) : <a href="Bool.html" class="type">Bool</a>
 
 Returns true if `f` is a function, false otherwise.
 

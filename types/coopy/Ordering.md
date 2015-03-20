@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.Ordering
 ---
-#coopy.Ordering#
+# coopy.Ordering
 
 
 An ordered list of units, representing a merged view of rows
@@ -16,16 +16,16 @@ in a local, remote, and (optionally) parent table.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
-
-
-
-##Methods:##
+##### **new**()
 
 
-#####**add** (l : <a href="../Int.html" class="type">Int</a>, r : <a href="../Int.html" class="type">Int</a>, ?p : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>#####
+
+## Methods:
+
+
+##### **add** (l : <a href="../Int.html" class="type">Int</a>, r : <a href="../Int.html" class="type">Int</a>, ?p : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Add a local/remote/parent triplet.
@@ -46,7 +46,7 @@ Add a local/remote/parent triplet.
 
 
 
-#####**getList** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../coopy/Unit.html" class="type">Unit</a>&gt;#####
+##### **getList** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../coopy/Unit.html" class="type">Unit</a>&gt;
 
 
 
@@ -60,7 +60,7 @@ Add a local/remote/parent triplet.
 
 
 
-#####**ignoreParent** () : <a href="../Void.html" class="type">Void</a>#####
+##### **ignoreParent** () : <a href="../Void.html" class="type">Void</a>
 
 
 Force any parent row/column numbers to be ignored and discarded.
@@ -76,7 +76,7 @@ Force any parent row/column numbers to be ignored and discarded.
 
 
 
-#####**toString** () : <a href="../String.html" class="type">String</a>#####
+##### **toString** () : <a href="../String.html" class="type">String</a>
 
 
 

@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: php.Exception
 ---
-#php.Exception#
+# php.Exception
 
 
 
@@ -11,46 +11,46 @@ title: php.Exception
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new(?message : <a href="../String.html" class="type">String</a>, ?code : <a href="../Int.html" class="type">Int</a>)#####
-
-
-
-##Methods:##
-
-
-#####**__toString** () : <a href="../String.html" class="type">String</a>#####
+##### **new**(?message : <a href="../String.html" class="type">String</a>, ?code : <a href="../Int.html" class="type">Int</a>)
 
 
 
+## Methods:
 
-#####**getCode** () : <a href="../Int.html" class="type">Int</a>#####
+
+##### **__toString** () : <a href="../String.html" class="type">String</a>
 
 
 
 
-#####**getFile** () : <a href="../String.html" class="type">String</a>#####
+##### **getCode** () : <a href="../Int.html" class="type">Int</a>
 
 
 
 
-#####**getLine** () : <a href="../Int.html" class="type">Int</a>#####
+##### **getFile** () : <a href="../String.html" class="type">String</a>
 
 
 
 
-#####**getMessage** () : <a href="../String.html" class="type">String</a>#####
+##### **getLine** () : <a href="../Int.html" class="type">Int</a>
 
 
 
 
-#####**getTrace** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;#####
+##### **getMessage** () : <a href="../String.html" class="type">String</a>
 
 
 
 
-#####**getTraceAsString** () : <a href="../String.html" class="type">String</a>#####
+##### **getTrace** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;
+
+
+
+
+##### **getTraceAsString** () : <a href="../String.html" class="type">String</a>
 
 
 

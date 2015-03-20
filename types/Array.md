@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: Array
 ---
-#Array&lt;T&gt;#
+# Array&lt;T&gt;
 
 An Array is a storage for values. You can access it using indexes or
 with its API.
@@ -14,11 +14,9 @@ with its API.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
-
-
+##### **new**()
 
 
 
@@ -27,18 +25,20 @@ with its API.
 
 
 
-##Variables:##
 
-##### **length** (default,null) : <a href="Int.html" class="type">Int</a>#####
+
+## Variables:
+
+#####  **length** (default,null) : <a href="Int.html" class="type">Int</a>
 
 The length of `this` Array.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**concat** (a : <a href="Array.html" class="type">Array</a>&lt;T&gt;) : <a href="Array.html" class="type">Array</a>&lt;T&gt;#####
+##### **concat** (a : <a href="Array.html" class="type">Array</a>&lt;T&gt;) : <a href="Array.html" class="type">Array</a>&lt;T&gt;
 
 Returns a new Array by appending the elements of `a` to the elements of
 `this` Array.
@@ -62,7 +62,7 @@ If `a` is `null`, the result is unspecified.
 
 
 
-#####**copy** () : <a href="Array.html" class="type">Array</a>&lt;T&gt;#####
+##### **copy** () : <a href="Array.html" class="type">Array</a>&lt;T&gt;
 
 Returns a shallow copy of `this` Array.
 
@@ -80,7 +80,7 @@ The elements are not copied and retain their identity, so
 
 
 
-#####**filter** (f : T -> <a href="Bool.html" class="type">Bool</a>) : <a href="Array.html" class="type">Array</a>&lt;T&gt;#####
+##### **filter** (f : T -> <a href="Bool.html" class="type">Bool</a>) : <a href="Array.html" class="type">Array</a>&lt;T&gt;
 
 Returns an Array containing those elements of `this` for which `f`
 returned true.
@@ -99,7 +99,7 @@ If `f` is null, the result is unspecified.
 
 
 
-#####**indexOf** (x : T, ?fromIndex : <a href="Int.html" class="type">Int</a>) : <a href="Int.html" class="type">Int</a>#####
+##### **indexOf** (x : T, ?fromIndex : <a href="Int.html" class="type">Int</a>) : <a href="Int.html" class="type">Int</a>
 
 Returns position of the first occurense of `x` in `this` Array, searching front to back.
 
@@ -123,7 +123,7 @@ or equal to the length of `this` Array, the function returns -1.
 
 
 
-#####**insert** (pos : <a href="Int.html" class="type">Int</a>, x : T) : <a href="Void.html" class="type">Void</a>#####
+##### **insert** (pos : <a href="Int.html" class="type">Int</a>, x : T) : <a href="Void.html" class="type">Void</a>
 
 Inserts the element `x` at the position `pos`.
 
@@ -151,7 +151,7 @@ ahead.
 
 
 
-#####**iterator** () : <a href="Iterator.html" class="type">Iterator</a>&lt;T&gt;#####
+##### **iterator** () : <a href="Iterator.html" class="type">Iterator</a>&lt;T&gt;
 
 Returns an iterator of the Array values.
 
@@ -165,7 +165,7 @@ Returns an iterator of the Array values.
 
 
 
-#####**join** (sep : <a href="String.html" class="type">String</a>) : <a href="String.html" class="type">String</a>#####
+##### **join** (sep : <a href="String.html" class="type">String</a>) : <a href="String.html" class="type">String</a>
 
 Returns a string representation of `this` Array, with `sep` separating
 each element.
@@ -189,7 +189,7 @@ If `sep` is null, the result is unspecified.
 
 
 
-#####**lastIndexOf** (x : T, ?fromIndex : <a href="Int.html" class="type">Int</a>) : <a href="Int.html" class="type">Int</a>#####
+##### **lastIndexOf** (x : T, ?fromIndex : <a href="Int.html" class="type">Int</a>) : <a href="Int.html" class="type">Int</a>
 
 Returns position of the last occurense of `x` in `this` Array, searching back to front.
 
@@ -213,7 +213,7 @@ the whole array will be searched, if it is less than 0, the function returns -1.
 
 
 
-#####**map** &lt;S&gt;(f : T -> S) : <a href="Array.html" class="type">Array</a>&lt;S&gt;#####
+##### **map** &lt;S&gt;(f : T -> S) : <a href="Array.html" class="type">Array</a>&lt;S&gt;
 
 Creates a new Array by applying function `f` to all elements of `this`.
 
@@ -231,7 +231,7 @@ If `f` is null, the result is unspecified.
 
 
 
-#####**pop** () : <a href="Null.html" class="type">Null</a>&lt;T&gt;#####
+##### **pop** () : <a href="Null.html" class="type">Null</a>&lt;T&gt;
 
 Removes the last element of `this` Array and returns it.
 
@@ -252,7 +252,7 @@ remains 0.
 
 
 
-#####**push** (x : T) : <a href="Int.html" class="type">Int</a>#####
+##### **push** (x : T) : <a href="Int.html" class="type">Int</a>
 
 Adds the element `x` at the end of `this` Array and returns the new
 length of `this` Array.
@@ -271,7 +271,7 @@ This operation modifies `this` Array in place.
 
 
 
-#####**remove** (x : T) : <a href="Bool.html" class="type">Bool</a>#####
+##### **remove** (x : T) : <a href="Bool.html" class="type">Bool</a>
 
 Removes the first occurence of `x` in `this` Array.
 
@@ -294,7 +294,7 @@ returns false.
 
 
 
-#####**reverse** () : <a href="Void.html" class="type">Void</a>#####
+##### **reverse** () : <a href="Void.html" class="type">Void</a>
 
 Reverse the order of elements of `this` Array.
 
@@ -312,7 +312,7 @@ If `this.length < 2`, `this` remains unchanged.
 
 
 
-#####**shift** () : <a href="Null.html" class="type">Null</a>&lt;T&gt;#####
+##### **shift** () : <a href="Null.html" class="type">Null</a>&lt;T&gt;
 
 Removes the first element of `this` Array and returns it.
 
@@ -334,7 +334,7 @@ remains 0.
 
 
 
-#####**slice** (pos : <a href="Int.html" class="type">Int</a>, ?end : <a href="Int.html" class="type">Int</a>) : <a href="Array.html" class="type">Array</a>&lt;T&gt;#####
+##### **slice** (pos : <a href="Int.html" class="type">Int</a>, ?end : <a href="Int.html" class="type">Int</a>) : <a href="Array.html" class="type">Array</a>&lt;T&gt;
 
 Creates a shallow copy of the range of `this` Array, starting at and
 including `pos`, up to but not including `end`.
@@ -363,7 +363,7 @@ the result is `<code></code>`.
 
 
 
-#####**sort** (f : T -> T -> <a href="Int.html" class="type">Int</a>) : <a href="Void.html" class="type">Void</a>#####
+##### **sort** (f : T -> T -> <a href="Int.html" class="type">Int</a>) : <a href="Void.html" class="type">Void</a>
 
 Sorts `this` Array according to the comparison function `f`, where
 `f(x,y)` returns 0 if x == y, a positive Int if x > y and a
@@ -387,7 +387,7 @@ If `f` is null, the result is unspecified.
 
 
 
-#####**splice** (pos : <a href="Int.html" class="type">Int</a>, len : <a href="Int.html" class="type">Int</a>) : <a href="Array.html" class="type">Array</a>&lt;T&gt;#####
+##### **splice** (pos : <a href="Int.html" class="type">Int</a>, len : <a href="Int.html" class="type">Int</a>) : <a href="Array.html" class="type">Array</a>&lt;T&gt;
 
 Removes `len` elements from `this` Array, starting at and including
 `pos`, an returns them.
@@ -420,7 +420,7 @@ words, each element of the original `this` Array either remains in
 
 
 
-#####**toString** () : <a href="String.html" class="type">String</a>#####
+##### **toString** () : <a href="String.html" class="type">String</a>
 
 Returns a string representation of `this` Array.
 
@@ -439,7 +439,7 @@ across platforms.
 
 
 
-#####**unshift** (x : T) : <a href="Void.html" class="type">Void</a>#####
+##### **unshift** (x : T) : <a href="Void.html" class="type">Void</a>
 
 Adds the element `x` at the start of `this` Array.
 

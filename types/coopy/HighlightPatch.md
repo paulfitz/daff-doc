@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.HighlightPatch
 ---
-#coopy.HighlightPatch#
+# coopy.HighlightPatch
 
 
 Apply a tabular diff as a patch.
@@ -19,9 +19,9 @@ Apply a tabular diff as a patch.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new(source : <a href="../coopy/Table.html" class="type">Table</a>, patch : <a href="../coopy/Table.html" class="type">Table</a>)#####
+##### **new**(source : <a href="../coopy/Table.html" class="type">Table</a>, patch : <a href="../coopy/Table.html" class="type">Table</a>)
 
 
 > *Parameters:*
@@ -36,10 +36,10 @@ Apply a tabular diff as a patch.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**apply** () : <a href="../Bool.html" class="type">Bool</a>#####
+##### **apply** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 Apply the patch.
@@ -57,7 +57,7 @@ Apply the patch.
 
 
 
-#####**getRowString** (c : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>#####
+##### **getRowString** (c : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>
 
 
 Get the content in a given column of the patch on the active row.

@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.Ndjson
 ---
-#coopy.Ndjson#
+# coopy.Ndjson
 
 
 Read and write NDJSON format. You don't need to use this to use daff!
@@ -16,36 +16,36 @@ Feel free to use your own.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new(tab : <a href="../coopy/Table.html" class="type">Table</a>)#####
-
-
-
-##Methods:##
-
-
-#####**addHeaderRow** (r : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **new**(tab : <a href="../coopy/Table.html" class="type">Table</a>)
 
 
 
+## Methods:
 
-#####**addRow** (r : <a href="../Int.html" class="type">Int</a>, txt : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>#####
+
+##### **addHeaderRow** (r : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 
 
-#####**parse** (txt : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **addRow** (r : <a href="../Int.html" class="type">Int</a>, txt : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 
 
-#####**render** () : <a href="../String.html" class="type">String</a>#####
+##### **parse** (txt : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 
 
-#####**renderRow** (r : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>#####
+##### **render** () : <a href="../String.html" class="type">String</a>
+
+
+
+
+##### **renderRow** (r : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>
 
 
 Convert a table row to a string in NDJSON format.

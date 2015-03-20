@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.Table
 ---
-#coopy.Table#
+# coopy.Table
 
 
 Everything daff needs to know about a table.  This interface
@@ -19,9 +19,9 @@ to another.
 
 
 
-##Variables:##
+## Variables:
 
-##### **height** (accessor,null) : <a href="../Int.html" class="type">Int</a>#####
+#####  **height** (accessor,null) : <a href="../Int.html" class="type">Int</a>
 
 
 The number of rows in the table.  Read-only.  Implemented as
@@ -30,7 +30,7 @@ a call to `get_height()`.
 
 
 
-##### **width** (accessor,null) : <a href="../Int.html" class="type">Int</a>#####
+#####  **width** (accessor,null) : <a href="../Int.html" class="type">Int</a>
 
 
 The number of columns in the table.  Read-only.  Implemented as
@@ -39,10 +39,10 @@ a call to `get_width()`.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**clear** () : <a href="../Void.html" class="type">Void</a>#####
+##### **clear** () : <a href="../Void.html" class="type">Void</a>
 
 
 Clear the table if possible, leaving it with zero rows and columns.
@@ -58,7 +58,7 @@ Clear the table if possible, leaving it with zero rows and columns.
 
 
 
-#####**clone** () : <a href="../coopy/Table.html" class="type">Table</a>#####
+##### **clone** () : <a href="../coopy/Table.html" class="type">Table</a>
 
 
 
@@ -72,7 +72,7 @@ Clear the table if possible, leaving it with zero rows and columns.
 
 
 
-#####**getCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **getCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 Read a cell
@@ -94,7 +94,7 @@ Read a cell
 
 
 
-#####**getCellView** () : <a href="../coopy/View.html" class="type">View</a>#####
+##### **getCellView** () : <a href="../coopy/View.html" class="type">View</a>
 
 
 Get an interface for interpreting cell contents (e.g.
@@ -116,7 +116,7 @@ it to methods of a `View`.
 
 
 
-#####**getData** () : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **getData** () : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 Get the underlying data object backing the table, if possible.
@@ -136,7 +136,7 @@ method.
 
 
 
-#####**get_height** () : <a href="../Int.html" class="type">Int</a>#####
+##### **get_height** () : <a href="../Int.html" class="type">Int</a>
 
 
 Get the height of the table.  Sorry for the inconsistent 
@@ -156,7 +156,7 @@ setter/getters.
 
 
 
-#####**get_width** () : <a href="../Int.html" class="type">Int</a>#####
+##### **get_width** () : <a href="../Int.html" class="type">Int</a>
 
 
 Get the width of the table.  Sorry for the inconsistent 
@@ -176,7 +176,7 @@ setter/getters.
 
 
 
-#####**insertOrDeleteColumns** (fate : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, wfate : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **insertOrDeleteColumns** (fate : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, wfate : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 Insert, delete, and/or shuffle columns. We bundle all these operations
@@ -199,7 +199,7 @@ together since things can get creakingly slow otherwise.
 
 
 
-#####**insertOrDeleteRows** (fate : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, hfate : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **insertOrDeleteRows** (fate : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, hfate : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 Insert, delete, and/or shuffle rows. We bundle all these operations
@@ -222,7 +222,7 @@ together since things can get creakingly slow otherwise.
 
 
 
-#####**isResizable** () : <a href="../Bool.html" class="type">Bool</a>#####
+##### **isResizable** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 Check if a table can be resized.
@@ -240,7 +240,7 @@ Check if a table can be resized.
 
 
 
-#####**resize** (w : <a href="../Int.html" class="type">Int</a>, h : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **resize** (w : <a href="../Int.html" class="type">Int</a>, h : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 Resize a table, if possible, preserving existing contents that fit.
@@ -263,7 +263,7 @@ Any newly created cells should be `null`.
 
 
 
-#####**setCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>, c : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **setCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>, c : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Write to a cell
@@ -284,7 +284,7 @@ Write to a cell
 
 
 
-#####**trimBlank** () : <a href="../Bool.html" class="type">Bool</a>#####
+##### **trimBlank** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 Remove empty final rows or final columns. This method is not in

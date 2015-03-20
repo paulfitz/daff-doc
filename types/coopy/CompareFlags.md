@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.CompareFlags
 ---
-#coopy.CompareFlags#
+# coopy.CompareFlags
 
 
 Flags that influence how tables are compared and how information
@@ -16,15 +16,15 @@ is presented.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
+##### **new**()
 
 
 
-##Variables:##
+## Variables:
 
-##### **acts**  : <a href="../Map.html" class="type">Map</a>&lt;<a href="../String.html" class="type">String</a>, <a href="../Bool.html" class="type">Bool</a>&gt;#####
+#####  **acts**  : <a href="../Map.html" class="type">Map</a>&lt;<a href="../String.html" class="type">String</a>, <a href="../Bool.html" class="type">Bool</a>&gt;
 
 
 Optional filters for what kind of changes we want to show.
@@ -34,7 +34,7 @@ to choose your filters, this variable will be made private soon.
 
 
 
-##### **allow_nested_cells**  : <a href="../Bool.html" class="type">Bool</a>#####
+#####  **allow_nested_cells**  : <a href="../Bool.html" class="type">Bool</a>
 
 
 Should cells in diff output contain nested content?
@@ -45,7 +45,7 @@ Defaults to false.
 
 
 
-##### **always_show_header**  : <a href="../Bool.html" class="type">Bool</a>#####
+#####  **always_show_header**  : <a href="../Bool.html" class="type">Bool</a>
 
 
 Should we always give a table header in diffs? This defaults
@@ -54,7 +54,7 @@ to true, and - frankly - you should leave it at true for now.
 
 
 
-##### **always_show_order**  : <a href="../Bool.html" class="type">Bool</a>#####
+#####  **always_show_order**  : <a href="../Bool.html" class="type">Bool</a>
 
 
 Diffs for tables where row/column order has been permuted may include
@@ -65,7 +65,7 @@ turn on this flag, and turn off never_show_order.
 
 
 
-##### **columns_to_ignore**  : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;#####
+#####  **columns_to_ignore**  : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;
 
 
 List of columns to ignore in all calculations.  Changes
@@ -75,7 +75,7 @@ via (multiple calls of) `ignoreColumn`.
 
 
 
-##### **ids**  : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;#####
+#####  **ids**  : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;
 
 List of columns that make up a primary key, if known.
 Otherwise heuristics are used to find a decent key
@@ -86,7 +86,7 @@ soon.
 
 
 
-##### **never_show_order**  : <a href="../Bool.html" class="type">Bool</a>#####
+#####  **never_show_order**  : <a href="../Bool.html" class="type">Bool</a>
 
 
 Diffs for tables where row/column order has been permuted may include
@@ -97,7 +97,7 @@ included, turn on this flag, and turn off always_show_order.
 
 
 
-##### **ordered**  : <a href="../Bool.html" class="type">Bool</a>#####
+#####  **ordered**  : <a href="../Bool.html" class="type">Bool</a>
 
 
 Is the order of rows and columns meaningful? Defaults to `true`.
@@ -105,7 +105,7 @@ Is the order of rows and columns meaningful? Defaults to `true`.
 
 
 
-##### **show_unchanged**  : <a href="../Bool.html" class="type">Bool</a>#####
+#####  **show_unchanged**  : <a href="../Bool.html" class="type">Bool</a>
 
 
 Should we show all rows in diffs?  We default to showing
@@ -116,7 +116,7 @@ this here.
 
 
 
-##### **show_unchanged_columns**  : <a href="../Bool.html" class="type">Bool</a>#####
+#####  **show_unchanged_columns**  : <a href="../Bool.html" class="type">Bool</a>
 
 
 Should we show all columns in diffs?  We default to showing
@@ -129,7 +129,7 @@ in the diff.
 
 
 
-##### **unchanged_column_context**  : <a href="../Int.html" class="type">Int</a>#####
+#####  **unchanged_column_context**  : <a href="../Int.html" class="type">Int</a>
 
 
 When showing context columns around a changed column, what
@@ -138,7 +138,7 @@ is the minimum number of such columns we should show?
 
 
 
-##### **unchanged_context**  : <a href="../Int.html" class="type">Int</a>#####
+#####  **unchanged_context**  : <a href="../Int.html" class="type">Int</a>
 
 
 When showing context rows around a changed row, what
@@ -147,10 +147,10 @@ is the minimum number of such rows we should show?
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**addPrimaryKey** (column : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **addPrimaryKey** (column : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Add a column to the primary key.  If this is never called,
@@ -170,7 +170,7 @@ times to set up a multi-column primary key.
 
 
 
-#####**allowDelete** () : <a href="../Bool.html" class="type">Bool</a>#####
+##### **allowDelete** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 
@@ -184,7 +184,7 @@ times to set up a multi-column primary key.
 
 
 
-#####**allowInsert** () : <a href="../Bool.html" class="type">Bool</a>#####
+##### **allowInsert** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 
@@ -198,7 +198,7 @@ times to set up a multi-column primary key.
 
 
 
-#####**allowUpdate** () : <a href="../Bool.html" class="type">Bool</a>#####
+##### **allowUpdate** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 
@@ -212,7 +212,7 @@ times to set up a multi-column primary key.
 
 
 
-#####**filter** (act : <a href="../String.html" class="type">String</a>, allow : <a href="../Bool.html" class="type">Bool</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **filter** (act : <a href="../String.html" class="type">String</a>, allow : <a href="../Bool.html" class="type">Bool</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 Filter for particular kinds of changes.
@@ -231,7 +231,7 @@ Filter for particular kinds of changes.
 
 
 
-#####**getIgnoredColumns** () : <a href="../Map.html" class="type">Map</a>&lt;<a href="../String.html" class="type">String</a>, <a href="../Bool.html" class="type">Bool</a>&gt;#####
+##### **getIgnoredColumns** () : <a href="../Map.html" class="type">Map</a>&lt;<a href="../String.html" class="type">String</a>, <a href="../Bool.html" class="type">Bool</a>&gt;
 
 
 
@@ -245,7 +245,7 @@ Filter for particular kinds of changes.
 
 
 
-#####**ignoreColumn** (column : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **ignoreColumn** (column : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Add a column to ignore in all calculations.  Fine to call

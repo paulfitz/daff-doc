@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.SimpleView
 ---
-#coopy.SimpleView#
+# coopy.SimpleView
 
 
 A basic view implementation, for interpreting the content of cells. 
@@ -21,51 +21,51 @@ See the `View` interface for documentation.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
-
-
-
-##Methods:##
-
-
-#####**equals** (d1 : <a href="../Dynamic.html" class="type">Dynamic</a>, d2 : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **new**()
 
 
 
+## Methods:
 
-#####**hashExists** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+
+##### **equals** (d1 : <a href="../Dynamic.html" class="type">Dynamic</a>, d2 : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 
 
-#####**hashGet** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **hashExists** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 
 
-#####**hashSet** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>, d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **hashGet** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 
 
-#####**isHash** (h : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **hashSet** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>, d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 
 
-#####**makeHash** () : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **isHash** (h : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 
 
-#####**toDatum** (x : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **makeHash** () : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 
 
-#####**toString** (d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../String.html" class="type">String</a>#####
+##### **toDatum** (x : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
+
+
+
+
+##### **toString** (d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../String.html" class="type">String</a>
 
 
 

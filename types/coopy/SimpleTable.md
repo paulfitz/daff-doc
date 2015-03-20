@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.SimpleTable
 ---
-#coopy.SimpleTable#
+# coopy.SimpleTable
 
 
 A basic table implementation. Each supported language should
@@ -20,10 +20,10 @@ See the `Table` interface for documentation.
 >   * **[coopy.Table](Table.html)**
 
 
-##Static Methods:##
+## Static Methods:
 
 
-#####**tableIsSimilar** (tab1 : <a href="../coopy/Table.html" class="type">Table</a>, tab2 : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **tableIsSimilar** (tab1 : <a href="../coopy/Table.html" class="type">Table</a>, tab2 : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 Compare the content of two tables.
@@ -45,7 +45,7 @@ Compare the content of two tables.
 
 
 
-#####**tableToString** (tab : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../String.html" class="type">String</a>#####
+##### **tableToString** (tab : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../String.html" class="type">String</a>
 
 
 Render the table as a string
@@ -64,9 +64,9 @@ Render the table as a string
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new(w : <a href="../Int.html" class="type">Int</a>, h : <a href="../Int.html" class="type">Int</a>)#####
+##### **new**(w : <a href="../Int.html" class="type">Int</a>, h : <a href="../Int.html" class="type">Int</a>)
 
 
 > *Parameters:*
@@ -81,90 +81,90 @@ Render the table as a string
 
 
 
-##Variables:##
+## Variables:
 
-##### **height** (accessor,null) : <a href="../Int.html" class="type">Int</a>#####
+#####  **height** (accessor,null) : <a href="../Int.html" class="type">Int</a>
 
 
 
-##### **width** (accessor,null) : <a href="../Int.html" class="type">Int</a>#####
+#####  **width** (accessor,null) : <a href="../Int.html" class="type">Int</a>
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**clear** () : <a href="../Void.html" class="type">Void</a>#####
+##### **clear** () : <a href="../Void.html" class="type">Void</a>
 
 
 
 
-#####**clone** () : <a href="../coopy/Table.html" class="type">Table</a>#####
+##### **clone** () : <a href="../coopy/Table.html" class="type">Table</a>
 
 
 
 
-#####**getCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **getCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 
 
-#####**getCellView** () : <a href="../coopy/View.html" class="type">View</a>#####
+##### **getCellView** () : <a href="../coopy/View.html" class="type">View</a>
 
 
 
 
-#####**getData** () : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+##### **getData** () : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 
 
-#####**getTable** () : <a href="../coopy/Table.html" class="type">Table</a>#####
+##### **getTable** () : <a href="../coopy/Table.html" class="type">Table</a>
 
 
 
 
-#####**get_height** () : <a href="../Int.html" class="type">Int</a>#####
+##### **get_height** () : <a href="../Int.html" class="type">Int</a>
 
 
 
 
-#####**get_width** () : <a href="../Int.html" class="type">Int</a>#####
+##### **get_width** () : <a href="../Int.html" class="type">Int</a>
 
 
 
 
-#####**insertOrDeleteColumns** (fate : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, wfate : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **insertOrDeleteColumns** (fate : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, wfate : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 
 
-#####**insertOrDeleteRows** (fate : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, hfate : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **insertOrDeleteRows** (fate : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, hfate : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 
 
-#####**isResizable** () : <a href="../Bool.html" class="type">Bool</a>#####
+##### **isResizable** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 
 
-#####**resize** (w : <a href="../Int.html" class="type">Int</a>, h : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **resize** (w : <a href="../Int.html" class="type">Int</a>, h : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 
 
-#####**setCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>, c : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **setCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>, c : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 
 
-#####**toString** () : <a href="../String.html" class="type">String</a>#####
+##### **toString** () : <a href="../String.html" class="type">String</a>
 
 
 
 
-#####**trimBlank** () : <a href="../Bool.html" class="type">Bool</a>#####
+##### **trimBlank** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 

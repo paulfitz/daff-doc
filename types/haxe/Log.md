@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: haxe.Log
 ---
-#haxe.Log#
+# haxe.Log
 
 Log primarily provides the trace() method, which is invoked upon a call to
 trace() in haxe code.
@@ -13,10 +13,10 @@ trace() in haxe code.
 > *Type:* **class**
 
 
-##Static Methods:##
+## Static Methods:
 
 
-#####dynamic**trace** (v : <a href="../Dynamic.html" class="type">Dynamic</a>, ?infos : <a href="../haxe/PosInfos.html" class="type">PosInfos</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### dynamic**trace** (v : <a href="../Dynamic.html" class="type">Dynamic</a>, ?infos : <a href="../haxe/PosInfos.html" class="type">PosInfos</a>) : <a href="../Void.html" class="type">Void</a>
 
 Outputs `v` in a platform-dependent way.
 

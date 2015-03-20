@@ -17,39 +17,39 @@ title: ValueType
 ##Constructors##
 
 
-#####**TBool**#####
+##### **TBool**
 
 
 
-#####**TClass**(c : <a href="Class.html" class="type">Class</a>&lt;<a href="Dynamic.html" class="type">Dynamic</a>&gt;)#####
+##### **TClass**(c : <a href="Class.html" class="type">Class</a>&lt;<a href="Dynamic.html" class="type">Dynamic</a>&gt;)
 
 
 
-#####**TEnum**(e : <a href="Enum.html" class="type">Enum</a>&lt;<a href="Dynamic.html" class="type">Dynamic</a>&gt;)#####
+##### **TEnum**(e : <a href="Enum.html" class="type">Enum</a>&lt;<a href="Dynamic.html" class="type">Dynamic</a>&gt;)
 
 
 
-#####**TFloat**#####
+##### **TFloat**
 
 
 
-#####**TFunction**#####
+##### **TFunction**
 
 
 
-#####**TInt**#####
+##### **TInt**
 
 
 
-#####**TNull**#####
+##### **TNull**
 
 
 
-#####**TObject**#####
+##### **TObject**
 
 
 
-#####**TUnknown**#####
+##### **TUnknown**
 
 
 

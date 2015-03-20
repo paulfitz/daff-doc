@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: Date
 ---
-#Date#
+# Date
 
 The Date class provides a basic structure for date and time related
 information. Date instances can be created by
@@ -25,10 +25,10 @@ milliseconds elapsed since 1st January 1970.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**toString** () : <a href="String.html" class="type">String</a>#####
+##### **toString** () : <a href="String.html" class="type">String</a>
 
 Returns a string representation of `this` Date, by using the
 standard format <code>YYYY-MM-DD HH:MM:SS</code>. See `DateTools.format` for

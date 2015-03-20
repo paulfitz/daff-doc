@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.TableIO
 ---
-#coopy.TableIO#
+# coopy.TableIO
 
 
 System services for the daff command-line utility.
@@ -15,16 +15,16 @@ System services for the daff command-line utility.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
-
-
-
-##Methods:##
+##### **new**()
 
 
-#####**args** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;#####
+
+## Methods:
+
+
+##### **args** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;
 
 
 
@@ -38,7 +38,7 @@ System services for the daff command-line utility.
 
 
 
-#####**async** () : <a href="../Bool.html" class="type">Bool</a>#####
+##### **async** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 
@@ -52,7 +52,7 @@ System services for the daff command-line utility.
 
 
 
-#####**command** (cmd : <a href="../String.html" class="type">String</a>, args : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;) : <a href="../Int.html" class="type">Int</a>#####
+##### **command** (cmd : <a href="../String.html" class="type">String</a>, args : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;) : <a href="../Int.html" class="type">Int</a>
 
 
 Execute a command.
@@ -73,7 +73,7 @@ Execute a command.
 
 
 
-#####**exists** (path : <a href="../String.html" class="type">String</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **exists** (path : <a href="../String.html" class="type">String</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 Check if a file exists.
@@ -92,7 +92,7 @@ Check if a file exists.
 
 
 
-#####**getContent** (name : <a href="../String.html" class="type">String</a>) : <a href="../String.html" class="type">String</a>#####
+##### **getContent** (name : <a href="../String.html" class="type">String</a>) : <a href="../String.html" class="type">String</a>
 
 
 Read a file.
@@ -111,7 +111,7 @@ Read a file.
 
 
 
-#####**openSqliteDatabase** (path : <a href="../String.html" class="type">String</a>) : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>#####
+##### **openSqliteDatabase** (path : <a href="../String.html" class="type">String</a>) : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>
 
 
 Try to open an sqlite database.
@@ -130,7 +130,7 @@ Try to open an sqlite database.
 
 
 
-#####**saveContent** (name : <a href="../String.html" class="type">String</a>, txt : <a href="../String.html" class="type">String</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+##### **saveContent** (name : <a href="../String.html" class="type">String</a>, txt : <a href="../String.html" class="type">String</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
 Save a file.
@@ -151,7 +151,7 @@ Save a file.
 
 
 
-#####**writeStderr** (txt : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **writeStderr** (txt : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 
@@ -165,7 +165,7 @@ Save a file.
 
 
 
-#####**writeStdout** (txt : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **writeStdout** (txt : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 

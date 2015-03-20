@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: ::nameDots::
 ---
-#::nameDots::::params::#
+# ::nameDots::::params::
 
 $$typeDocs()
 ::if isPrivate::
@@ -58,7 +58,7 @@ $$typeDocs()
 ::end::
 
 ::if staticVars.length > 0::
-##Static Variables:##
+## Static Variables:
 ::foreach f staticVars::
 $$varHeader(::f::)
 $$varDocs(::f::)
@@ -66,7 +66,7 @@ $$varDocs(::f::)
 ::end::
 
 ::if staticMethods.length > 0::
-##Static Methods:##
+## Static Methods:
 ::foreach m staticMethods::
 $$methodHeader(::m::)
 $$methodDocs(::m::)
@@ -74,14 +74,14 @@ $$methodDocs(::m::)
 ::end::
 
 ::if constructor != null && constructor.access != 'private'::
-##Constructor:##
+## Constructor:
 
-#####$$showAccess(::constructor::)**::raw constructor.name::**(::if constructor.args != null::::raw constructor.args::::end::)#####
+##### $$showAccess(::constructor::)**::raw constructor.name::**(::if constructor.args != null::::raw constructor.args::::end::)
 $$methodDocs(::constructor::)
 
 ::end::
 ::if vars.length > 0::
-##Variables:##
+## Variables:
 ::foreach f vars::
 $$varHeader(::f::)
 $$varDocs(::f::)
@@ -89,7 +89,7 @@ $$varDocs(::f::)
 ::end::
 
 ::if methods.length > 0::
-##Methods:##
+## Methods:
 ::foreach m methods::
 $$methodHeader(::m::)
 $$methodDocs(::m::)

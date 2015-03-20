@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: Type
 ---
-#Type#
+# Type
 
 The haxe Reflection API allows retrieval of type information at runtime.
 
@@ -15,10 +15,10 @@ class and enum instances.
 > *Type:* **class**
 
 
-##Static Methods:##
+## Static Methods:
 
 
-#####**typeof** (v : <a href="Dynamic.html" class="type">Dynamic</a>) : <a href="ValueType.html" class="type">ValueType</a>#####
+##### **typeof** (v : <a href="Dynamic.html" class="type">Dynamic</a>) : <a href="ValueType.html" class="type">ValueType</a>
 
 Returns the runtime type of value `v`.
 

@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.Row
 ---
-#coopy.Row#
+# coopy.Row
 
 
 A trivial interface for indexable sources.
@@ -16,10 +16,10 @@ A trivial interface for indexable sources.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**getRowString** (c : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>#####
+##### **getRowString** (c : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>
 
 
 Get the content in a given column.

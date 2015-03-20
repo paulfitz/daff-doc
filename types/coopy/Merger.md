@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.Merger
 ---
-#coopy.Merger#
+# coopy.Merger
 
 
 Merge changes made in one table into another, given knowledge
@@ -16,9 +16,9 @@ of a common ancestor.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new(parent : <a href="../coopy/Table.html" class="type">Table</a>, local : <a href="../coopy/Table.html" class="type">Table</a>, remote : <a href="../coopy/Table.html" class="type">Table</a>, flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>)#####
+##### **new**(parent : <a href="../coopy/Table.html" class="type">Table</a>, local : <a href="../coopy/Table.html" class="type">Table</a>, remote : <a href="../coopy/Table.html" class="type">Table</a>, flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>)
 
 
 > *Parameters:*
@@ -34,10 +34,10 @@ of a common ancestor.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**apply** () : <a href="../Int.html" class="type">Int</a>#####
+##### **apply** () : <a href="../Int.html" class="type">Int</a>
 
 
 Go ahead and merge.

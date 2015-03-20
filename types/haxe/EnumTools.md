@@ -3,17 +3,17 @@ layout: thing
 thing: class
 title: haxe.EnumTools
 ---
-#haxe.EnumTools#
+# haxe.EnumTools
 
 
 
 > *Type:* **class**
 
 
-##Static Methods:##
+## Static Methods:
 
 
-#####Inline**createAll** &lt;T&gt;(e : <a href="../Enum.html" class="type">Enum</a>&lt;T&gt;) : <a href="../Array.html" class="type">Array</a>&lt;T&gt;#####
+##### Inline**createAll** &lt;T&gt;(e : <a href="../Enum.html" class="type">Enum</a>&lt;T&gt;) : <a href="../Array.html" class="type">Array</a>&lt;T&gt;
 
 Returns a list of all constructors of enum `e` that require no
 arguments.
@@ -37,7 +37,7 @@ If `e` is null, the result is unspecified.
 
 
 
-#####Inline**createByIndex** &lt;T&gt;(e : <a href="../Enum.html" class="type">Enum</a>&lt;T&gt;, index : <a href="../Int.html" class="type">Int</a>, ?params : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Dynamic.html" class="type">Dynamic</a>&gt;) : T#####
+##### Inline**createByIndex** &lt;T&gt;(e : <a href="../Enum.html" class="type">Enum</a>&lt;T&gt;, index : <a href="../Int.html" class="type">Int</a>, ?params : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Dynamic.html" class="type">Dynamic</a>&gt;) : T
 
 Creates an instance of enum `e` by calling its constructor number
 `index` with arguments `params`.
@@ -60,7 +60,7 @@ argument has an invalid type, the result is unspecified.
 
 
 
-#####Inline**createByName** &lt;T&gt;(e : <a href="../Enum.html" class="type">Enum</a>&lt;T&gt;, constr : <a href="../String.html" class="type">String</a>, ?params : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Dynamic.html" class="type">Dynamic</a>&gt;) : T#####
+##### Inline**createByName** &lt;T&gt;(e : <a href="../Enum.html" class="type">Enum</a>&lt;T&gt;, constr : <a href="../String.html" class="type">String</a>, ?params : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Dynamic.html" class="type">Dynamic</a>&gt;) : T
 
 Creates an instance of enum `e` by calling its constructor `constr` with
 arguments `params`.
@@ -80,7 +80,7 @@ invalid type, the result is unspecified.
 
 
 
-#####Inline**getConstructors** &lt;T&gt;(e : <a href="../Enum.html" class="type">Enum</a>&lt;T&gt;) : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;#####
+##### Inline**getConstructors** &lt;T&gt;(e : <a href="../Enum.html" class="type">Enum</a>&lt;T&gt;) : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;
 
 Returns a list of the names of all constructors of enum `e`.
 
@@ -99,7 +99,7 @@ If `c` is null, the result is unspecified.
 
 
 
-#####Inline**getName** &lt;T&gt;(e : <a href="../Enum.html" class="type">Enum</a>&lt;T&gt;) : <a href="../String.html" class="type">String</a>#####
+##### Inline**getName** &lt;T&gt;(e : <a href="../Enum.html" class="type">Enum</a>&lt;T&gt;) : <a href="../String.html" class="type">String</a>
 
 Returns the name of enum `e`, including its path.
 

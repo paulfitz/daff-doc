@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.Coopy
 ---
-#coopy.Coopy#
+# coopy.Coopy
 
 
 This is the main entry-point to the library and the associated
@@ -14,9 +14,9 @@ command-line tool.
 
 > *Type:* **class**
 
-##Static Variables:##
+## Static Variables:
 
-##### **VERSION**  : <a href="../String.html" class="type">String</a>#####
+#####  **VERSION**  : <a href="../String.html" class="type">String</a>
 
 
 Library version.
@@ -24,10 +24,10 @@ Library version.
 
 
 
-##Static Methods:##
+## Static Methods:
 
 
-#####**compareTables** (local : <a href="../coopy/Table.html" class="type">Table</a>, remote : <a href="../coopy/Table.html" class="type">Table</a>, ?flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>) : <a href="../coopy/CompareTable.html" class="type">CompareTable</a>#####
+##### **compareTables** (local : <a href="../coopy/Table.html" class="type">Table</a>, remote : <a href="../coopy/Table.html" class="type">Table</a>, ?flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>) : <a href="../coopy/CompareTable.html" class="type">CompareTable</a>
 
 
 Prepare to compare two tables.
@@ -50,7 +50,7 @@ Prepare to compare two tables.
 
 
 
-#####**compareTables3** (parent : <a href="../coopy/Table.html" class="type">Table</a>, local : <a href="../coopy/Table.html" class="type">Table</a>, remote : <a href="../coopy/Table.html" class="type">Table</a>, ?flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>) : <a href="../coopy/CompareTable.html" class="type">CompareTable</a>#####
+##### **compareTables3** (parent : <a href="../coopy/Table.html" class="type">Table</a>, local : <a href="../coopy/Table.html" class="type">Table</a>, remote : <a href="../coopy/Table.html" class="type">Table</a>, ?flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>) : <a href="../coopy/CompareTable.html" class="type">CompareTable</a>
 
 
 Prepare to compare two tables, given knowledge of a common ancester.
@@ -78,7 +78,7 @@ to preserve.
 
 
 
-#####**main** () : <a href="../Int.html" class="type">Int</a>#####
+##### **main** () : <a href="../Int.html" class="type">Int</a>
 
 
 This is the entry point for the daff command-line utility.
@@ -95,10 +95,10 @@ It is a thin wrapper around the `coopyhx` method.
 
 
 
-##Methods:##
+## Methods:
 
 
-#####**coopyhx** (io : <a href="../coopy/TableIO.html" class="type">TableIO</a>) : <a href="../Int.html" class="type">Int</a>#####
+##### **coopyhx** (io : <a href="../coopy/TableIO.html" class="type">TableIO</a>) : <a href="../Int.html" class="type">Int</a>
 
 
 This implements the daff command-line utility.

@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.TerminalDiffRender
 ---
-#coopy.TerminalDiffRender#
+# coopy.TerminalDiffRender
 
 
 Decorate a diff being displayed on a console.  Colors, glyphs, any
@@ -16,16 +16,16 @@ other eye-candy we like.
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
-
-
-
-##Methods:##
+##### **new**()
 
 
-#####**alignColumns** (enable : <a href="../Bool.html" class="type">Bool</a>) : <a href="../Void.html" class="type">Void</a>#####
+
+## Methods:
+
+
+##### **alignColumns** (enable : <a href="../Bool.html" class="type">Bool</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 
@@ -39,7 +39,7 @@ other eye-candy we like.
 
 
 
-#####**render** (t : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../String.html" class="type">String</a>#####
+##### **render** (t : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../String.html" class="type">String</a>
 
 
 Generate a string with appropriate ANSI colors for a given diff.

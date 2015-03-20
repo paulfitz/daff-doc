@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: haxe.format.JsonPrinter
 ---
-#haxe.format.JsonPrinter#
+# haxe.format.JsonPrinter
 
 An implementation of JSON printer in Haxe.
 
@@ -15,10 +15,10 @@ is not available.
 > *Type:* **class**
 
 
-##Static Methods:##
+## Static Methods:
 
 
-#####**print** (o : <a href="../../Dynamic.html" class="type">Dynamic</a>, ?replacer : <a href="../../Dynamic.html" class="type">Dynamic</a> -> <a href="../../Dynamic.html" class="type">Dynamic</a> -> <a href="../../Dynamic.html" class="type">Dynamic</a>, ?space : <a href="../../String.html" class="type">String</a>) : <a href="../../String.html" class="type">String</a>#####
+##### **print** (o : <a href="../../Dynamic.html" class="type">Dynamic</a>, ?replacer : <a href="../../Dynamic.html" class="type">Dynamic</a> -> <a href="../../Dynamic.html" class="type">Dynamic</a> -> <a href="../../Dynamic.html" class="type">Dynamic</a>, ?space : <a href="../../String.html" class="type">String</a>) : <a href="../../String.html" class="type">String</a>
 
 Encodes `o` value and returns the resulting JSON string.
 

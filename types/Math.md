@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: Math
 ---
-#Math#
+# Math
 
 This class defines mathematical functions and constants.
 
@@ -11,9 +11,9 @@ This class defines mathematical functions and constants.
 
 > *Type:* **class**
 
-##Static Variables:##
+## Static Variables:
 
-##### **NEGATIVE_INFINITY** (default,null) : <a href="Float.html" class="type">Float</a>#####
+#####  **NEGATIVE_INFINITY** (default,null) : <a href="Float.html" class="type">Float</a>
 
 A special Float constant which denotes negative infinity.
 
@@ -27,7 +27,7 @@ result is unspecified.
 
 
 
-##### **NaN** (default,null) : <a href="Float.html" class="type">Float</a>#####
+#####  **NaN** (default,null) : <a href="Float.html" class="type">Float</a>
 
 A special Float constant which denotes an invalid number.
 
@@ -45,14 +45,14 @@ In order to test if a value is NaN, you should use Math.isNaN() function.
 
 
 
-##### **PI** (default,null) : <a href="Float.html" class="type">Float</a>#####
+#####  **PI** (default,null) : <a href="Float.html" class="type">Float</a>
 
 Represents the ratio of the circumference of a circle to its diameter,
 specified by the constant, π. `PI` is approximately 3.141592653589793.
 
 
 
-##### **POSITIVE_INFINITY** (default,null) : <a href="Float.html" class="type">Float</a>#####
+#####  **POSITIVE_INFINITY** (default,null) : <a href="Float.html" class="type">Float</a>
 
 A special Float constant which denotes negative infinity.
 
@@ -66,10 +66,10 @@ result is unspecified.
 
 
 
-##Static Methods:##
+## Static Methods:
 
 
-#####**ceil** (v : <a href="Float.html" class="type">Float</a>) : <a href="Int.html" class="type">Int</a>#####
+##### **ceil** (v : <a href="Float.html" class="type">Float</a>) : <a href="Int.html" class="type">Int</a>
 
 Returns the smallest integer value that is not less than `v`.
 
@@ -86,7 +86,7 @@ or POSITIVE_INFINITY, the result is unspecified.
 
 
 
-#####**isFinite** (f : <a href="Float.html" class="type">Float</a>) : <a href="Bool.html" class="type">Bool</a>#####
+##### **isFinite** (f : <a href="Float.html" class="type">Float</a>) : <a href="Bool.html" class="type">Bool</a>
 
 Tells if `f` is a finite number.
 
@@ -103,7 +103,7 @@ is false, otherwise the result is true.
 
 
 
-#####**isNaN** (f : <a href="Float.html" class="type">Float</a>) : <a href="Bool.html" class="type">Bool</a>#####
+##### **isNaN** (f : <a href="Float.html" class="type">Float</a>) : <a href="Bool.html" class="type">Bool</a>
 
 Tells if `f` is not a valid number.
 
@@ -121,7 +121,7 @@ not considered NaN.
 
 
 
-#####**max** (a : <a href="Float.html" class="type">Float</a>, b : <a href="Float.html" class="type">Float</a>) : <a href="Float.html" class="type">Float</a>#####
+##### **max** (a : <a href="Float.html" class="type">Float</a>, b : <a href="Float.html" class="type">Float</a>) : <a href="Float.html" class="type">Float</a>
 
 Returns the greater of values `a` and `b`.
 
@@ -139,7 +139,7 @@ If `a` and `b` are NEGATIVE_INFINITY, the result is NEGATIVE_INFINITY.
 
 
 
-#####**pow** (v : <a href="Float.html" class="type">Float</a>, exp : <a href="Float.html" class="type">Float</a>) : <a href="Float.html" class="type">Float</a>#####
+##### **pow** (v : <a href="Float.html" class="type">Float</a>, exp : <a href="Float.html" class="type">Float</a>) : <a href="Float.html" class="type">Float</a>
 
 Returns a specified base `v` raised to the specified power `exp`.
 
@@ -153,7 +153,7 @@ Returns a specified base `v` raised to the specified power `exp`.
 
 
 
-#####**round** (v : <a href="Float.html" class="type">Float</a>) : <a href="Int.html" class="type">Int</a>#####
+##### **round** (v : <a href="Float.html" class="type">Float</a>) : <a href="Int.html" class="type">Int</a>
 
 Rounds `v` to the nearest integer value.
 
@@ -170,7 +170,7 @@ or POSITIVE_INFINITY, the result is unspecified.
 
 
 
-#####**sqrt** (v : <a href="Float.html" class="type">Float</a>) : <a href="Float.html" class="type">Float</a>#####
+##### **sqrt** (v : <a href="Float.html" class="type">Float</a>) : <a href="Float.html" class="type">Float</a>
 
 Returns the square root of `v`.
 

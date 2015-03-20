@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.Alignment
 ---
-#coopy.Alignment#
+# coopy.Alignment
 
 
 Store the relationship between tables. Answers the question: where
@@ -16,22 +16,22 @@ does a row/column of table A appear in table B?
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
-
-
-
-##Variables:##
-
-##### **reference**  : <a href="../coopy/Alignment.html" class="type">Alignment</a>#####
+##### **new**()
 
 
 
-##Methods:##
+## Variables:
+
+#####  **reference**  : <a href="../coopy/Alignment.html" class="type">Alignment</a>
 
 
-#####**a2b** (a : <a href="../Int.html" class="type">Int</a>) : <a href="../Null.html" class="type">Null</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;#####
+
+## Methods:
+
+
+##### **a2b** (a : <a href="../Int.html" class="type">Int</a>) : <a href="../Null.html" class="type">Null</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;
 
 
 
@@ -45,7 +45,7 @@ does a row/column of table A appear in table B?
 
 
 
-#####**addIndexColumns** (unit : <a href="../coopy/Unit.html" class="type">Unit</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **addIndexColumns** (unit : <a href="../coopy/Unit.html" class="type">Unit</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Record a column as being important for identifying rows.
@@ -65,7 +65,7 @@ diffs, for example.
 
 
 
-#####**addToOrder** (l : <a href="../Int.html" class="type">Int</a>, r : <a href="../Int.html" class="type">Int</a>, ?p : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **addToOrder** (l : <a href="../Int.html" class="type">Int</a>, r : <a href="../Int.html" class="type">Int</a>, ?p : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Manually set an ordered version of the alignment.
@@ -85,7 +85,7 @@ Manually set an ordered version of the alignment.
 
 
 
-#####**b2a** (b : <a href="../Int.html" class="type">Int</a>) : <a href="../Null.html" class="type">Null</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;#####
+##### **b2a** (b : <a href="../Int.html" class="type">Int</a>) : <a href="../Null.html" class="type">Null</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;
 
 
 
@@ -99,7 +99,7 @@ Manually set an ordered version of the alignment.
 
 
 
-#####**count** () : <a href="../Int.html" class="type">Int</a>#####
+##### **count** () : <a href="../Int.html" class="type">Int</a>
 
 
 
@@ -113,7 +113,7 @@ Manually set an ordered version of the alignment.
 
 
 
-#####**getIndexColumns** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../coopy/Unit.html" class="type">Unit</a>&gt;#####
+##### **getIndexColumns** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../coopy/Unit.html" class="type">Unit</a>&gt;
 
 
 
@@ -127,7 +127,7 @@ Manually set an ordered version of the alignment.
 
 
 
-#####**getSource** () : <a href="../coopy/Table.html" class="type">Table</a>#####
+##### **getSource** () : <a href="../coopy/Table.html" class="type">Table</a>
 
 
 
@@ -141,7 +141,7 @@ Manually set an ordered version of the alignment.
 
 
 
-#####**getSourceHeader** () : <a href="../Int.html" class="type">Int</a>#####
+##### **getSourceHeader** () : <a href="../Int.html" class="type">Int</a>
 
 
 Get the header row for table A, if present.
@@ -159,7 +159,7 @@ Get the header row for table A, if present.
 
 
 
-#####**getTarget** () : <a href="../coopy/Table.html" class="type">Table</a>#####
+##### **getTarget** () : <a href="../coopy/Table.html" class="type">Table</a>
 
 
 
@@ -173,7 +173,7 @@ Get the header row for table A, if present.
 
 
 
-#####**getTargetHeader** () : <a href="../Int.html" class="type">Int</a>#####
+##### **getTargetHeader** () : <a href="../Int.html" class="type">Int</a>
 
 
 Get the header row for table B, if present.
@@ -191,7 +191,7 @@ Get the header row for table B, if present.
 
 
 
-#####**headers** (ia : <a href="../Int.html" class="type">Int</a>, ib : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **headers** (ia : <a href="../Int.html" class="type">Int</a>, ib : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Mark the header rows of tables A and B, if present.
@@ -212,7 +212,7 @@ Not applicable for column alignments.
 
 
 
-#####**link** (a : <a href="../Int.html" class="type">Int</a>, b : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **link** (a : <a href="../Int.html" class="type">Int</a>, b : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Declare the specified rows/columns to be the "same" row/column
@@ -233,7 +233,7 @@ in the two tables.
 
 
 
-#####**range** (ha : <a href="../Int.html" class="type">Int</a>, hb : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **range** (ha : <a href="../Int.html" class="type">Int</a>, hb : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Record the heights of tables A and B.
@@ -249,7 +249,7 @@ Record the heights of tables A and B.
 
 
 
-#####**setRowlike** (flag : <a href="../Bool.html" class="type">Bool</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **setRowlike** (flag : <a href="../Bool.html" class="type">Bool</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Set whether we are aligning rows or columns.
@@ -267,7 +267,7 @@ Set whether we are aligning rows or columns.
 
 
 
-#####**tables** (ta : <a href="../coopy/Table.html" class="type">Table</a>, tb : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Void.html" class="type">Void</a>#####
+##### **tables** (ta : <a href="../coopy/Table.html" class="type">Table</a>, tb : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 Keep references to tables A and B.  The `Alignment` class never
@@ -285,7 +285,7 @@ for the convenience of users of the alignment.
 
 
 
-#####**toOrder** () : <a href="../coopy/Ordering.html" class="type">Ordering</a>#####
+##### **toOrder** () : <a href="../coopy/Ordering.html" class="type">Ordering</a>
 
 
 
@@ -299,7 +299,7 @@ for the convenience of users of the alignment.
 
 
 
-#####**toString** () : <a href="../String.html" class="type">String</a>#####
+##### **toString** () : <a href="../String.html" class="type">String</a>
 
 
 

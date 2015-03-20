@@ -12,7 +12,7 @@
 <macro name="classLink(ctx)">**[::raw ctx.nameDots::](::raw ctx.name::.html)**</macro>
 
 <macro name="methodHeader(m)">
-#####$$showAccess(::m::)$$showDynamic(::m::)$$showInline(::m::)**::raw m.name::** ::m.params::(::if m.args != null::::raw m.args::::end::) : ::raw m.returns::#####
+##### $$showAccess(::m::)$$showDynamic(::m::)$$showInline(::m::)**::raw m.name::** ::m.params::(::if m.args != null::::raw m.args::::end::) : ::raw m.returns::
 $$printDocs(::m.docs::)
 ::if m.isOverride::> *Overrides:* **::raw m.inheritance.link.text::**
 ::elseif m.isInherited::> *Inherited from:* **::raw m.inheritance.link.text::**
@@ -89,7 +89,7 @@ $$printDocs(::m.docs::)
 ::end::
 </macro>
 
-<macro name="varHeader(f)">#####$$showAccess(::f::) **::f.name::** ::raw f.rights:: : ::raw f.returns::#####
+<macro name="varHeader(f)">##### $$showAccess(::f::) **::f.name::** ::raw f.rights:: : ::raw f.returns::
 $$printDocs(::f.docs::)
 ::if f.isInherited::> *Inherited from:* ::raw f.inheritance.link.text::::end::
 </macro>
@@ -101,7 +101,7 @@ $$printDocs(::f.docs::)
 </macro>
 
 <macro name="enumConstructor(m)">
-#####**::raw m.name::**::if m.args.length > 0::(::raw m.args::)::end::#####
+##### **::raw m.name::**::if m.args.length > 0::(::raw m.args::)::end::
 </macro>
 
 <macro name="showPlatforms(l)">

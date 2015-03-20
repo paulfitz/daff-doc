@@ -3,7 +3,7 @@ layout: thing
 thing: class
 title: coopy.SqliteHelper
 ---
-#coopy.SqliteHelper#
+# coopy.SqliteHelper
 
 
 
@@ -15,26 +15,26 @@ title: coopy.SqliteHelper
 
 
 
-##Constructor:##
+## Constructor:
 
-#####new()#####
-
-
-
-##Methods:##
-
-
-#####**countRows** (db : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>, name : <a href="../coopy/SqlTableName.html" class="type">SqlTableName</a>) : <a href="../Int.html" class="type">Int</a>#####
+##### **new**()
 
 
 
+## Methods:
 
-#####**getRowIDs** (db : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>, name : <a href="../coopy/SqlTableName.html" class="type">SqlTableName</a>) : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;#####
+
+##### **countRows** (db : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>, name : <a href="../coopy/SqlTableName.html" class="type">SqlTableName</a>) : <a href="../Int.html" class="type">Int</a>
 
 
 
 
-#####**getTableNames** (db : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>) : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;#####
+##### **getRowIDs** (db : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>, name : <a href="../coopy/SqlTableName.html" class="type">SqlTableName</a>) : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;
+
+
+
+
+##### **getTableNames** (db : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>) : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;
 
 
 
