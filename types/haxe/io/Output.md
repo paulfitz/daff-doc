@@ -14,9 +14,9 @@ Output.
 
 > *Type:* **class**
 
+> *Subclasses:* **sys.io.FileOutput**
 
-> *Subclasses:*
-> * **haxe.io.BytesOutput**&gt; * **sys.io.FileOutput**
+
 
 
 

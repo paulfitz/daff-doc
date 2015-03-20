@@ -65,6 +65,26 @@ diffs, for example.
 
 
 
+#####**addToOrder** (l : <a href="../Int.html" class="type">Int</a>, r : <a href="../Int.html" class="type">Int</a>, ?p : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>#####
+
+
+Manually set an ordered version of the alignment.
+
+
+
+> *Parameters:*
+>
+>   * `l` row/column number in local table
+>   * `r` row/column number in remote table
+>   * `p` row/column number in parent table (if there is one)
+
+
+
+
+
+
+
+
 #####**b2a** (b : <a href="../Int.html" class="type">Int</a>) : <a href="../Null.html" class="type">Null</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;#####
 
 

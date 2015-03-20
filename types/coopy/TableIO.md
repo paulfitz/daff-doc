@@ -83,6 +83,8 @@ Check if a file exists.
 > *Parameters:*  `path` the name of the (putative) file
 
 
+> *Returns:*  true if the file exists
+
 
 
 
@@ -101,6 +103,25 @@ Read a file.
 
 
 > *Returns:*  the content of the file
+
+
+
+
+
+
+
+
+#####**openSqliteDatabase** (path : <a href="../String.html" class="type">String</a>) : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>#####
+
+
+Try to open an sqlite database.
+
+
+
+> *Parameters:*  `path` to the database
+
+
+> *Returns:*  opened database, or null on failure
 
 
 

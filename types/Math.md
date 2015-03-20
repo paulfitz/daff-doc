@@ -170,5 +170,24 @@ or POSITIVE_INFINITY, the result is unspecified.
 
 
 
+#####**sqrt** (v : <a href="Float.html" class="type">Float</a>) : <a href="Float.html" class="type">Float</a>#####
+
+Returns the square root of `v`.
+
+If `v` is negative (including NEGATIVE_INFINITY) or NaN, the result
+is NaN.
+If `v` is POSITIVE_INFINITY, the result is POSITIVE_INFINITY.
+If `v` is 0.0, the result is 0.0.
+
+
+
+
+
+
+
+
+
+
+
 
 

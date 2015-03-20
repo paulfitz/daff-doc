@@ -94,6 +94,14 @@ Parent cell value if applicable.
 
 
 
+##### **raw**  : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+
+
+The cell value "as is".
+
+
+
+
 ##### **rvalue**  : <a href="../String.html" class="type">String</a>#####
 
 

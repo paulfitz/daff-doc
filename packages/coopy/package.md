@@ -36,6 +36,8 @@
 
 				<li class="class"><a href="../../types/coopy/Mover.md" target="classFrame" title="Mover">Mover</a></li>
 
+				<li class="class"><a href="../../types/coopy/Ndjson.md" target="classFrame" title="Ndjson">Ndjson</a></li>
+
 				<li class="class"><a href="../../types/coopy/Ordering.md" target="classFrame" title="Ordering">Ordering</a></li>
 
 				<li class="interface"><a href="../../types/coopy/Row.md" target="classFrame" title="Row">Row</a></li>
@@ -43,6 +45,20 @@
 				<li class="class"><a href="../../types/coopy/SimpleTable.md" target="classFrame" title="SimpleTable">SimpleTable</a></li>
 
 				<li class="class"><a href="../../types/coopy/SimpleView.md" target="classFrame" title="SimpleView">SimpleView</a></li>
+
+				<li class="class"><a href="../../types/coopy/SqlColumn.md" target="classFrame" title="SqlColumn">SqlColumn</a></li>
+
+				<li class="class"><a href="../../types/coopy/SqlCompare.md" target="classFrame" title="SqlCompare">SqlCompare</a></li>
+
+				<li class="interface"><a href="../../types/coopy/SqlDatabase.md" target="classFrame" title="SqlDatabase">SqlDatabase</a></li>
+
+				<li class="interface"><a href="../../types/coopy/SqlHelper.md" target="classFrame" title="SqlHelper">SqlHelper</a></li>
+
+				<li class="class"><a href="../../types/coopy/SqlTable.md" target="classFrame" title="SqlTable">SqlTable</a></li>
+
+				<li class="class"><a href="../../types/coopy/SqlTableName.md" target="classFrame" title="SqlTableName">SqlTableName</a></li>
+
+				<li class="class"><a href="../../types/coopy/SqliteHelper.md" target="classFrame" title="SqliteHelper">SqliteHelper</a></li>
 
 				<li class="interface"><a href="../../types/coopy/Table.md" target="classFrame" title="Table">Table</a></li>
 
@@ -52,7 +68,7 @@
 
 				<li class="class"><a href="../../types/coopy/TableIO.md" target="classFrame" title="TableIO">TableIO</a></li>
 
-				<li class="class"><a href="../../types/coopy/TableText.md" target="classFrame" title="TableText">TableText</a></li>
+				<li class="class"><a href="../../types/coopy/TerminalDiffRender.md" target="classFrame" title="TerminalDiffRender">TerminalDiffRender</a></li>
 
 				<li class="class"><a href="../../types/coopy/Unit.md" target="classFrame" title="Unit">Unit</a></li>
 

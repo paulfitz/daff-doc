@@ -35,6 +35,31 @@ See the `View` interface for documentation.
 
 
 
+#####**hashExists** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+
+
+
+
+#####**hashGet** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+
+
+
+
+#####**hashSet** (h : <a href="../Dynamic.html" class="type">Dynamic</a>, str : <a href="../String.html" class="type">String</a>, d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>#####
+
+
+
+
+#####**isHash** (h : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>#####
+
+
+
+
+#####**makeHash** () : <a href="../Dynamic.html" class="type">Dynamic</a>#####
+
+
+
+
 #####**toDatum** (x : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>#####
 
 

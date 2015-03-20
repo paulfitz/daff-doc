@@ -8,6 +8,8 @@
 			<h1>haxe.format</h1>
 			<ul class="packages">
 
+				<li class="class"><a href="../../../types/haxe/format/JsonParser.md" target="classFrame" title="JsonParser">JsonParser</a></li>
+
 				<li class="class"><a href="../../../types/haxe/format/JsonPrinter.md" target="classFrame" title="JsonPrinter">JsonPrinter</a></li>
 
 			</ul>

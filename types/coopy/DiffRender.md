@@ -17,7 +17,7 @@ Convert a tabular diff into html form.  Typically called as `render(table).html(
 ##Static Methods:##
 
 
-#####**examineCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>, value : <a href="../String.html" class="type">String</a>, vcol : <a href="../String.html" class="type">String</a>, vrow : <a href="../String.html" class="type">String</a>, vcorner : <a href="../String.html" class="type">String</a>, cell : <a href="../coopy/CellInfo.html" class="type">CellInfo</a>) : <a href="../Void.html" class="type">Void</a>#####
+#####**examineCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>, view : <a href="../coopy/View.html" class="type">View</a>, raw : <a href="../Dynamic.html" class="type">Dynamic</a>, vcol : <a href="../String.html" class="type">String</a>, vrow : <a href="../String.html" class="type">String</a>, vcorner : <a href="../String.html" class="type">String</a>, cell : <a href="../coopy/CellInfo.html" class="type">CellInfo</a>, ?offset : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>#####
 
 
 Combine information about a single cell given row and column
@@ -35,7 +35,7 @@ to use, this method is deprecated.
 
 
 
-#####**renderCell** (tt : <a href="../coopy/TableText.html" class="type">TableText</a>, x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>) : <a href="../coopy/CellInfo.html" class="type">CellInfo</a>#####
+#####**renderCell** (tab : <a href="../coopy/Table.html" class="type">Table</a>, view : <a href="../coopy/View.html" class="type">View</a>, x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>) : <a href="../coopy/CellInfo.html" class="type">CellInfo</a>#####
 
 
 Extract information about a single cell.
@@ -46,9 +46,10 @@ Useful if you are doing custom rendering.
 
 > *Parameters:*
 >
->   * `the` table, wrapped in a text view
+>   * `tab` the table
+>   * `view` a viewer for cells of the table
 >   * `x` cell column
->   * `x` cell row
+>   * `y` cell row
 
 > *Returns:*  details of what is in the cell
 

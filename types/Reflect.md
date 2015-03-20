@@ -5,7 +5,7 @@ title: Reflect
 ---
 #Reflect#
 
-The Reflect API is a way to manipulate values dynamicly through an
+The Reflect API is a way to manipulate values dynamically through an
 abstract interface in an untyped manner. Use with care.
 
 

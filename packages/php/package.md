@@ -14,8 +14,6 @@
 
 				<li class="interface"><a href="../../types/php/IteratorAggregate.md" target="classFrame" title="IteratorAggregate">IteratorAggregate</a></li>
 
-				<li class="class"><a href="../../types/php/Lib.md" target="classFrame" title="Lib">Lib</a></li>
-
 				<li class="class"><a href="../../types/php/NativeArray.md" target="classFrame" title="NativeArray">NativeArray</a></li>
 
 				<li class="class"><a href="../../types/php/NativeString.md" target="classFrame" title="NativeString">NativeString</a></li>

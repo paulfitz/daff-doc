@@ -18,8 +18,6 @@
 
 				<li class="interface"><a href="../../types/haxe/IMap.md" target="classFrame" title="IMap">IMap</a></li>
 
-				<li class="class"><a href="../../types/haxe/Json.md" target="classFrame" title="Json">Json</a></li>
-
 				<li class="class"><a href="../../types/haxe/Log.md" target="classFrame" title="Log">Log</a></li>
 
 				<li class="typedef"><a href="../../types/haxe/PosInfos.md" target="classFrame" title="PosInfos">PosInfos</a></li>

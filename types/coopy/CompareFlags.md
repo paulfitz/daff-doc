@@ -34,6 +34,17 @@ to choose your filters, this variable will be made private soon.
 
 
 
+##### **allow_nested_cells**  : <a href="../Bool.html" class="type">Bool</a>#####
+
+
+Should cells in diff output contain nested content?
+This is the difference between getting eg the string 
+"version1->version2" and a hash {before: "version1", after: "version2"}.
+Defaults to false.
+
+
+
+
 ##### **always_show_header**  : <a href="../Bool.html" class="type">Bool</a>#####
 
 
@@ -49,7 +60,7 @@ to true, and - frankly - you should leave it at true for now.
 Diffs for tables where row/column order has been permuted may include
 an extra row/column specifying the changes in row numbers.
 If you'd like that extra row/column to always be included,
-turn on this flag.
+turn on this flag, and turn off never_show_order.
 
 
 
@@ -81,7 +92,7 @@ soon.
 Diffs for tables where row/column order has been permuted may include
 an extra row/column specifying the changes in row numbers.
 If you'd like to be sure that that row/column is *never*
-included, turn on this flag.
+included, turn on this flag, and turn off always_show_order.
 
 
 

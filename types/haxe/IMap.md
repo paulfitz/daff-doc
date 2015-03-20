@@ -14,5 +14,11 @@ title: haxe.IMap
 
 
 
+##Methods:##
+
+
+#####**get** (k : K) : <a href="../Null.html" class="type">Null</a>&lt;V&gt;#####
+
+
 
 
