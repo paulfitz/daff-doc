@@ -6,7 +6,7 @@ title: haxe.Utf8
 # haxe.Utf8
 
 Since all platforms does not guarantee that String always uses UTF-8 encoding, you
-can use this crossplatform API to perform operations on such strings.
+	can use this crossplatform API to perform operations on such strings.
 
 
 

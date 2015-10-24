@@ -1,19 +1,13 @@
 ---
 layout: thing
 thing: class
-title: coopy.SqlColumn
+title: daff.SqlColumn
 ---
-# coopy.SqlColumn
+# daff.SqlColumn
 
 
 
 > *Type:* **class**
-
-
-## Static Methods:
-
-
-##### **byNameAndPrimaryKey** (name : <a href="../String.html" class="type">String</a>, primary : <a href="../Bool.html" class="type">Bool</a>) : <a href="../coopy/SqlColumn.html" class="type">SqlColumn</a>
 
 
 
@@ -33,6 +27,14 @@ title: coopy.SqlColumn
 
 
 
+#####  **type_family**  : <a href="../String.html" class="type">String</a>
+
+
+
+#####  **type_value**  : <a href="../String.html" class="type">String</a>
+
+
+
 ## Methods:
 
 
@@ -42,6 +44,21 @@ title: coopy.SqlColumn
 
 
 ##### **isPrimaryKey** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+##### **setName** (name : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
+
+
+
+
+##### **setPrimaryKey** (primary : <a href="../Bool.html" class="type">Bool</a>) : <a href="../Void.html" class="type">Void</a>
+
+
+
+
+##### **setType** (value : <a href="../String.html" class="type">String</a>, family : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 

@@ -7,6 +7,6 @@ title: Dynamic
 
 Dynamic is a special type which is compatible with all other types.
 
-Use of Dynamic should be minimized as it prevents several compiler
-checks and optimizations.
+	Use of Dynamic should be minimized as it prevents several compiler
+	checks and optimizations.
 

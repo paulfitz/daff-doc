@@ -1,15 +1,15 @@
 ---
 layout: thing
 thing: class
-title: coopy.Table
+title: daff.Table
 ---
-# coopy.Table
+# daff.Table
 
 
-Everything daff needs to know about a table.  This interface
-gets implemented natively on each language/platform daff supports,
-so that we don't waste time making copies of tables from one format
-to another.
+  Everything daff needs to know about a table.  This interface
+  gets implemented natively on each language/platform daff supports,
+  so that we don't waste time making copies of tables from one format
+  to another.
 
 
 
@@ -24,8 +24,8 @@ to another.
 #####  **height** (accessor,null) : <a href="../Int.html" class="type">Int</a>
 
 
-The number of rows in the table.  Read-only.  Implemented as
-a call to `get_height()`.
+      The number of rows in the table.  Read-only.  Implemented as
+      a call to `get_height()`.
 
 
 
@@ -33,8 +33,8 @@ a call to `get_height()`.
 #####  **width** (accessor,null) : <a href="../Int.html" class="type">Int</a>
 
 
-The number of columns in the table.  Read-only.  Implemented as
-a call to `get_width()`.
+      The number of columns in the table.  Read-only.  Implemented as
+      a call to `get_width()`.
 
 
 
@@ -45,7 +45,7 @@ a call to `get_width()`.
 ##### **clear** () : <a href="../Void.html" class="type">Void</a>
 
 
-Clear the table if possible, leaving it with zero rows and columns.
+      Clear the table if possible, leaving it with zero rows and columns.
 
 
 
@@ -75,7 +75,7 @@ Clear the table if possible, leaving it with zero rows and columns.
 ##### **getCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
-Read a cell
+      Read a cell
 
 
 
@@ -97,11 +97,11 @@ Read a cell
 ##### **getCellView** () : <a href="../coopy/View.html" class="type">View</a>
 
 
-Get an interface for interpreting cell contents (e.g.
-converting to a string).  We never call any methods
-directly on a cell, since we've no idea what they
-are.  To learn about the contents of a cell, we pass
-it to methods of a `View`.
+      Get an interface for interpreting cell contents (e.g.
+      converting to a string).  We never call any methods
+      directly on a cell, since we've no idea what they
+      are.  To learn about the contents of a cell, we pass
+      it to methods of a `View`.
 
 
 
@@ -119,9 +119,9 @@ it to methods of a `View`.
 ##### **getData** () : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
-Get the underlying data object backing the table, if possible.
-This is platform specific.  The daff library never uses this
-method.
+      Get the underlying data object backing the table, if possible.
+      This is platform specific.  The daff library never uses this
+      method.
 
 
 
@@ -136,12 +136,26 @@ method.
 
 
 
+##### **getMeta** () : <a href="../coopy/Meta.html" class="type">Meta</a>
+
+
+
+
+> *Returns:*  a interface to the columns of this table, or null if no interface is available. 
+
+
+
+
+
+
+
+
 ##### **get_height** () : <a href="../Int.html" class="type">Int</a>
 
 
-Get the height of the table.  Sorry for the inconsistent 
-capitalization, it is due to a confusion I had over haxe
-setter/getters.
+      Get the height of the table.  Sorry for the inconsistent
+      capitalization, it is due to a confusion I had over haxe
+      setter/getters.
 
 
 
@@ -159,9 +173,9 @@ setter/getters.
 ##### **get_width** () : <a href="../Int.html" class="type">Int</a>
 
 
-Get the width of the table.  Sorry for the inconsistent 
-capitalization, it is due to a confusion I had over haxe
-setter/getters.
+      Get the width of the table.  Sorry for the inconsistent
+      capitalization, it is due to a confusion I had over haxe
+      setter/getters.
 
 
 
@@ -179,8 +193,8 @@ setter/getters.
 ##### **insertOrDeleteColumns** (fate : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, wfate : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
-Insert, delete, and/or shuffle columns. We bundle all these operations
-together since things can get creakingly slow otherwise.
+      Insert, delete, and/or shuffle columns. We bundle all these operations
+      together since things can get creakingly slow otherwise.
 
 
 
@@ -202,8 +216,8 @@ together since things can get creakingly slow otherwise.
 ##### **insertOrDeleteRows** (fate : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, hfate : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
-Insert, delete, and/or shuffle rows. We bundle all these operations
-together since things can get creakingly slow otherwise.
+      Insert, delete, and/or shuffle rows. We bundle all these operations
+      together since things can get creakingly slow otherwise.
 
 
 
@@ -225,7 +239,7 @@ together since things can get creakingly slow otherwise.
 ##### **isResizable** () : <a href="../Bool.html" class="type">Bool</a>
 
 
-Check if a table can be resized.
+      Check if a table can be resized.
 
 
 
@@ -243,8 +257,8 @@ Check if a table can be resized.
 ##### **resize** (w : <a href="../Int.html" class="type">Int</a>, h : <a href="../Int.html" class="type">Int</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
-Resize a table, if possible, preserving existing contents that fit.
-Any newly created cells should be `null`.
+      Resize a table, if possible, preserving existing contents that fit.
+      Any newly created cells should be `null`.
 
 
 
@@ -266,7 +280,7 @@ Any newly created cells should be `null`.
 ##### **setCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>, c : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>
 
 
-Write to a cell
+      Write to a cell
 
 
 
@@ -287,8 +301,8 @@ Write to a cell
 ##### **trimBlank** () : <a href="../Bool.html" class="type">Bool</a>
 
 
-Remove empty final rows or final columns. This method is not in
-fact used by the daff library.
+      Remove empty final rows or final columns. This method is not in
+      fact used by the daff library.
 
 
 

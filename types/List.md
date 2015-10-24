@@ -6,8 +6,8 @@ title: List
 # List&lt;T&gt;
 
 A linked-list of elements. The list is composed of two-elements arrays
-that are chained together. It is optimized so that adding or removing an
-element does not imply copying the whole array content every time.
+	that are chained together. It is optimized so that adding or removing an
+	element does not imply copying the whole array content every time.
 
 
 
@@ -47,7 +47,7 @@ The length of `this` List.
 
 Adds element `item` at the end of `this` List.
 
-`this.length` increases by 1.
+		`this.length` increases by 1.
 
 
 

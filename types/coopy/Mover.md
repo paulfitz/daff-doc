@@ -1,12 +1,12 @@
 ---
 layout: thing
 thing: class
-title: coopy.Mover
+title: daff.Mover
 ---
-# coopy.Mover
+# daff.Mover
 
 
-Choose the simplest order in which to move rows/columns.
+  Choose the simplest order in which to move rows/columns.
 
 
 
@@ -20,8 +20,8 @@ Choose the simplest order in which to move rows/columns.
 ##### **move** (isrc : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;, idest : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;) : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;
 
 
-Given a list and a shuffled version of that list, plan a good
-order in which to move elements of the list
+      Given a list and a shuffled version of that list, plan a good
+      order in which to move elements of the list
 
 
 
@@ -43,8 +43,8 @@ order in which to move elements of the list
 ##### **moveUnits** (units : <a href="../Array.html" class="type">Array</a>&lt;<a href="../coopy/Unit.html" class="type">Unit</a>&gt;) : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;
 
 
-Given a list of matched rows/columns in a desired order, return
-a list of which units should be moved first.
+      Given a list of matched rows/columns in a desired order, return
+      a list of which units should be moved first.
 
 
 

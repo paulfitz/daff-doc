@@ -1,13 +1,13 @@
 ---
 layout: thing
 thing: class
-title: coopy.Alignment
+title: daff.Alignment
 ---
-# coopy.Alignment
+# daff.Alignment
 
 
-Store the relationship between tables. Answers the question: where
-does a row/column of table A appear in table B?
+  Store the relationship between tables. Answers the question: where
+  does a row/column of table A appear in table B?
 
 
 
@@ -23,6 +23,18 @@ does a row/column of table A appear in table B?
 
 
 ## Variables:
+
+#####  **comp**  : <a href="../coopy/TableComparisonState.html" class="type">TableComparisonState</a>
+
+
+
+#####  **has_addition**  : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+#####  **has_removal**  : <a href="../Bool.html" class="type">Bool</a>
+
+
 
 #####  **reference**  : <a href="../coopy/Alignment.html" class="type">Alignment</a>
 
@@ -48,9 +60,9 @@ does a row/column of table A appear in table B?
 ##### **addIndexColumns** (unit : <a href="../coopy/Unit.html" class="type">Unit</a>) : <a href="../Void.html" class="type">Void</a>
 
 
-Record a column as being important for identifying rows.
-This is important for making sure it gets preserved in
-diffs, for example.
+      Record a column as being important for identifying rows.
+      This is important for making sure it gets preserved in
+      diffs, for example.
 
 
 
@@ -68,7 +80,7 @@ diffs, for example.
 ##### **addToOrder** (l : <a href="../Int.html" class="type">Int</a>, r : <a href="../Int.html" class="type">Int</a>, ?p : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
-Manually set an ordered version of the alignment.
+      Manually set an ordered version of the alignment.
 
 
 
@@ -144,7 +156,7 @@ Manually set an ordered version of the alignment.
 ##### **getSourceHeader** () : <a href="../Int.html" class="type">Int</a>
 
 
-Get the header row for table A, if present.
+      Get the header row for table A, if present.
 
 
 
@@ -176,7 +188,7 @@ Get the header row for table A, if present.
 ##### **getTargetHeader** () : <a href="../Int.html" class="type">Int</a>
 
 
-Get the header row for table B, if present.
+      Get the header row for table B, if present.
 
 
 
@@ -194,8 +206,8 @@ Get the header row for table B, if present.
 ##### **headers** (ia : <a href="../Int.html" class="type">Int</a>, ib : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
-Mark the header rows of tables A and B, if present.
-Not applicable for column alignments.
+      Mark the header rows of tables A and B, if present.
+      Not applicable for column alignments.
 
 
 
@@ -212,11 +224,16 @@ Not applicable for column alignments.
 
 
 
+##### **isMarkedAsIdentical** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
 ##### **link** (a : <a href="../Int.html" class="type">Int</a>, b : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
-Declare the specified rows/columns to be the "same" row/column
-in the two tables.
+      Declare the specified rows/columns to be the "same" row/column
+      in the two tables.
 
 
 
@@ -233,10 +250,15 @@ in the two tables.
 
 
 
+##### **markIdentical** () : <a href="../Void.html" class="type">Void</a>
+
+
+
+
 ##### **range** (ha : <a href="../Int.html" class="type">Int</a>, hb : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
-Record the heights of tables A and B.
+      Record the heights of tables A and B.
 
 
 
@@ -252,7 +274,7 @@ Record the heights of tables A and B.
 ##### **setRowlike** (flag : <a href="../Bool.html" class="type">Bool</a>) : <a href="../Void.html" class="type">Void</a>
 
 
-Set whether we are aligning rows or columns.
+      Set whether we are aligning rows or columns.
 
 
 
@@ -270,9 +292,9 @@ Set whether we are aligning rows or columns.
 ##### **tables** (ta : <a href="../coopy/Table.html" class="type">Table</a>, tb : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Void.html" class="type">Void</a>
 
 
-Keep references to tables A and B.  The `Alignment` class never
-looks at these tables itself, these references are stored only
-for the convenience of users of the alignment.
+      Keep references to tables A and B.  The `Alignment` class never
+      looks at these tables itself, these references are stored only
+      for the convenience of users of the alignment.
 
 
 

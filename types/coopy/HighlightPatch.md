@@ -1,12 +1,12 @@
 ---
 layout: thing
 thing: class
-title: coopy.HighlightPatch
+title: daff.HighlightPatch
 ---
-# coopy.HighlightPatch
+# daff.HighlightPatch
 
 
-Apply a tabular diff as a patch.
+  Apply a tabular diff as a patch.
 
 
 
@@ -15,13 +15,13 @@ Apply a tabular diff as a patch.
 
 > *Implements:*
 > 
->   * **[coopy.Row](Row.html)**
+>   * **[daff.Row](Row.html)**
 
 
 
 ## Constructor:
 
-##### **new**(source : <a href="../coopy/Table.html" class="type">Table</a>, patch : <a href="../coopy/Table.html" class="type">Table</a>)
+##### **new**(source : <a href="../coopy/Table.html" class="type">Table</a>, patch : <a href="../coopy/Table.html" class="type">Table</a>, ?flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>)
 
 
 > *Parameters:*
@@ -42,7 +42,7 @@ Apply a tabular diff as a patch.
 ##### **apply** () : <a href="../Bool.html" class="type">Bool</a>
 
 
-Apply the patch.
+      Apply the patch.
 
 
 
@@ -60,8 +60,8 @@ Apply the patch.
 ##### **getRowString** (c : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>
 
 
-Get the content in a given column of the patch on the active row.
-This is present for generating keys internally, you don't need it.
+      Get the content in a given column of the patch on the active row.
+      This is present for generating keys internally, you don't need it.
 
 
 
@@ -74,6 +74,11 @@ This is present for generating keys internally, you don't need it.
 
 
 
+
+
+
+
+##### **isPreamble** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 

@@ -1,13 +1,13 @@
 ---
 layout: thing
 thing: class
-title: coopy.CompareTable
+title: daff.CompareTable
 ---
-# coopy.CompareTable
+# daff.CompareTable
 
 
-Run a comparison between tables.  Normally you'll
-call `coopy.Coopy.compareTables` to start off such a comparison.
+  Run a comparison between tables.  Normally you'll
+  call `daff.Coopy.compareTables` to start off such a comparison.
 
 
 
@@ -37,9 +37,9 @@ call `coopy.Coopy.compareTables` to start off such a comparison.
 ##### **align** () : <a href="../coopy/Alignment.html" class="type">Alignment</a>
 
 
-Access a summary of how the tables align with each other.
-Runs the comparison to completion if it hasn't already been
-finished.
+      Access a summary of how the tables align with each other.
+      Runs the comparison to completion if it hasn't already been
+      finished.
 
 
 
@@ -71,9 +71,9 @@ finished.
 ##### **getIndexes** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../coopy/IndexPair.html" class="type">IndexPair</a>&gt;
 
 
-Access the indexes generated during the comparison.
-The `storeIndexes()` method must be called before the
-comparison.
+      Access the indexes generated during the comparison.
+      The `storeIndexes()` method must be called before the
+      comparison.
 
 
 
@@ -91,7 +91,7 @@ comparison.
 ##### **run** () : <a href="../Bool.html" class="type">Bool</a>
 
 
-Run or continue the comparison.
+      Run or continue the comparison.
 
 
 
@@ -109,10 +109,10 @@ Run or continue the comparison.
 ##### **storeIndexes** () : <a href="../Void.html" class="type">Void</a>
 
 
-During a comparison, we generate a set of indexes that help
-relate the tables to each other.  Normally these will be
-discarded as soon as possible in order to save memory.
-If you'd like the indexes kept, call this method.
+      During a comparison, we generate a set of indexes that help
+      relate the tables to each other.  Normally these will be
+      discarded as soon as possible in order to save memory.
+      If you'd like the indexes kept, call this method.
 
 
 

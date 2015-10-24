@@ -14,6 +14,14 @@
 
 				<li class="class"><a href="../../types/coopy/CellInfo.md" target="classFrame" title="CellInfo">CellInfo</a></li>
 
+				<li class="class"><a href="../../types/coopy/ColumnChange.md" target="classFrame" title="ColumnChange">ColumnChange</a></li>
+
+				<li class="class"><a href="../../types/coopy/CombinedTable.md" target="classFrame" title="CombinedTable">CombinedTable</a></li>
+
+				<li class="class"><a href="../../types/coopy/CombinedTableBody.md" target="classFrame" title="CombinedTableBody">CombinedTableBody</a></li>
+
+				<li class="class"><a href="../../types/coopy/CombinedTableHead.md" target="classFrame" title="CombinedTableHead">CombinedTableHead</a></li>
+
 				<li class="class"><a href="../../types/coopy/CompareFlags.md" target="classFrame" title="CompareFlags">CompareFlags</a></li>
 
 				<li class="class"><a href="../../types/coopy/CompareTable.md" target="classFrame" title="CompareTable">CompareTable</a></li>
@@ -34,13 +42,23 @@
 
 				<li class="class"><a href="../../types/coopy/Merger.md" target="classFrame" title="Merger">Merger</a></li>
 
+				<li class="interface"><a href="../../types/coopy/Meta.md" target="classFrame" title="Meta">Meta</a></li>
+
 				<li class="class"><a href="../../types/coopy/Mover.md" target="classFrame" title="Mover">Mover</a></li>
 
 				<li class="class"><a href="../../types/coopy/Ndjson.md" target="classFrame" title="Ndjson">Ndjson</a></li>
 
 				<li class="class"><a href="../../types/coopy/Ordering.md" target="classFrame" title="Ordering">Ordering</a></li>
 
+				<li class="class"><a href="../../types/coopy/PropertyChange.md" target="classFrame" title="PropertyChange">PropertyChange</a></li>
+
 				<li class="interface"><a href="../../types/coopy/Row.md" target="classFrame" title="Row">Row</a></li>
+
+				<li class="class"><a href="../../types/coopy/RowChange.md" target="classFrame" title="RowChange">RowChange</a></li>
+
+				<li class="interface"><a href="../../types/coopy/RowStream.md" target="classFrame" title="RowStream">RowStream</a></li>
+
+				<li class="class"><a href="../../types/coopy/SimpleMeta.md" target="classFrame" title="SimpleMeta">SimpleMeta</a></li>
 
 				<li class="class"><a href="../../types/coopy/SimpleTable.md" target="classFrame" title="SimpleTable">SimpleTable</a></li>
 
@@ -58,6 +76,8 @@
 
 				<li class="class"><a href="../../types/coopy/SqlTableName.md" target="classFrame" title="SqlTableName">SqlTableName</a></li>
 
+				<li class="class"><a href="../../types/coopy/SqlTables.md" target="classFrame" title="SqlTables">SqlTables</a></li>
+
 				<li class="class"><a href="../../types/coopy/SqliteHelper.md" target="classFrame" title="SqliteHelper">SqliteHelper</a></li>
 
 				<li class="interface"><a href="../../types/coopy/Table.md" target="classFrame" title="Table">Table</a></li>
@@ -67,6 +87,10 @@
 				<li class="class"><a href="../../types/coopy/TableDiff.md" target="classFrame" title="TableDiff">TableDiff</a></li>
 
 				<li class="class"><a href="../../types/coopy/TableIO.md" target="classFrame" title="TableIO">TableIO</a></li>
+
+				<li class="class"><a href="../../types/coopy/TableStream.md" target="classFrame" title="TableStream">TableStream</a></li>
+
+				<li class="class"><a href="../../types/coopy/Tables.md" target="classFrame" title="Tables">Tables</a></li>
 
 				<li class="class"><a href="../../types/coopy/TerminalDiffRender.md" target="classFrame" title="TerminalDiffRender">TerminalDiffRender</a></li>
 

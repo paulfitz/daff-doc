@@ -1,13 +1,13 @@
 ---
 layout: thing
 thing: class
-title: coopy.TerminalDiffRender
+title: daff.TerminalDiffRender
 ---
-# coopy.TerminalDiffRender
+# daff.TerminalDiffRender
 
 
-Decorate a diff being displayed on a console.  Colors, glyphs, any
-other eye-candy we like.
+  Decorate a diff being displayed on a console.  Colors, glyphs, any
+  other eye-candy we like.
 
 
 
@@ -18,7 +18,7 @@ other eye-candy we like.
 
 ## Constructor:
 
-##### **new**()
+##### **new**(?flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>)
 
 
 
@@ -42,7 +42,7 @@ other eye-candy we like.
 ##### **render** (t : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../String.html" class="type">String</a>
 
 
-Generate a string with appropriate ANSI colors for a given diff.
+      Generate a string with appropriate ANSI colors for a given diff.
 
 
 

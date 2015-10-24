@@ -1,9 +1,9 @@
 ---
 layout: thing
 thing: class
-title: coopy.SqlDatabase
+title: daff.SqlDatabase
 ---
-# coopy.SqlDatabase
+# daff.SqlDatabase
 
 
 
@@ -36,6 +36,16 @@ title: coopy.SqlDatabase
 
 
 ##### **getColumns** (name : <a href="../coopy/SqlTableName.html" class="type">SqlTableName</a>) : <a href="../Array.html" class="type">Array</a>&lt;<a href="../coopy/SqlColumn.html" class="type">SqlColumn</a>&gt;
+
+
+
+
+##### **getHelper** () : <a href="../coopy/SqlHelper.html" class="type">SqlHelper</a>
+
+
+
+
+##### **getNameForAttachment** () : <a href="../String.html" class="type">String</a>
 
 
 

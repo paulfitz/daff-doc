@@ -7,7 +7,7 @@ title: haxe.ds.IntMap
 
 IntMap allows mapping of Int keys to arbitrary values.
 
-See `Map` for documentation details.
+	See `Map` for documentation details.
 
 
 

@@ -6,7 +6,7 @@ title: Iterable
 **Iterable&lt;T&gt;**
 
 An Iterable is a data structure which has an iterator() method.
-See `Lambda` for generic functions on iterable structures.
+	See `Lambda` for generic functions on iterable structures.
 
 
 

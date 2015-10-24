@@ -1,12 +1,12 @@
 ---
 layout: thing
 thing: class
-title: coopy.TableDiff
+title: daff.TableDiff
 ---
-# coopy.TableDiff
+# daff.TableDiff
 
 
-Build a highlighter diff of two/three tables.
+  Build a highlighter diff of two/three tables.
 
 
 
@@ -35,10 +35,38 @@ Build a highlighter diff of two/three tables.
 ## Methods:
 
 
+##### **hasDifference** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+> *Returns:*  true if a difference was found during call to `hilite()`
+
+
+
+
+
+
+
+
+##### **hasSchemaDifference** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+> *Returns:*  true if a schema difference was found during call to `hilite()`
+
+
+
+
+
+
+
+
 ##### **hilite** (output : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
-Generate a highlighter diff.
+      Generate a highlighter diff.
 
 
 
@@ -54,11 +82,21 @@ Generate a highlighter diff.
 
 
 
+##### **hiliteWithNesting** (output : <a href="../coopy/Tables.html" class="type">Tables</a>) : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+##### **isNested** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
 ##### **setCellBuilder** (builder : <a href="../coopy/CellBuilder.html" class="type">CellBuilder</a>) : <a href="../Void.html" class="type">Void</a>
 
 
-If you wish to customize how diff cells are generated,
-call this prior to calling `hilite()`.
+      If you wish to customize how diff cells are generated,
+      call this prior to calling `hilite()`.
 
 
 

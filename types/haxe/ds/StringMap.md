@@ -7,7 +7,7 @@ title: haxe.ds.StringMap
 
 StringMap allows mapping of String keys to arbitrary values.
 
-See `Map` for documentation details.
+	See `Map` for documentation details.
 
 
 

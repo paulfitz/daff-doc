@@ -1,13 +1,13 @@
 ---
 layout: thing
 thing: class
-title: coopy.Merger
+title: daff.Merger
 ---
-# coopy.Merger
+# daff.Merger
 
 
-Merge changes made in one table into another, given knowledge
-of a common ancestor.
+  Merge changes made in one table into another, given knowledge
+  of a common ancestor.
 
 
 
@@ -40,7 +40,7 @@ of a common ancestor.
 ##### **apply** () : <a href="../Int.html" class="type">Int</a>
 
 
-Go ahead and merge.
+      Go ahead and merge.
 
 
 

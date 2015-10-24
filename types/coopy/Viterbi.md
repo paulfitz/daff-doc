@@ -1,14 +1,14 @@
 ---
 layout: thing
 thing: class
-title: coopy.Viterbi
+title: daff.Viterbi
 ---
-# coopy.Viterbi
+# daff.Viterbi
 
 
-Do a Viterbi lattice calculation to calculate the optimum state 
-to be in at each step of a sequence, given the costs of 
-transitions between those states at each step.
+  Do a Viterbi lattice calculation to calculate the optimum state
+  to be in at each step of a sequence, given the costs of
+  transitions between those states at each step.
 
 
 
@@ -29,8 +29,8 @@ transitions between those states at each step.
 ##### **addTransition** (s0 : <a href="../Int.html" class="type">Int</a>, s1 : <a href="../Int.html" class="type">Int</a>, c : <a href="../Float.html" class="type">Float</a>) : <a href="../Void.html" class="type">Void</a>
 
 
-For the current step in the sequence, we assert that
-transitioning from state `s0` to state `s1` would cost `c`.
+      For the current step in the sequence, we assert that
+      transitioning from state `s0` to state `s1` would cost `c`.
 
 
 
@@ -46,11 +46,11 @@ transitioning from state `s0` to state `s1` would cost `c`.
 ##### **beginTransitions** () : <a href="../Void.html" class="type">Void</a>
 
 
-Begin one individual step in the sequence.
-After this, we call `addTransition` for every possible state
-transition, and then `endTransitions`.
-Then we repeat the cycle for the next step in the sequence,
-or call `calculatePath`.
+      Begin one individual step in the sequence.
+      After this, we call `addTransition` for every possible state
+      transition, and then `endTransitions`.
+      Then we repeat the cycle for the next step in the sequence,
+      or call `calculatePath`.
 
 
 
@@ -66,7 +66,7 @@ or call `calculatePath`.
 ##### **calculatePath** () : <a href="../Void.html" class="type">Void</a>
 
 
-Compute the best state sequence.
+      Compute the best state sequence.
 
 
 
@@ -82,10 +82,10 @@ Compute the best state sequence.
 ##### **endTransitions** () : <a href="../Void.html" class="type">Void</a>
 
 
-Declare that we are finished asserting possible state transitions
-for the current step in the sequence.  After this, we either
-call `beginTransitions` again for the next step, or call
-`calculatePath`.
+      Declare that we are finished asserting possible state transitions
+      for the current step in the sequence.  After this, we either
+      call `beginTransitions` again for the next step, or call
+      `calculatePath`.
 
 
 
@@ -145,7 +145,7 @@ call `beginTransitions` again for the next step, or call
 ##### **reset** () : <a href="../Void.html" class="type">Void</a>
 
 
-Reset the state to its initial value.
+      Reset the state to its initial value.
 
 
 
@@ -161,8 +161,8 @@ Reset the state to its initial value.
 ##### **setSize** (states : <a href="../Int.html" class="type">Int</a>, sequence_length : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
-Configure the maximum number of states and the maximum sequence
-length that we care about.
+      Configure the maximum number of states and the maximum sequence
+      length that we care about.
 
 
 

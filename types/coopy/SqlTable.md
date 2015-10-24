@@ -1,9 +1,9 @@
 ---
 layout: thing
 thing: class
-title: coopy.SqlTable
+title: daff.SqlTable
 ---
-# coopy.SqlTable
+# daff.SqlTable
 
 
 
@@ -11,7 +11,7 @@ title: coopy.SqlTable
 
 > *Implements:*
 > 
->   * **[coopy.Table](Table.html)**
+>   * **[daff.Meta](Meta.html)**&gt;   * **[daff.Table](Table.html)**&gt;   * **[daff.RowStream](RowStream.html)**
 
 
 
@@ -34,12 +34,47 @@ title: coopy.SqlTable
 ## Methods:
 
 
+##### **alterColumns** (columns : <a href="../Array.html" class="type">Array</a>&lt;<a href="../coopy/ColumnChange.html" class="type">ColumnChange</a>&gt;) : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+##### **applyFlags** (flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>) : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+##### **asTable** () : <a href="../coopy/Table.html" class="type">Table</a>
+
+
+
+
+##### **changeRow** (rc : <a href="../coopy/RowChange.html" class="type">RowChange</a>) : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
 ##### **clear** () : <a href="../Void.html" class="type">Void</a>
 
 
 
 
 ##### **clone** () : <a href="../coopy/Table.html" class="type">Table</a>
+
+
+
+
+##### **cloneMeta** (?table : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../coopy/Meta.html" class="type">Meta</a>
+
+
+
+
+##### **fetchColumns** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;
+
+
+
+
+##### **fetchRow** () : <a href="../Map.html" class="type">Map</a>&lt;<a href="../String.html" class="type">String</a>, <a href="../Dynamic.html" class="type">Dynamic</a>&gt;
 
 
 
@@ -69,6 +104,21 @@ title: coopy.SqlTable
 
 
 
+##### **getDatabase** () : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>
+
+
+
+
+##### **getMeta** () : <a href="../coopy/Meta.html" class="type">Meta</a>
+
+
+
+
+##### **getName** () : <a href="../String.html" class="type">String</a>
+
+
+
+
 ##### **getPrimaryKey** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;
 
 
@@ -80,6 +130,11 @@ title: coopy.SqlTable
 
 
 ##### **getQuotedTableName** () : <a href="../String.html" class="type">String</a>
+
+
+
+
+##### **getRowStream** () : <a href="../coopy/RowStream.html" class="type">RowStream</a>
 
 
 
@@ -104,7 +159,17 @@ title: coopy.SqlTable
 
 
 
+##### **isNested** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
 ##### **isResizable** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+##### **isSql** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 
@@ -125,6 +190,16 @@ title: coopy.SqlTable
 
 
 ##### **trimBlank** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+##### **useForColumnChanges** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+##### **useForRowChanges** () : <a href="../Bool.html" class="type">Bool</a>
 
 
 

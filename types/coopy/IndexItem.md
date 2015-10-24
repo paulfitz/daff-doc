@@ -1,12 +1,12 @@
 ---
 layout: thing
 thing: class
-title: coopy.IndexItem
+title: daff.IndexItem
 ---
-# coopy.IndexItem
+# daff.IndexItem
 
 
-A list of instances of a given row in a table.
+  A list of instances of a given row in a table.
 
 
 
@@ -27,7 +27,7 @@ A list of instances of a given row in a table.
 ##### Inline**add** (i : <a href="../Int.html" class="type">Int</a>) : <a href="../Int.html" class="type">Int</a>
 
 
-Add an extra instance to the list.
+      Add an extra instance to the list.
 
 
 
@@ -36,6 +36,20 @@ Add an extra instance to the list.
 
 
 > *Returns:*  the number of instances seen
+
+
+
+
+
+
+
+
+##### Inline**asList** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../Int.html" class="type">Int</a>&gt;
+
+
+
+
+> *Returns:*  the full list of rows seen
 
 
 

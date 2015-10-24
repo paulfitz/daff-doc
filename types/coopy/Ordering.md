@@ -1,13 +1,13 @@
 ---
 layout: thing
 thing: class
-title: coopy.Ordering
+title: daff.Ordering
 ---
-# coopy.Ordering
+# daff.Ordering
 
 
-An ordered list of units, representing a merged view of rows
-in a local, remote, and (optionally) parent table.
+  An ordered list of units, representing a merged view of rows
+  in a local, remote, and (optionally) parent table.
 
 
 
@@ -28,7 +28,7 @@ in a local, remote, and (optionally) parent table.
 ##### **add** (l : <a href="../Int.html" class="type">Int</a>, r : <a href="../Int.html" class="type">Int</a>, ?p : <a href="../Int.html" class="type">Int</a>) : <a href="../Void.html" class="type">Void</a>
 
 
-Add a local/remote/parent triplet.
+      Add a local/remote/parent triplet.
 
 
 
@@ -63,10 +63,28 @@ Add a local/remote/parent triplet.
 ##### **ignoreParent** () : <a href="../Void.html" class="type">Void</a>
 
 
-Force any parent row/column numbers to be ignored and discarded.
+      Force any parent row/column numbers to be ignored and discarded.
 
 
 
+
+
+
+
+
+
+
+
+
+##### **setList** (lst : <a href="../Array.html" class="type">Array</a>&lt;<a href="../coopy/Unit.html" class="type">Unit</a>&gt;) : <a href="../Void.html" class="type">Void</a>
+
+
+      Replace the order with a prepared list.
+
+
+
+
+> *Parameters:*  `lst` the new order
 
 
 

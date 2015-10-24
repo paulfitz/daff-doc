@@ -1,15 +1,9 @@
 ---
 layout: thing
 thing: class
-title: daff.SimpleTable
+title: daff.SqlTables
 ---
-# daff.SimpleTable
-
-
-  A basic table implementation. Each supported language should
-  have an optimized native implementation that you can use instead.
-  See the `Table` interface for documentation.
-
+# daff.SqlTables
 
 
 
@@ -20,64 +14,10 @@ title: daff.SimpleTable
 >   * **[daff.Table](Table.html)**
 
 
-## Static Methods:
-
-
-##### **tableIsSimilar** (tab1 : <a href="../coopy/Table.html" class="type">Table</a>, tab2 : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Bool.html" class="type">Bool</a>
-
-
-      Compare the content of two tables.
-
-
-
-
-> *Parameters:*
->
->   * `tab1` the first table
->   * `tab2` the second table
-
-> *Returns:*  true if the tables are identical
-
-
-
-
-
-
-
-
-##### **tableToString** (tab : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../String.html" class="type">String</a>
-
-
-      Render the table as a string
-
-
-
-
-> *Parameters:*  `tab` the table
-
-
-> *Returns:*  a text version of the table
-
-
-
-
-
-
 
 ## Constructor:
 
-##### **new**(w : <a href="../Int.html" class="type">Int</a>, h : <a href="../Int.html" class="type">Int</a>)
-
-
-> *Parameters:*
->
->   * `w` the desired width of the table
->   * `h` the desired height of the table
-
-
-
-
-
+##### **new**(db : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>, flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>)
 
 
 
@@ -124,11 +64,6 @@ title: daff.SimpleTable
 
 
 
-##### **getTable** () : <a href="../coopy/Table.html" class="type">Table</a>
-
-
-
-
 ##### **get_height** () : <a href="../Int.html" class="type">Int</a>
 
 
@@ -160,16 +95,6 @@ title: daff.SimpleTable
 
 
 ##### **setCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>, c : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>
-
-
-
-
-##### **setMeta** (meta : <a href="../coopy/Meta.html" class="type">Meta</a>) : <a href="../Void.html" class="type">Void</a>
-
-
-
-
-##### **toString** () : <a href="../String.html" class="type">String</a>
 
 
 

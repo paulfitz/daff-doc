@@ -6,9 +6,9 @@ title: haxe.io.Output
 # haxe.io.Output
 
 An Output is an abstract write. A specific output implementation will only
-have to override the <code>writeByte</code> and maybe the <code>write</code>, <code>flush</code> and <code>close</code>
-methods. See <code>File.write</code> and <code>String.write</code> for two ways of creating an
-Output.
+	have to override the <code>writeByte</code> and maybe the <code>write</code>, <code>flush</code> and <code>close</code>
+	methods. See <code>File.write</code> and <code>String.write</code> for two ways of creating an
+	Output.
 
 
 
@@ -42,9 +42,9 @@ Write one byte.
 
 Write `len` bytes from `s` starting by position specified by `pos`.
 
-Returns the actual length of written data that can differ from `len`.
+		Returns the actual length of written data that can differ from `len`.
 
-See `writeFullBytes` that tries to write the exact amount of specified bytes.
+		See `writeFullBytes` that tries to write the exact amount of specified bytes.
 
 
 
@@ -60,7 +60,7 @@ See `writeFullBytes` that tries to write the exact amount of specified bytes.
 
 Write `len` bytes from `s` starting by position specified by `pos`.
 
-Unlike `writeBytes`, this method tries to write the exact `len` amount of bytes.
+		Unlike `writeBytes`, this method tries to write the exact `len` amount of bytes.
 
 
 

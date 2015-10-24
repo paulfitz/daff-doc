@@ -1,12 +1,12 @@
 ---
 layout: thing
 thing: class
-title: coopy.Row
+title: daff.Row
 ---
-# coopy.Row
+# daff.Row
 
 
-A trivial interface for indexable sources.
+  A trivial interface for indexable sources.
 
 
 
@@ -22,7 +22,7 @@ A trivial interface for indexable sources.
 ##### **getRowString** (c : <a href="../Int.html" class="type">Int</a>) : <a href="../String.html" class="type">String</a>
 
 
-Get the content in a given column.
+      Get the content in a given column.
 
 
 
@@ -31,6 +31,20 @@ Get the content in a given column.
 
 
 > *Returns:*  the content of column `c`
+
+
+
+
+
+
+
+
+##### **isPreamble** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+> *Returns:*  true if row is header row (or before)
 
 
 

@@ -7,8 +7,8 @@ title: haxe.format.JsonPrinter
 
 An implementation of JSON printer in Haxe.
 
-This class is used by `haxe.Json` when native JSON implementation
-is not available.
+	This class is used by `haxe.Json` when native JSON implementation
+	is not available.
 
 
 
@@ -22,12 +22,12 @@ is not available.
 
 Encodes `o` value and returns the resulting JSON string.
 
-If `replacer` is given and is not null, it is used to retrieve
-actual object to be encoded. The `replacer` function two parameters,
-the key and the value being encoded. Initial key value is an empty string.
+		If `replacer` is given and is not null, it is used to retrieve
+		actual object to be encoded. The `replacer` function two parameters,
+		the key and the value being encoded. Initial key value is an empty string.
 
-If `space` is given and is not null, the result will be pretty-printed.
-Successive levels will be indented by this string.
+		If `space` is given and is not null, the result will be pretty-printed.
+		Successive levels will be indented by this string.
 
 
 

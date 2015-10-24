@@ -1,13 +1,13 @@
 ---
 layout: thing
 thing: class
-title: coopy.Unit
+title: daff.Unit
 ---
-# coopy.Unit
+# daff.Unit
 
 
-The row/column number for related content in the local table,
-the remote table, and the parent table (if there is one).
+  The row/column number for related content in the local table,
+  the remote table, and the parent table (if there is one).
 
 
 
@@ -39,7 +39,7 @@ the remote table, and the parent table (if there is one).
 #####  **l**  : <a href="../Int.html" class="type">Int</a>
 
 
-The row/column number in the local table.
+      The row/column number in the local table.
 
 
 
@@ -47,7 +47,7 @@ The row/column number in the local table.
 #####  **p**  : <a href="../Int.html" class="type">Int</a>
 
 
-The row/column number in the parent table.
+      The row/column number in the parent table.
 
 
 
@@ -55,7 +55,7 @@ The row/column number in the parent table.
 #####  **r**  : <a href="../Int.html" class="type">Int</a>
 
 
-The row/column number in the remote table.
+      The row/column number in the remote table.
 
 
 
@@ -66,7 +66,7 @@ The row/column number in the remote table.
 ##### **fromString** (txt : <a href="../String.html" class="type">String</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
-Read from a serialized version of the row/column numbers
+      Read from a serialized version of the row/column numbers
 
 
 
@@ -88,6 +88,20 @@ Read from a serialized version of the row/column numbers
 
 
 > *Returns:*  the row/column number in the parent table if present, otherwise in the local table
+
+
+
+
+
+
+
+
+##### **toBase26String** () : <a href="../String.html" class="type">String</a>
+
+
+
+
+> *Returns:*  as for toString(), but representing row/column numbers as A,B,C,D,...,AA,AB,AC,AD,.... 
 
 
 

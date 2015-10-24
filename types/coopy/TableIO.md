@@ -1,12 +1,12 @@
 ---
 layout: thing
 thing: class
-title: coopy.TableIO
+title: daff.TableIO
 ---
-# coopy.TableIO
+# daff.TableIO
 
 
-System services for the daff command-line utility.
+  System services for the daff command-line utility.
 
 
 
@@ -55,7 +55,7 @@ System services for the daff command-line utility.
 ##### **command** (cmd : <a href="../String.html" class="type">String</a>, args : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;) : <a href="../Int.html" class="type">Int</a>
 
 
-Execute a command.
+      Execute a command.
 
 
 
@@ -76,7 +76,7 @@ Execute a command.
 ##### **exists** (path : <a href="../String.html" class="type">String</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
-Check if a file exists.
+      Check if a file exists.
 
 
 
@@ -95,7 +95,7 @@ Check if a file exists.
 ##### **getContent** (name : <a href="../String.html" class="type">String</a>) : <a href="../String.html" class="type">String</a>
 
 
-Read a file.
+      Read a file.
 
 
 
@@ -111,10 +111,38 @@ Read a file.
 
 
 
+##### **isTty** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+> *Returns:*  true if output is a TTY. Only trustworthy if isTtyKnown() is true.
+
+
+
+
+
+
+
+
+##### **isTtyKnown** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+> *Returns:*  true if we can determine whether the output is a TTY. This needs to be implemented natively, I haven't found a call for this in Haxe. 
+
+
+
+
+
+
+
+
 ##### **openSqliteDatabase** (path : <a href="../String.html" class="type">String</a>) : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>
 
 
-Try to open an sqlite database.
+      Try to open an sqlite database.
 
 
 
@@ -133,7 +161,7 @@ Try to open an sqlite database.
 ##### **saveContent** (name : <a href="../String.html" class="type">String</a>, txt : <a href="../String.html" class="type">String</a>) : <a href="../Bool.html" class="type">Bool</a>
 
 
-Save a file.
+      Save a file.
 
 
 
@@ -147,6 +175,11 @@ Save a file.
 
 
 
+
+
+
+
+##### **sendToBrowser** (html : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
 
 
 

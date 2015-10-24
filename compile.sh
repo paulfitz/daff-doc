@@ -29,3 +29,4 @@ echo "layout: front" >> index.md
 echo "---" >> index.md
 rm -rf php_bin __chxdoctmp
 rm -f doc.xml
+find . -iname "*.md" -exec sed -i "s/coopy[.]/daff./g" {} \;

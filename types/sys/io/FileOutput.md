@@ -35,7 +35,7 @@ Use <code>sys.io.File.write</code> to create a <code>FileOutput</code>
 
 Write `len` bytes from `s` starting by position specified by `pos`.
 
-Unlike `writeBytes`, this method tries to write the exact `len` amount of bytes.
+		Unlike `writeBytes`, this method tries to write the exact `len` amount of bytes.
 
 > *Inherited from:* **haxe.io.Output**
 

@@ -1,14 +1,14 @@
 ---
 layout: thing
 thing: class
-title: coopy.SimpleView
+title: daff.SimpleView
 ---
-# coopy.SimpleView
+# daff.SimpleView
 
 
-A basic view implementation, for interpreting the content of cells. 
-Each supported language may have an optimized native implementation.
-See the `View` interface for documentation.
+  A basic view implementation, for interpreting the content of cells.
+  Each supported language may have an optimized native implementation.
+  See the `View` interface for documentation.
 
 
 
@@ -17,7 +17,7 @@ See the `View` interface for documentation.
 
 > *Implements:*
 > 
->   * **[coopy.View](View.html)**
+>   * **[daff.View](View.html)**
 
 
 
@@ -31,6 +31,11 @@ See the `View` interface for documentation.
 
 
 ##### **equals** (d1 : <a href="../Dynamic.html" class="type">Dynamic</a>, d2 : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+##### **getTable** (t : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../coopy/Table.html" class="type">Table</a>
 
 
 
@@ -55,6 +60,11 @@ See the `View` interface for documentation.
 
 
 
+##### **isTable** (t : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
 ##### **makeHash** () : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
@@ -66,6 +76,11 @@ See the `View` interface for documentation.
 
 
 ##### **toString** (d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../String.html" class="type">String</a>
+
+
+
+
+##### **wrapTable** (t : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
 

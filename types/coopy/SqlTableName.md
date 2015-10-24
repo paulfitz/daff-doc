@@ -1,9 +1,9 @@
 ---
 layout: thing
 thing: class
-title: coopy.SqlTableName
+title: daff.SqlTableName
 ---
-# coopy.SqlTableName
+# daff.SqlTableName
 
 
 
