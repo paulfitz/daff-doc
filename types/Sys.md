@@ -45,6 +45,20 @@ Run the given command with the list of arguments. The command output will be pri
 
 
 
+##### **exit** (code : <a href="Int.html" class="type">Int</a>) : <a href="Void.html" class="type">Void</a>
+
+Exit the current process with the given error code.
+
+
+
+
+
+
+
+
+
+
+
 ##### **getEnv** (s : <a href="String.html" class="type">String</a>) : <a href="String.html" class="type">String</a>
 
 Returns the value of the given environment variable.

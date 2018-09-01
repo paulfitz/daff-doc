@@ -99,6 +99,11 @@ title: daff.DiffRender
 
 
 
+##### **quoteHtml** (flag : <a href="../Bool.html" class="type">Bool</a>) : <a href="../Void.html" class="type">Void</a>
+
+
+
+
 ##### **render** (tab : <a href="../coopy/Table.html" class="type">Table</a>) : <a href="../coopy/DiffRender.html" class="type">DiffRender</a>
 
 
@@ -115,6 +120,11 @@ title: daff.DiffRender
 
 
 
+
+
+
+
+##### **renderTables** (tabs : <a href="../coopy/Tables.html" class="type">Tables</a>) : <a href="../coopy/DiffRender.html" class="type">DiffRender</a>
 
 
 

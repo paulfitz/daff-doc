@@ -18,7 +18,7 @@ title: daff.Csv
 
 ## Constructor:
 
-##### **new**(?delim : <a href="../String.html" class="type">String</a>)
+##### **new**(?delim : <a href="../String.html" class="type">String</a>, ?eol : <a href="../String.html" class="type">String</a>)
 
 
 > *Parameters:*  `delim` cell delimiter to use, defaults to a comma
@@ -32,6 +32,25 @@ title: daff.Csv
 
 
 ## Methods:
+
+
+##### **getDiscoveredEol** () : <a href="../String.html" class="type">String</a>
+
+
+      Return the EOL sequence discovered the last time
+      a CSV file/string was parsed.
+
+
+
+
+
+> *Returns:*  one of "\n", "\r", "\n\r", "\r\n", null
+
+
+
+
+
+
 
 
 ##### **makeTable** (txt : <a href="../String.html" class="type">String</a>) : <a href="../coopy/Table.html" class="type">Table</a>
@@ -96,7 +115,7 @@ title: daff.Csv
 
 
 
-##### **renderCell** (v : <a href="../coopy/View.html" class="type">View</a>, d : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../String.html" class="type">String</a>
+##### **renderCell** (v : <a href="../coopy/View.html" class="type">View</a>, d : <a href="../Dynamic.html" class="type">Dynamic</a>, ?force_quote : <a href="../Bool.html" class="type">Bool</a>) : <a href="../String.html" class="type">String</a>
 
 
       Render a single cell in CSV format.
@@ -108,6 +127,7 @@ title: daff.Csv
 >
 >   * `v` a helper for interpreting the cell content
 >   * `d` the cell content
+>   * `force_quote` set if cell should always be quoted
 
 > *Returns:*  the cell in text format, quoted in a CSV-y way
 
@@ -130,6 +150,25 @@ title: daff.Csv
 
 
 > *Returns:*  the table as a string in CSV format
+
+
+
+
+
+
+
+
+##### **setPreferredEol** (eol : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
+
+
+      Set the EOL sequence to use at end of rows.
+      a CSV file/string was parsed.
+
+
+
+
+> *Parameters:*  `eol` "\n" or "\r\n" - if it is something else I don't want to know. 
+
 
 
 

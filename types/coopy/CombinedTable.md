@@ -63,6 +63,11 @@ title: daff.CombinedTable
 
 
 
+##### **create** () : <a href="../coopy/Table.html" class="type">Table</a>
+
+
+
+
 ##### **getCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 

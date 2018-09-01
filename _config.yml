@@ -1,6 +1,9 @@
 name: Daff documentation
 markdown: kramdown
 baseurl: /daff-doc
+exclude:
+  - templates
+  - daff-doc
 kramdown:
   input: GFM
   hard_wrap: false

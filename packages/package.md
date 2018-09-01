@@ -52,6 +52,8 @@
 
 				<li class="class"><a href="../types/StringBuf.md" target="classFrame" title="StringBuf">StringBuf</a></li>
 
+				<li class="class"><a href="../types/StringTools.md" target="classFrame" title="StringTools">StringTools</a></li>
+
 				<li class="class"><a href="../types/Sys.md" target="classFrame" title="Sys">Sys</a></li>
 
 				<li class="class"><a href="../types/Type.md" target="classFrame" title="Type">Type</a></li>

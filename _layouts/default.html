@@ -15,7 +15,11 @@
   <div class="code-thing">
     
     <div class="index">
-      <ul><li><a href="{{site.baseurl}}/">starting point</a></li></ul>
+      <ul>
+        <li><a href="{{site.baseurl}}/">documentation</a></li>
+        <li><a href="{{site.baseurl}}/spec.html">diff specification</a></li>
+        <li><a href="https://github.com/paulfitz/daff">source code (github)</a></li>
+      </ul>
       {% capture language %}{% include all_classes.md %}{% endcapture %}
       {{ language | markdownify }}
     </div>

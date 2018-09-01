@@ -26,6 +26,8 @@
 
 				<li class="class"><a href="../../types/coopy/CompareTable.md" target="classFrame" title="CompareTable">CompareTable</a></li>
 
+				<li class="class"><a href="../../types/coopy/ConflictInfo.md" target="classFrame" title="ConflictInfo">ConflictInfo</a></li>
+
 				<li class="class"><a href="../../types/coopy/Coopy.md" target="classFrame" title="Coopy">Coopy</a></li>
 
 				<li class="class"><a href="../../types/coopy/CrossMatch.md" target="classFrame" title="CrossMatch">CrossMatch</a></li>
@@ -34,11 +36,17 @@
 
 				<li class="class"><a href="../../types/coopy/DiffRender.md" target="classFrame" title="DiffRender">DiffRender</a></li>
 
+				<li class="class"><a href="../../types/coopy/DiffSummary.md" target="classFrame" title="DiffSummary">DiffSummary</a></li>
+
 				<li class="class"><a href="../../types/coopy/HighlightPatch.md" target="classFrame" title="HighlightPatch">HighlightPatch</a></li>
 
 				<li class="class"><a href="../../types/coopy/IndexItem.md" target="classFrame" title="IndexItem">IndexItem</a></li>
 
 				<li class="class"><a href="../../types/coopy/IndexPair.md" target="classFrame" title="IndexPair">IndexPair</a></li>
+
+				<li class="class"><a href="../../types/coopy/JsonTable.md" target="classFrame" title="JsonTable">JsonTable</a></li>
+
+				<li class="class"><a href="../../types/coopy/JsonTables.md" target="classFrame" title="JsonTables">JsonTables</a></li>
 
 				<li class="class"><a href="../../types/coopy/Merger.md" target="classFrame" title="Merger">Merger</a></li>
 

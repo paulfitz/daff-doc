@@ -72,6 +72,20 @@ title: daff.Table
 
 
 
+##### **create** () : <a href="../coopy/Table.html" class="type">Table</a>
+
+
+
+
+> *Returns:*  an empty table of the same type, if possible, or null if not possible.
+
+
+
+
+
+
+
+
 ##### **getCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 

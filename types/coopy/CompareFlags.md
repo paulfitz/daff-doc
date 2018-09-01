@@ -105,6 +105,14 @@ title: daff.CompareFlags
 
 
 
+#####  **ignore_case**  : <a href="../Bool.html" class="type">Bool</a>
+
+
+      Should case be omitted from comparisons.  Defaults to false.
+
+
+
+
 #####  **ignore_whitespace**  : <a href="../Bool.html" class="type">Bool</a>
 
 
@@ -146,6 +154,14 @@ title: daff.CompareFlags
 
       Set a common ancestor for use in comparison.  Defaults to null
       (no known common ancestor).
+
+
+
+
+#####  **quote_html**  : <a href="../Bool.html" class="type">Bool</a>
+
+ Choose whether html elements should be neutralized or passed through,
+      in html contexts.
 
 
 
@@ -201,6 +217,16 @@ title: daff.CompareFlags
 
 
 
+#####  **terminal_format**  : <a href="../String.html" class="type">String</a>
+
+
+      Format to use for terminal output.  "plain" for plain text,
+      "ansi", for ansi color codes, null to autodetect.  Defaults to
+      autodetect.
+
+
+
+
 #####  **unchanged_column_context**  : <a href="../Int.html" class="type">Int</a>
 
 
@@ -215,6 +241,15 @@ title: daff.CompareFlags
 
       When showing context rows around a changed row, what
       is the minimum number of such rows we should show?
+
+
+
+
+#####  **use_glyphs**  : <a href="../Bool.html" class="type">Bool</a>
+
+
+      Choose whether we can use utf8 characters for describing diff
+      (specifically long arrow).  Defaults to true.
 
 
 

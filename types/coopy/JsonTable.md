@@ -1,9 +1,9 @@
 ---
 layout: thing
 thing: class
-title: daff.SqlTable
+title: daff.JsonTable
 ---
-# daff.SqlTable
+# daff.JsonTable
 
 
 
@@ -11,13 +11,13 @@ title: daff.SqlTable
 
 > *Implements:*
 > 
->   * **[daff.Meta](Meta.html)**&gt;   * **[daff.Table](Table.html)**&gt;   * **[daff.RowStream](RowStream.html)**
+>   * **[daff.Meta](Meta.html)**&gt;   * **[daff.Table](Table.html)**
 
 
 
 ## Constructor:
 
-##### **new**(db : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>, name : <a href="../coopy/SqlTableName.html" class="type">SqlTableName</a>, ?helper : <a href="../coopy/SqlHelper.html" class="type">SqlHelper</a>)
+##### **new**(data : <a href="../Dynamic.html" class="type">Dynamic</a>, name : <a href="../String.html" class="type">String</a>)
 
 
 
@@ -74,21 +74,6 @@ title: daff.SqlTable
 
 
 
-##### **fetchColumns** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;
-
-
-
-
-##### **fetchRow** () : <a href="../Map.html" class="type">Map</a>&lt;<a href="../String.html" class="type">String</a>, <a href="../Dynamic.html" class="type">Dynamic</a>&gt;
-
-
-
-
-##### **getAllButPrimaryKey** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;
-
-
-
-
 ##### **getCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>) : <a href="../Dynamic.html" class="type">Dynamic</a>
 
 
@@ -99,17 +84,7 @@ title: daff.SqlTable
 
 
 
-##### **getColumnNames** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;
-
-
-
-
 ##### **getData** () : <a href="../Dynamic.html" class="type">Dynamic</a>
-
-
-
-
-##### **getDatabase** () : <a href="../coopy/SqlDatabase.html" class="type">SqlDatabase</a>
 
 
 
@@ -124,22 +99,12 @@ title: daff.SqlTable
 
 
 
-##### **getPrimaryKey** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;
-
-
-
-
-##### **getQuotedColumnName** (name : <a href="../String.html" class="type">String</a>) : <a href="../String.html" class="type">String</a>
-
-
-
-
-##### **getQuotedTableName** () : <a href="../String.html" class="type">String</a>
-
-
-
-
 ##### **getRowStream** () : <a href="../coopy/RowStream.html" class="type">RowStream</a>
+
+
+
+
+##### **getTable** () : <a href="../coopy/Table.html" class="type">Table</a>
 
 
 
@@ -189,7 +154,12 @@ title: daff.SqlTable
 
 
 
-##### **setCellCache** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>, c : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>
+##### **setMeta** (meta : <a href="../coopy/Meta.html" class="type">Meta</a>) : <a href="../Void.html" class="type">Void</a>
+
+
+
+
+##### **toString** () : <a href="../String.html" class="type">String</a>
 
 
 

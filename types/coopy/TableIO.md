@@ -38,20 +38,6 @@ title: daff.TableIO
 
 
 
-##### **async** () : <a href="../Bool.html" class="type">Bool</a>
-
-
-
-
-> *Returns:*  true if the platform has no built-in way to call a command synchronously i.e. IT IS NODE 
-
-
-
-
-
-
-
-
 ##### **command** (cmd : <a href="../String.html" class="type">String</a>, args : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;) : <a href="../Int.html" class="type">Int</a>
 
 
@@ -103,6 +89,20 @@ title: daff.TableIO
 
 
 > *Returns:*  the content of the file
+
+
+
+
+
+
+
+
+##### **hasAsync** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+
+
+> *Returns:*  true if the platform has no built-in way to call a command synchronously i.e. IT IS (OLD) NODE 
 
 
 
@@ -180,6 +180,23 @@ title: daff.TableIO
 
 
 ##### **sendToBrowser** (html : <a href="../String.html" class="type">String</a>) : <a href="../Void.html" class="type">Void</a>
+
+
+
+
+##### **valid** () : <a href="../Bool.html" class="type">Bool</a>
+
+
+      Check if system services are in fact implemented.  For some
+      platforms, an external implementation needs to be passed in.
+
+
+
+
+
+
+
+
 
 
 

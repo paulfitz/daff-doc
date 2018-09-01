@@ -184,10 +184,61 @@ title: daff.Coopy
 
 
 
+##### **tablify** (data : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../coopy/Table.html" class="type">Table</a>
+
+
+      This takes input in an unknown format and tries to make a table out of it,
+      through the power of guesswork.
+
+
+
+
+> *Parameters:*  `t` an alleged table
+
+
+> *Returns:*  a daff-compatible table, or null
+
+
+
+
+
+
+
+## Constructor:
+
+##### **new**(?io : <a href="../coopy/TableIO.html" class="type">TableIO</a>)
+
+
+
 ## Methods:
 
 
 ##### **coopyhx** (io : <a href="../coopy/TableIO.html" class="type">TableIO</a>) : <a href="../Int.html" class="type">Int</a>
+
+
+
+
+##### **loadTable** (name : <a href="../String.html" class="type">String</a>) : <a href="../coopy/Table.html" class="type">Table</a>
+
+
+      Load a table from a file.
+
+
+
+
+> *Parameters:*  `name` filename to read from
+
+
+> *Returns:*  a table
+
+
+
+
+
+
+
+
+##### **run** (args : <a href="../Array.html" class="type">Array</a>&lt;<a href="../String.html" class="type">String</a>&gt;, ?io : <a href="../coopy/TableIO.html" class="type">TableIO</a>) : <a href="../Int.html" class="type">Int</a>
 
 
       This implements the daff command-line utility.
@@ -195,8 +246,10 @@ title: daff.Coopy
 
 
 
-> *Parameters:*  `io` should be an implementation of all the system services daff needs
-
+> *Parameters:*
+>
+>   * `args` the list of command-line arguments
+>   * `io` should be an implementation of all the system services daff needs, if null one will be created
 
 > *Returns:*  0 on success, non-zero on error.
 

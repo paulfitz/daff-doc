@@ -27,6 +27,9 @@ cp types/coopy/Coopy.md _includes
 echo "---" > index.md
 echo "layout: front" >> index.md
 echo "---" >> index.md
+echo "---" > index.md
+echo "layout: spec" >> spec.md
+echo "---" >> spec.md
 rm -rf php_bin __chxdoctmp
 rm -f doc.xml
 find . -iname "*.md" -exec sed -i "s/coopy[.]/daff./g" {} \;

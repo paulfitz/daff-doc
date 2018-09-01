@@ -1,12 +1,31 @@
 ---
 layout: thing
 thing: class
-title: daff.CombinedTableHead
+title: daff.JsonTables
 ---
-# daff.CombinedTableHead
+# daff.JsonTables
 
 
-  Head of a table that has embedded meta-data.
+  Experimental wrapper for reading tables expressed as json in following
+  format:
+
+  {
+    "names": <code>"sheet1", "sheet2"</code>,
+    "tables": {
+      "sheet1": {
+         "columns": <code>"col1", "col2", "col3"</code>,
+         "rows": <pre>
+             { "col1": 42, "col2": "x", "col3": null },
+             { "col1": 24, "col2": "y", "col3": null },
+             ...
+         </pre>
+      },
+      "sheet2": {
+         ...
+      }
+    }
+  }
+
 
 
 
@@ -21,16 +40,7 @@ title: daff.CombinedTableHead
 
 ## Constructor:
 
-##### **new**(parent : <a href="../coopy/CombinedTable.html" class="type">CombinedTable</a>, dx : <a href="../Int.html" class="type">Int</a>, dy : <a href="../Int.html" class="type">Int</a>)
-
-
-> *Parameters:*  `parent` the composite table
-
-
-
-
-
-
+##### **new**(json : <a href="../Dynamic.html" class="type">Dynamic</a>, flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>)
 
 
 
@@ -82,11 +92,6 @@ title: daff.CombinedTableHead
 
 
 
-##### **getTable** () : <a href="../coopy/Table.html" class="type">Table</a>
-
-
-
-
 ##### **get_height** () : <a href="../Int.html" class="type">Int</a>
 
 
@@ -118,11 +123,6 @@ title: daff.CombinedTableHead
 
 
 ##### **setCell** (x : <a href="../Int.html" class="type">Int</a>, y : <a href="../Int.html" class="type">Int</a>, c : <a href="../Dynamic.html" class="type">Dynamic</a>) : <a href="../Void.html" class="type">Void</a>
-
-
-
-
-##### **toString** () : <a href="../String.html" class="type">String</a>
 
 
 

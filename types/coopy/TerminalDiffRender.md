@@ -18,7 +18,7 @@ title: daff.TerminalDiffRender
 
 ## Constructor:
 
-##### **new**(?flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>)
+##### **new**(?flags : <a href="../coopy/CompareFlags.html" class="type">CompareFlags</a>, ?delim : <a href="../String.html" class="type">String</a>, ?diff : <a href="../Bool.html" class="type">Bool</a>)
 
 
 

@@ -35,6 +35,28 @@ title: daff.TableDiff
 ## Methods:
 
 
+##### **getComparisonState** () : <a href="../coopy/TableComparisonState.html" class="type">TableComparisonState</a>
+
+
+
+
+##### **getSummary** () : <a href="../coopy/DiffSummary.html" class="type">DiffSummary</a>
+
+
+      Get statistics of the diff - number of rows deleted, updated,
+      etc.
+
+
+
+
+
+
+
+
+
+
+
+
 ##### **hasDifference** () : <a href="../Bool.html" class="type">Bool</a>
 
 

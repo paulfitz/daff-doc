@@ -55,3 +55,8 @@ title: daff.Merger
 
 
 
+##### **getConflictInfos** () : <a href="../Array.html" class="type">Array</a>&lt;<a href="../coopy/ConflictInfo.html" class="type">ConflictInfo</a>&gt;
+
+
+
+
